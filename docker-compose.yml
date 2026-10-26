@@ -3,5 +3,5 @@ services:
     image: eazyeight/macro-menu-pt:latest
     container_name: macro-menu-pt
     ports:
-      - "8085:80"
+      - "1390:80"
     restart: unless-stopped

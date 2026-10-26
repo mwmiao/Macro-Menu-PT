@@ -51,7 +51,7 @@ Every push to `main` builds a multi-arch image (amd64 + arm64) and pushes it to 
 docker compose up -d
 ```
 
-The site is then on port 8085. The container serves static files with nginx on port 80 and has a `/healthz` endpoint.
+The site is then on port 1390. The container serves static files with nginx on port 80 and has a `/healthz` endpoint.
 
 ---
 
