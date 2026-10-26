@@ -1,0 +1,11 @@
+{
+  "name": "macro-meals",
+  "private": true,
+  "type": "module",
+  "description": "Calories, protein and macros for fast-food menus in Portugal. Static site, no build step.",
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\"",
+    "check": "node tools/check.mjs",
+    "images": "node tools/fetch-images.mjs"
+  }
+}

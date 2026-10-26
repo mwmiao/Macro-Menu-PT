@@ -19,6 +19,7 @@ export const CHAINS = [mcdonalds, burgerking, kfc, pizzahut, tacobell, pans].map
     seen.add(key);
     it.key = key;
     it.chain = chain.id;
+    if (chain.breakfastOnly?.includes(it.pt)) it.breakfastOnly = true;
     return it;
   });
   return { ...chain, items };

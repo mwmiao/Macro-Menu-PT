@@ -9,6 +9,12 @@ export default {
   checked: '2026-10-15',
   sourceUrl: 'https://www.mcdonalds.pt/produtos/informacao-nutricional-alergenios',
   sourceName: { pt: "Tabela Nutricional McDonald's Portugal (15 outubro 2026)", en: "McDonald's Portugal nutrition table (15 October 2026)" },
+  // Served 08:00–11:00 only (see js/core/availability.js). Toasts and croissants are McCafé items
+  // sold all day, so they're not listed.
+  breakfastOnly: [
+    'Bacon & Egg McMuffin®', 'Panqueca', 'Panquecas com xarope', 'Panquecas com topping morango',
+    'Panquecas com topping chocolate', 'Panquecas com topping caramelo',
+  ],
   items: [
     ['Hamburger', null, 'burgers', 258, 13, 29, 6.8, 9, 3.7, 1.1, '106 g'],
     ['Cheeseburger', null, 'burgers', 306, 16, 30, 7.3, 13, 6.1, 1.6, '121 g'],

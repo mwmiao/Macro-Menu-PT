@@ -1,16 +1,19 @@
-# Macro Menu PT
+# Macro Meals
 
 Calories, protein and macros for fast-food menus in Portugal, in European Portuguese and English. A Portuguese take on [macromenu.com.au](https://macromenu.com.au/).
 
-- Browse each chain's menu by category, search, and sort by calories, protein, protein density, fat, carbs, sugar or salt
-- Protein-density tiers (S–F, grams of protein per 100 kcal) on every item
-- Meal builder with a daily calorie and protein target
-- Auto Meal Matcher: builds a meal from the current chain that hits a calorie target and a protein minimum
-- Compare up to 4 items, including across chains
-- Favourites, a cross-chain protein ranking, a kJ ↔ kcal converter and a maintenance-calorie calculator
-- Works on phones (bottom navigation, bottom sheets) and desktops (sidebar layout)
+- Browse all restaurants together (the home page) or pick one from the dropdown; search, filter by category and sort by calories, protein, protein density, fat, carbs, sugar or salt
+- Protein-density tiers (S–F, grams of protein per 100 kcal) on every item, with the chains' own product photos
+- Order pad with a daily calorie and protein target, a receipt card, a "How to order" script (PT/EN) and shareable meal links
+- Saved meals, meal presets and your own custom items
+- Auto Meal Matcher, compare up to 4 items, favourites, a cross-chain protein ranking, kJ ↔ kcal and maintenance-calorie calculators
+- McDonald's breakfast items are greyed out outside 08:00–11:00
+- Skins (dark, light, Azulejo, Locker, Pastel de nata), installable as an app (works offline), optional Google Drive sync, and "Report a problem"
+- Works on phones (bottom navigation, bottom sheets) and desktops (sidebar, plus an always-open order pad on wide screens)
 
-Everything runs in the browser. There's no build step and no backend; favourites, the meal and targets are kept in the browser's local storage.
+Everything runs in the browser. There's no build step and no backend: data is kept in the browser and, if you sign in, in a private app folder in your own Google Drive.
+
+Project details (architecture, data/sync model, routing, decisions) are in [claude.md](claude.md).
 
 ## Chains and sources
 
@@ -37,7 +40,7 @@ Categories are the `cat_*` keys in `js/i18n.js`. Register a new chain in `js/dat
 
 ## Product photos
 
-Photos are the chains' own product images, saved in `images/<chain>/` as 480px WebP. `tools/image-sources/<chain>.json` maps each item's Portuguese name to the image URL on the chain's site; `node tools/fetch-images.mjs [chain…]` downloads anything new (needs `ffmpeg`) and regenerates `js/data/images.js`. Items without a photo show an emoji.
+Photos are the chains' own product images, saved in `images/<chain>/` as 480px WebP. `tools/image-sources/<chain>.json` maps each item's Portuguese name to the image URL on the chain's site; `node tools/fetch-images.mjs [chain…]` downloads anything new (needs `ffmpeg`) and regenerates `js/data/images.js`. Every run also writes `tools/image-report.json` with failures and the items still without a photo; those show a drawn placeholder.
 
 mcdonalds.pt refuses scripted downloads, so McDonald's photos are fetched in a browser on the site's product pages (www.mcdonalds.pt/#produtos), converted to WebP there and saved as `images/mcdonalds/<id>.webp`, where `<id>` is the first 12 hex characters of the SHA-1 of the image URL. The fetch script then indexes them without downloading.
 
@@ -47,7 +50,17 @@ mcdonalds.pt refuses scripted downloads, so McDonald's photos are fetched in a b
 python -m http.server 5173
 ```
 
-Then open http://127.0.0.1:5173.
+Then open http://127.0.0.1:5173. Before committing:
+
+```bash
+npm test
+```
+
+```bash
+npm run check
+```
+
+Google sync needs an OAuth Client ID in `js/config.js`; the steps are in claude.md.
 
 ## Docker
 
@@ -61,4 +74,4 @@ The site is then on port 1390. The container serves static files with nginx on p
 
 ---
 
-Macro Menu PT is an independent project and isn't affiliated with any restaurant listed. Figures are a guide; recipes and portions vary, and allergens aren't covered.
+Macro Meals is an independent project and isn't affiliated with any restaurant listed. Figures are a guide; recipes and portions vary, and allergens aren't covered.

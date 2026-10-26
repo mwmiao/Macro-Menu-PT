@@ -4,3 +4,8 @@
 README.md
 docker-compose.yml
 tools
+node_modules
+tests
+package.json
+downloads
+claude.md

@@ -3,21 +3,28 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Macro Menu PT</title>
+  <title>Macro Meals</title>
   <meta name="description" content="Calorias, proteína e macros dos menus de fast food em Portugal. Calories, protein and macros for fast food menus in Portugal.">
   <meta name="theme-color" content="#120d0b">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Macro Meals">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <script>
+    // Apply the saved skin before first paint so there's no flash of the default colours.
+    try { var s = JSON.parse(localStorage.getItem('mm.data')).prefs.skin.v; if (s) document.documentElement.dataset.skin = s; } catch (e) {}
+  </script>
 </head>
 <body>
   <div class="app">
     <header class="hero" id="hero">
       <div class="hero-row">
-        <a class="brand" href="./" aria-label="Macro Menu PT">MACRO MENU <span class="brand-pt">PT</span></a>
+        <a class="brand" href="./" aria-label="Macro Meals">MACRO MEALS <span class="brand-pt">PT</span></a>
         <span class="hero-tag" id="heroTag"></span>
         <div class="hero-actions">
           <button class="icon-btn desk-only" id="btnMealTop" data-open="meal" type="button"></button>
@@ -35,6 +42,7 @@
     <div class="layout">
       <aside class="sidebar" id="sidebar"></aside>
       <main class="main" id="main"></main>
+      <aside class="padpanel" id="padPanel" aria-label="Order pad"></aside>
     </div>
 
     <footer class="footer" id="footer"></footer>
