@@ -134,7 +134,7 @@ export const STRINGS = {
     cat_breakfast: 'Breakfast & McCafé', cat_sides: 'Sides', cat_salads: 'Salads', cat_soups: 'Soups', cat_desserts: 'Desserts',
     cat_hotdrinks: 'Hot drinks', cat_colddrinks: 'Cold drinks', cat_sauces: 'Sauces & dressings', cat_kids: 'Kids & small',
     cat_pizza: 'Pizza', cat_pasta: 'Pasta & gratins', cat_tacos: 'Tacos', cat_burritos: 'Burritos & wraps', cat_quesadillas: 'Quesadillas',
-    cat_nachos: 'Nachos', cat_sandwiches: 'Sandwiches', cat_bakery: 'Rolls & bakery', cat_toasts: 'Toasties',
+    cat_nachos: 'Nachos', cat_sandwiches: 'Sandwiches', cat_bakery: 'Rolls & bakery', cat_toasts: 'Toasties', cat_extras: 'Extras',
   },
   pt: {
     tagline: 'Explora os menus de fast food em Portugal, vê os níveis de proteína num relance e monta uma refeição à medida das tuas macros.',
@@ -270,7 +270,7 @@ export const STRINGS = {
     cat_breakfast: 'Pequeno-almoço e McCafé', cat_sides: 'Acompanhamentos', cat_salads: 'Saladas', cat_soups: 'Sopas', cat_desserts: 'Sobremesas',
     cat_hotdrinks: 'Bebidas quentes', cat_colddrinks: 'Bebidas frias', cat_sauces: 'Molhos', cat_kids: 'Infantil e pequenos',
     cat_pizza: 'Pizza', cat_pasta: 'Massas e gratinados', cat_tacos: 'Tacos', cat_burritos: 'Burritos e wraps', cat_quesadillas: 'Quesadillas',
-    cat_nachos: 'Nachos', cat_sandwiches: 'Sandes', cat_bakery: 'Pães e padaria', cat_toasts: 'Tostas',
+    cat_nachos: 'Nachos', cat_sandwiches: 'Sandes', cat_bakery: 'Pães e padaria', cat_toasts: 'Tostas', cat_extras: 'Extras',
   },
 };
 

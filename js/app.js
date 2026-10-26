@@ -15,9 +15,9 @@ const TIERS = [
 const CAT_EMOJI = {
   burgers: '🍔', chicken: '🍗', wraps: '🌯', veggie: '🥦', glutenfree: '🌾', breakfast: '🥐', sides: '🍟', salads: '🥗',
   soups: '🍲', desserts: '🍦', hotdrinks: '☕', colddrinks: '🥤', sauces: '🫙', kids: '🧒', pizza: '🍕', pasta: '🍝',
-  tacos: '🌮', burritos: '🌯', quesadillas: '🫓', nachos: '🧀', sandwiches: '🥪', bakery: '🥖', toasts: '🍞',
+  tacos: '🌮', burritos: '🌯', quesadillas: '🫓', nachos: '🧀', sandwiches: '🥪', bakery: '🥖', toasts: '🍞', extras: '➕',
 };
-const NON_FOOD = new Set(['sauces', 'hotdrinks', 'colddrinks']);
+const NON_FOOD = new Set(['sauces', 'hotdrinks', 'colddrinks', 'extras']);
 const SORTS = ['kcal', 'protein', 'density', 'fat', 'carbs', 'sugar', 'salt', 'az'];
 
 const density = (it) => (it.kcal > 0 ? (it.p * 100) / it.kcal : 0);
@@ -81,10 +81,12 @@ function save() {
 
 // ---------- filtering ----------
 const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+// Add-ons and near-zero-calorie items say little about protein density, so they go last.
+const sinks = (it) => (!tierOf(it) || it.cat === 'extras' ? 1 : 0);
 const SORT_FN = {
   kcal: (a, b) => a.kcal - b.kcal,
   protein: (a, b) => b.p - a.p,
-  density: (a, b) => (tierOf(a) ? 0 : 1) - (tierOf(b) ? 0 : 1) || density(b) - density(a) || b.p - a.p,
+  density: (a, b) => sinks(a) - sinks(b) || density(b) - density(a) || b.p - a.p,
   fat: (a, b) => a.f - b.f,
   carbs: (a, b) => a.c - b.c,
   sugar: (a, b) => a.sug - b.sug,
@@ -541,7 +543,7 @@ function runMatcher(form, reshuffle = false) {
   const fd = new FormData(form);
   const prefs = { kcal: +fd.get('kcal') || 700, protein: +fd.get('protein') || 0, max: +fd.get('max') || 3, desserts: !!fd.get('desserts'), drinks: !!fd.get('drinks') };
   store.set('matcher', prefs);
-  const pool = chain().items.filter((it) => it.kcal >= 30 && it.cat !== 'sauces' && it.cat !== 'hotdrinks'
+  const pool = chain().items.filter((it) => it.kcal >= 30 && it.cat !== 'sauces' && it.cat !== 'hotdrinks' && it.cat !== 'extras'
     && (prefs.drinks || it.cat !== 'colddrinks') && (prefs.desserts || it.cat !== 'desserts'));
   const cap = prefs.kcal * 1.04;
   const score = (tot, n) => {

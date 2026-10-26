@@ -17,6 +17,7 @@ Everything runs in the browser. There's no build step and no backend; favourites
 | Chain | Source | Table date |
 | --- | --- | --- |
 | McDonald's | [mcdonalds.pt nutrition table](https://www.mcdonalds.pt/produtos/informacao-nutricional-alergenios) | 15 Oct 2026 |
+| Burger King | [burgerking.pt nutrition sheet](https://www.burgerking.pt/pt/nutricionais) | 28 Sep 2026 |
 | KFC | [vivabem.pt (Ibersol)](https://vivabem.pt/marcas/kfc) | 12 Oct 2026 |
 | Pizza Hut | [vivabem.pt (Ibersol)](https://vivabem.pt/marcas/pizza_hut) | 22 Oct 2026 |
 | Taco Bell | [vivabem.pt (Ibersol)](https://vivabem.pt/marcas/taco_bell) | 2 Sep 2026 |

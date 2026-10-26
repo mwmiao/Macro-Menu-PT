@@ -3,13 +3,14 @@ import kfc from './kfc.js';
 import pizzahut from './pizzahut.js';
 import tacobell from './tacobell.js';
 import pans from './pans.js';
+import burgerking from './burgerking.js';
 
 const FIELDS = ['pt', 'en', 'cat', 'kcal', 'p', 'c', 'sug', 'f', 'sat', 'salt', 'portion'];
 
 const slug = (s) =>
   s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 
-export const CHAINS = [mcdonalds, kfc, pizzahut, tacobell, pans].map((chain) => {
+export const CHAINS = [mcdonalds, burgerking, kfc, pizzahut, tacobell, pans].map((chain) => {
   const seen = new Set();
   const items = chain.items.map((row) => {
     const it = Object.fromEntries(FIELDS.map((f, i) => [f, row[i] ?? null]));
