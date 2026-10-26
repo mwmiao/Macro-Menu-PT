@@ -39,7 +39,7 @@ Categories are the `cat_*` keys in `js/i18n.js`. Register a new chain in `js/dat
 
 Photos are the chains' own product images, saved in `images/<chain>/` as 480px WebP. `tools/image-sources/<chain>.json` maps each item's Portuguese name to the image URL on the chain's site; `node tools/fetch-images.mjs [chain…]` downloads anything new (needs `ffmpeg`) and regenerates `js/data/images.js`. Items without a photo show an emoji.
 
-McDonald's Portugal only publishes 15 product photos (in its press gallery), which have to be downloaded by hand from https://www.mcdonalds.pt/gabinete-de-imprensa/galeria-de-imagens.
+mcdonalds.pt refuses scripted downloads, so McDonald's photos are fetched in a browser on the site's product pages (www.mcdonalds.pt/#produtos), converted to WebP there and saved as `images/mcdonalds/<id>.webp`, where `<id>` is the first 12 hex characters of the SHA-1 of the image URL. The fetch script then indexes them without downloading.
 
 ## Run locally
 
