@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Macro Menu PT</title>
+  <meta name="description" content="Calorias, proteína e macros dos menus de fast food em Portugal. Calories, protein and macros for fast food menus in Portugal.">
+  <meta name="theme-color" content="#120d0b">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="hero" id="hero">
+      <div class="hero-row">
+        <a class="brand" href="./" aria-label="Macro Menu PT">MACRO MENU <span class="brand-pt">PT</span></a>
+        <span class="hero-tag" id="heroTag"></span>
+        <div class="hero-actions">
+          <button class="icon-btn desk-only" id="btnMealTop" data-open="meal" type="button"></button>
+          <button class="icon-btn desk-only" id="btnFavsTop" data-open="favs" type="button"></button>
+          <button class="icon-btn desk-only" id="btnMoreTop" data-open="more" type="button"></button>
+          <div class="lang" role="group" id="langSwitch">
+            <button type="button" data-lang="pt">PT</button>
+            <button type="button" data-lang="en">EN</button>
+          </div>
+        </div>
+      </div>
+      <p class="hero-sub" id="heroSub"></p>
+    </header>
+
+    <div class="layout">
+      <aside class="sidebar" id="sidebar"></aside>
+      <main class="main" id="main"></main>
+    </div>
+
+    <footer class="footer" id="footer"></footer>
+  </div>
+
+  <nav class="bottom-nav" id="bottomNav"></nav>
+
+  <div class="sheet-backdrop" id="sheetBackdrop" hidden>
+    <div class="sheet" id="sheet" role="dialog" aria-modal="true"></div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

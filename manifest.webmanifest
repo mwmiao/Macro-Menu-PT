@@ -1,0 +1,10 @@
+{
+  "name": "Macro Menu PT",
+  "short_name": "Macro Menu",
+  "description": "Calorias, proteína e macros dos menus de fast food em Portugal.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#120d0b",
+  "theme_color": "#120d0b",
+  "icons": [{ "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
