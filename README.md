@@ -35,6 +35,12 @@ Each chain is one file in `js/data/`. Rows are:
 
 Categories are the `cat_*` keys in `js/i18n.js`. Register a new chain in `js/data/index.js`.
 
+## Product photos
+
+Photos are the chains' own product images, saved in `images/<chain>/` as 480px WebP. `tools/image-sources/<chain>.json` maps each item's Portuguese name to the image URL on the chain's site; `node tools/fetch-images.mjs [chain…]` downloads anything new (needs `ffmpeg`) and regenerates `js/data/images.js`. Items without a photo show an emoji.
+
+McDonald's Portugal only publishes 15 product photos (in its press gallery), which have to be downloaded by hand from https://www.mcdonalds.pt/gabinete-de-imprensa/galeria-de-imagens.
+
 ## Run locally
 
 ```bash

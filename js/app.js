@@ -1,5 +1,6 @@
 import { CHAINS, CHAIN, ITEMS } from './data/index.js';
 import { makeT } from './i18n.js';
+import IMAGES from './data/images.js';
 
 // ---------- helpers ----------
 const $ = (sel, root = document) => root.querySelector(sel);
@@ -110,6 +111,12 @@ function categoriesOf(c) {
 }
 
 // ---------- pieces ----------
+function visual(it, cls) {
+  const src = IMAGES[it.key];
+  return src
+    ? `<img class="${cls}-img" src="${src}" alt="" loading="lazy" decoding="async">`
+    : `<span class="${cls}" aria-hidden="true">${CAT_EMOJI[it.cat] || '🍽️'}</span>`;
+}
 function macroBar(it) {
   const pk = it.p * 4, fk = it.f * 9, ck = it.c * 4, tot = pk + fk + ck || 1;
   return `<div class="mbar" aria-hidden="true"><i class="mp" style="width:${(pk / tot) * 100}%"></i><i class="mf" style="width:${(fk / tot) * 100}%"></i><i class="mc" style="width:${(ck / tot) * 100}%"></i></div>`;
@@ -135,7 +142,7 @@ function card(it, opts = {}) {
     <div class="card-top">
       <button class="fav ${fav ? 'on' : ''}" data-fav="${it.key}" type="button" aria-label="${esc(fav ? t('unfavourite') : t('favourite'))}" aria-pressed="${fav}">${ICON.heart}</button>
       <span class="kcal"><b>${fmtInt(it.kcal)}</b> kcal</span>
-      <span class="emoji" aria-hidden="true">${CAT_EMOJI[it.cat] || '🍽️'}</span>
+      ${visual(it, 'emoji')}
       ${tierStamp(it)}
       <button class="add" data-add="${it.key}" type="button" aria-label="${esc(t('addToMeal'))}">${ICON.plus}</button>
     </div>
@@ -152,7 +159,7 @@ function row(it, opts = {}) {
   const c = CHAIN[it.chain];
   const fav = state.favs.has(it.key);
   return `<article class="row" data-key="${it.key}" style="--cc:${c.color}" tabindex="0" role="button" aria-label="${esc(nameOf(it))}, ${it.kcal} kcal">
-    ${tierStamp(it, 'stamp-sm')}
+    <span class="row-thumb">${visual(it, 'row-emoji')}${tierStamp(it, 'stamp-sm')}</span>
     <div class="row-main">
       <h3>${esc(nameOf(it))}${opts.showChain ? ` <span class="row-chain">· ${esc(c.name)}</span>` : ''}</h3>
       ${macroBar(it)}
@@ -335,7 +342,7 @@ const SHEETS = {
     return `<div class="detail" style="--cc:${c.color}">
       <div class="detail-media">
         <button type="button" class="icon-round" data-close aria-label="${esc(t('close'))}">${ICON.close}</button>
-        <span class="emoji-xl" aria-hidden="true">${CAT_EMOJI[it.cat] || '🍽️'}</span>
+        ${visual(it, 'emoji-xl')}
         <div class="detail-title"><h2>${esc(nameOf(it))}</h2><p>${esc(c.name)} · ${esc(catName(it.cat))}</p></div>
       </div>
       <div class="detail-body">
