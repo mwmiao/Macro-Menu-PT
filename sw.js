@@ -1,8 +1,9 @@
 // Offline support. Pages, code and data are served network-first (so a new release shows up on the
 // next visit) and fall back to the cache when offline. Product photos and icons are cache-first.
 // Only this site's own files are handled; Google sign-in/Drive and Web3Forms always go to the network.
-const VERSION = 'mm-2.0.0';
-const SHELL = ['./', 'index.html', 'css/styles.css', 'js/app.js', 'manifest.webmanifest', 'favicon.svg', 'icons/icon-192.png'];
+// 'mm-dev' is replaced with the release id at image build (see Dockerfile).
+const VERSION = 'mm-dev';
+const SHELL = ['./', 'manifest.webmanifest', 'favicon.svg', 'icons/icon-192.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));

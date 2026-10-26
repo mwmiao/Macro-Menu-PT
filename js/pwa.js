@@ -26,6 +26,6 @@ export function initPwa(changed) {
   });
   addEventListener('appinstalled', () => { deferred = null; onChange(); });
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
-    navigator.serviceWorker.register('sw.js').catch(() => { /* offline support is optional */ });
+    navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).catch(() => { /* offline support is optional */ });
   }
 }

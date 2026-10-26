@@ -11,22 +11,85 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Tests and checks
+        run: |
+          npm test
+          npm run check
+
+      - name: Release id
+        id: ver
+        run: echo "short=${GITHUB_SHA::8}" >> "$GITHUB_OUTPUT"
+
       - uses: docker/setup-qemu-action@v3
 
       - uses: docker/setup-buildx-action@v3
+
+      # Build the real image locally first and check that it serves this release.
+      - name: Build image for smoke test
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          load: true
+          tags: macro-meals:test
+          build-args: VERSION=${{ steps.ver.outputs.short }}
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
+
+      - name: Smoke test the container
+        env:
+          V: ${{ steps.ver.outputs.short }}
+        run: |
+          docker run -d --name mm -p 8080:80 macro-meals:test
+          for i in $(seq 1 20); do curl -fsS http://localhost:8080/healthz && break; sleep 1; done
+          set -x
+          page=$(curl -fsS http://localhost:8080/)
+          echo "$page" | grep -q 'MACRO MEALS'
+          echo "$page" | grep -q "js/app.js?v=$V"
+          echo "$page" | grep -q "css/styles.css?v=$V"
+          curl -fsS "http://localhost:8080/js/app.js?v=$V" | grep -q "from './state.js?v=$V'"
+          curl -fsS "http://localhost:8080/js/app.js?v=$V" | grep -q "from './ui/pad.js?v=$V'"
+          curl -fsS "http://localhost:8080/js/config.js?v=$V" | grep -q "build: '$V'"
+          curl -fsS "http://localhost:8080/js/config.js?v=$V" | grep -q 'googleClientId: .*apps.googleusercontent.com'
+          curl -fsS "http://localhost:8080/js/ui/tour.js?v=$V" | grep -q 'startTour'
+          curl -fsS http://localhost:8080/sw.js | grep -q "mm-$V"
+          curl -fsSI http://localhost:8080/ | grep -iq 'cache-control: no-cache'
+          curl -fsSI "http://localhost:8080/js/app.js?v=$V" | grep -iq 'immutable'
+          curl -fsSI http://localhost:8080/sw.js | grep -iq 'cache-control: no-cache'
+          curl -fsSI http://localhost:8080/manifest.webmanifest | grep -iq 'application/manifest+json'
+          curl -fsS -o /dev/null http://localhost:8080/icons/icon-512.png
+          # every module the app imports exists in the image and carries this release id
+          docker cp mm:/usr/share/nginx/html ./built
+          node tools/check-build.mjs ./built "$V"
+          docker rm -f mm
 
       - uses: docker/login-action@v3
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - uses: docker/build-push-action@v6
+      - name: Build and push (amd64 + arm64)
+        id: push
+        uses: docker/build-push-action@v6
         with:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
+          build-args: VERSION=${{ steps.ver.outputs.short }}
           tags: |
             eazyeight/macro-menu-pt:latest
             eazyeight/macro-menu-pt:${{ github.sha }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+
+      - name: Summary
+        run: |
+          {
+            echo "### Published"
+            echo "- Tags: \`eazyeight/macro-menu-pt:latest\`, \`eazyeight/macro-menu-pt:${{ github.sha }}\`"
+            echo "- Digest: \`${{ steps.push.outputs.digest }}\`"
+            echo "- Build id shown in the app (More → footer): \`${{ steps.ver.outputs.short }}\`"
+          } >> "$GITHUB_STEP_SUMMARY"

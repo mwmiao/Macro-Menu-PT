@@ -13,7 +13,7 @@ function diagnostics(itemKey) {
   const it = itemKey ? getItem(itemKey) : null;
   const pad = padEntries();
   const lines = [
-    ['App', `Macro Meals ${config.version}`],
+    ['App', `Macro Meals ${config.version} (${config.build})`],
     ['Page', location.href.split('?')[0]],
     ['Restaurant', it ? chainOf(it).name : state.chain === 'all' ? 'All restaurants' : CHAIN[state.chain]?.name],
   ];

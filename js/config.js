@@ -1,6 +1,8 @@
 // Site configuration. These values are public by design (they end up in the browser either way).
 export default {
-  version: '2.0.0',
+  version: '2.1.0',
+  // Release id; 'dev' is replaced with the commit at image build (see Dockerfile).
+  build: 'dev',
   siteUrl: 'https://macro-meals.nuka-drifter.com/',
   // Google OAuth 2.0 Client ID (type "Web application") for optional Drive sync. Leave empty to
   // hide sign-in; everything else keeps working locally. Setup steps are in CLAUDE.md.

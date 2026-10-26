@@ -12,6 +12,7 @@ import { padSheets, padActions, padForms, padPanel, padCount, addToPad } from '.
 import { collectionSheets, collectionActions, collectionForms, editorInput, editorQty } from './ui/collections.js';
 import { moreSheet } from './ui/more.js';
 import { reportSheet, submitReport, reportReset } from './ui/report.js';
+import { startTour, maybeStartTour } from './ui/tour.js';
 import { initSync, signIn, signOut, syncNow } from './sync.js';
 import { initPwa, pwa } from './pwa.js';
 
@@ -526,6 +527,7 @@ const ACTIONS = {
   signOut() { if (confirm(t('confirmSignOut'))) signOut(); },
   syncNow() { syncNow(); },
   async install() { await pwa.prompt(); },
+  tour() { startTour(ctx); },
 };
 
 const FORMS = {
@@ -571,7 +573,20 @@ document.addEventListener('click', (e) => {
   if (d.cat) { state.cat = d.cat; render(); return; }
   if (d.sort) { state.sort = d.sort; userData.setPref('sort', d.sort); renderMain(); return; }
   if (d.view) { state.view = d.view; userData.setPref('view', d.view); renderMain(); return; }
-  if (d.tier) { state.tiers.has(d.tier) ? state.tiers.delete(d.tier) : state.tiers.add(d.tier); renderMain(); if (state.sheet === 'tiers') renderSheet(); return; }
+  if (d.tier) {
+    // A grade badge inside a sheet just opens its item; in the list it filters to that grade.
+    if ('fromStamp' in d && el.closest('#sheet')) { openSheet('item', el.closest('[data-key]').dataset.key); return; }
+    e.stopPropagation();
+    const adding = !state.tiers.has(d.tier);
+    adding ? state.tiers.add(d.tier) : state.tiers.delete(d.tier);
+    renderMain();
+    if (state.sheet === 'tiers') renderSheet();
+    if ('fromStamp' in d) {
+      toast(adding ? t('tierFiltered', { t: d.tier }) : t('tierUnfiltered'));
+      $('.toolbar')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+    return;
+  }
   if ('clearFilters' in d) { state.q = ''; state.cat = 'all'; state.tiers.clear(); render(); return; }
   if (d.fav) { e.stopPropagation(); userData.toggleFav(d.fav); return; }
   if (d.add) {
@@ -679,3 +694,4 @@ function supportedLang(l) { return l === 'en' ? 'en' : 'pt'; }
 
 render();
 readSharedMeal();
+maybeStartTour(ctx, () => !!state.sheet);

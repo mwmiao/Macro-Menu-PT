@@ -68,9 +68,14 @@ export function macroBar(it) {
   return `<div class="mbar" aria-hidden="true"><i class="mp" style="width:${(pk / tot) * 100}%"></i><i class="mf" style="width:${(fk / tot) * 100}%"></i><i class="mc" style="width:${(ck / tot) * 100}%"></i></div>`;
 }
 
-export function tierStamp(it, cls = '') {
+// `filter`: render as a button that filters the list to this grade (cards and rows in the list).
+export function tierStamp(it, cls = '', filter = false) {
   const tr = tierOf(it);
-  return tr ? `<span class="stamp stamp-${tr} ${cls}" title="${esc(t('tierTier', { t: tr }) + ' · ' + t('tier_' + tr))}">${tr}</span>` : '';
+  if (!tr) return '';
+  const label = esc(t('tierTier', { t: tr }) + ' · ' + t('tier_' + tr));
+  return filter
+    ? `<button type="button" class="stamp stamp-${tr} ${cls}" data-tier="${tr}" data-from-stamp title="${label}" aria-label="${esc(t('tierFilterLabel', { t: tr }))}">${tr}</button>`
+    : `<span class="stamp stamp-${tr} ${cls}" title="${label}">${tr}</span>`;
 }
 
 export function macroChips(it) {
@@ -101,7 +106,7 @@ export function card(it, opts = {}) {
       ${favButton(it)}
       <span class="kcal"><b>${fmtInt(it.kcal)}</b> kcal</span>
       ${visual(it, 'emoji')}
-      ${tierStamp(it)}
+      ${tierStamp(it, '', true)}
       <button class="add" data-add="${it.key}" type="button" aria-label="${esc(t('addToMeal'))}">${ICON.plus}</button>
     </div>
     <div class="card-body">
@@ -117,7 +122,7 @@ export function card(it, opts = {}) {
 export function row(it, opts = {}) {
   const c = chainOf(it);
   return `<article class="row${offClass(it)}" data-key="${it.key}" style="--cc:${c.color}" tabindex="0" role="button" aria-label="${esc(nameOf(it))}, ${it.kcal} kcal">
-    <span class="row-thumb">${visual(it, 'row-emoji')}${tierStamp(it, 'stamp-sm')}</span>
+    <span class="row-thumb">${visual(it, 'row-emoji')}${tierStamp(it, 'stamp-sm', true)}</span>
     <div class="row-main">
       <h3>${esc(nameOf(it))}${opts.showChain ? ` <span class="row-chain">· ${esc(c.name)}</span>` : ''}</h3>
       ${macroBar(it)}

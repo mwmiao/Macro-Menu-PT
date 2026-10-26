@@ -671,3 +671,31 @@ svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width:
 .meal-list li:has(.qty) .ml-name { grid-column: 2; }
 .meal-list li:has(.qty) .qty { grid-column: 2; grid-row: 2; justify-self: start; }
 .meal-list li:has(.qty) .icon-round.sm { grid-column: 3; grid-row: 1; }
+
+/* ---------- first-use tour ---------- */
+body.touring { overflow: hidden; }
+.tour { position: fixed; inset: 0; z-index: 100; }
+.tour-hole {
+  position: fixed; pointer-events: none; border-radius: 16px;
+  box-shadow: 0 0 0 9999px rgba(8, 5, 3, 0.74), 0 0 0 3px var(--yellow) inset;
+  outline: 3px solid var(--yellow); outline-offset: 2px;
+  transition: left 0.25s, top 0.25s, width 0.25s, height 0.25s;
+}
+.tour-hole[hidden] { display: none; }
+.tour-panel {
+  position: fixed; width: min(360px, calc(100vw - 24px)); padding: 18px 18px 14px; border-radius: 20px;
+  background: var(--panel); color: var(--text); border: 1px solid var(--line-2); box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+  transition: left 0.25s, top 0.25s;
+}
+.tour-step { margin: 0 0 4px; font: 700 10.5px/1 var(--mono); letter-spacing: 0.1em; text-transform: uppercase; color: var(--muted); }
+.tour-panel h2 { margin: 0 0 8px; font: 20px/1.15 var(--display); text-transform: uppercase; color: var(--yellow); }
+[data-skin='light'] .tour-panel h2, [data-skin='nata'] .tour-panel h2 { color: var(--text); }
+.tour-body { margin: 0 0 14px; font-size: 14.5px; line-height: 1.5; }
+.tour-foot { display: flex; align-items: center; gap: 8px; }
+.tour-dots { display: flex; gap: 6px; margin-right: auto; }
+.tour-dots i { width: 8px; height: 8px; border-radius: 50%; background: var(--line-2); }
+.tour-dots i.on { width: 22px; border-radius: 999px; background: var(--yellow); }
+.tour-foot .btn { padding: 9px 14px; }
+button.stamp { cursor: pointer; }
+button.stamp:hover { transform: scale(1.08); }
+@media (prefers-reduced-motion: reduce) { .tour-hole, .tour-panel { transition: none; } }

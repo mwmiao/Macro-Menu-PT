@@ -137,7 +137,7 @@ All user data that syncs lives in one object (`js/core/merge.js`):
 - Sync: optional Google sign-in (Google Identity Services token flow, scopes `drive.appdata` + `userinfo.email`). One file `macro-meals.json` in the user's hidden appDataFolder. Pull → merge → save locally → upload if different; local edits push after 2.5 s. Tokens last ~1 h; then status becomes "reconnect" and the user taps Reconnect (Google needs a click). No server.
 - **To enable sync**: Google Cloud Console → create project → enable "Google Drive API" → OAuth consent screen (External; add the two scopes; while in "Testing", add your Google accounts as test users) → Credentials → OAuth client ID, type "Web application", Authorised JavaScript origins `https://macro-meals.nuka-drifter.com` (and `http://localhost:5173` for testing) → put the client ID in `js/config.js` (`googleClientId`). Client IDs are public by design.
 
-## Features (2.0)
+## Features (2.0, 2.1)
 
 - Restaurant dropdown; All restaurants view shows each card's chain.
 - Order pad (the "Meal"): quantities, totals vs daily target, save as meal, receipt card, How to order, share link, save as preset. On screens ≥1280 px it's an always-open third column.
@@ -148,6 +148,21 @@ All user data that syncs lives in one object (`js/core/merge.js`):
 - Skins: dark (default), light, azulejo, locker, nata — CSS custom properties under `[data-skin]`; applied before first paint by an inline script in `index.html`.
 - Report a problem: posts to Web3Forms (`js/config.js` `web3formsKey`), delivered to the key owner's inbox (macromealspt@gmail.com). Diagnostics (page, restaurant, product, pad, settings, browser) are optional and previewed; email is optional.
 - PWA: manifest + PNG icons (`icons/`), service worker (network-first for code/data, cache-first for images), install button where the browser offers it, iOS instructions.
+
+## Releases and caching (read before touching Docker/nginx/sw.js)
+
+The site sits behind Cloudflare, which overrides origin headers for static files (`Cache-Control: max-age=14400` on .js/.css). Version 2.0 shipped with fixed code URLs, so browsers got the new `index.html` but kept running the old `app.js` for hours — the "features missing after deploy" bug. The fix:
+
+- At image build, `docker/stamp-release.sh` adds `?v=<short commit>` to every relative module import and to the CSS/JS links in `index.html`, stamps the service-worker cache name and `config.build`. Every release therefore has new code URLs; nothing can mix old and new modules. Source files stay unversioned (no build step locally).
+- nginx: `/`, `index.html`, `sw.js` and the manifest are `no-cache`; versioned code is `immutable` for a year.
+- The service worker is registered with `updateViaCache: 'none'`, is network-first for code, and deletes old caches on activate.
+- More → footer and every problem report show `version (build)`, so you can tell which release a browser is running.
+- CI (`.github/workflows/docker.yml`) runs tests + check, builds the image, starts it and smoke-tests it (page, versioned modules via `tools/check-build.mjs`, config, headers) **before** pushing amd64+arm64. The run summary lists the tags and the image digest.
+- To test the production output locally without Docker: copy the web files to a folder, run `sh docker/stamp-release.sh <folder> <id>`, then `node tools/check-build.mjs <folder> <id>` and serve the folder.
+
+## First-use tour
+
+`js/ui/tour.js`: 3 steps (restaurant dropdown → a grade badge → the + button) over the real UI, dark overlay with a cut-out, panel placed below or above the target (never over it), progress dots, Skip / Next / Done, Esc to skip, focus kept in the panel. Starts ~0.7 s after the first visit unless a sheet (e.g. a shared meal) is open; completion or skip is stored per device in `mmpt.tour`. Replay from More → Help or More → Settings. The tour text promises features that must keep working: grade badges in the list filter by grade (badges inside sheets open the item instead), and How to order has "Read it aloud" (Web Speech API, pt-PT/en-GB) when the browser supports it.
 
 ## McDonald's breakfast
 

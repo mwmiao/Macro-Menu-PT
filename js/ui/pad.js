@@ -168,7 +168,10 @@ export const padSheets = {
           <button type="button" class="${lang === 'en' ? 'on' : ''}" data-act="howtoLang" data-arg="en">English</button>
         </div>
         ${groups.length ? `<blockquote class="script" id="orderScript">${esc(orderScript(groups, lang)).replace(/\n/g, '<br>')}</blockquote>
-          <button type="button" class="btn ghost" data-act="copyScript">${ICON.copy}<span>${esc(t('copyScript'))}</span></button>`
+          <div class="form-actions start">
+            <button type="button" class="btn ghost" data-act="copyScript">${ICON.copy}<span>${esc(t('copyScript'))}</span></button>
+            ${'speechSynthesis' in window ? `<button type="button" class="btn ghost" data-act="speak">${ICON.chat}<span>${esc(t('speakScript'))}</span></button>` : ''}
+          </div>`
         : `<p class="empty-note">${esc(t('mealEmpty'))}</p>`}
         ${hasCustom ? `<p class="muted">${esc(t('scriptNoCustom'))}</p>` : ''}
         <p class="note">${ICON.help}<span>${esc(t('scriptNote'))}</span></p>
@@ -228,6 +231,18 @@ export const padActions = {
   },
   howtoLang(lang) { state.howtoLang = lang; },
   copyScript() { copyText(document.getElementById('orderScript').innerText); },
+  // Reads the order out loud (e.g. to play at the counter), in the script's language.
+  speak() {
+    const text = document.getElementById('orderScript')?.innerText;
+    if (!text || !('speechSynthesis' in window)) return;
+    const lang = (state.howtoLang || 'pt') === 'pt' ? 'pt-PT' : 'en-GB';
+    const voices = speechSynthesis.getVoices();
+    speechSynthesis.cancel();
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = lang;
+    u.voice = voices.find((v) => v.lang === lang) || voices.find((v) => v.lang.startsWith(lang.slice(0, 2))) || null;
+    speechSynthesis.speak(u);
+  },
   copyLink() { copyText(state.shareUrl); },
   async nativeShare(name) {
     try { await navigator.share({ title: name || 'Macro Meals', url: state.shareUrl }); } catch { /* cancelled */ }

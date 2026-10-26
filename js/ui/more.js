@@ -88,11 +88,13 @@ const sections = {
   },
   settings() {
     return `<div class="stack">${installCard()}
+      ${tile('data-act="tour"', ICON.help, t('tourReplay'), t('tourReplaySub'))}
       <details class="card-box privacy"><summary><h3>${ICON.shield}${esc(t('privacyTitle'))}</h3></summary>
         <p>${esc(t('privacyLocal'))}</p><p>${esc(t('privacySync'))}</p><p>${esc(t('privacyReport'))}</p></details></div>`;
   },
   support() {
     return `<div class="stack">
+      ${tile('data-act="tour"', ICON.help, t('tourReplay'), t('tourReplaySub'))}
       ${tile('data-open="report"', ICON.flag, t('reportTitle'), t('reportSub'))}
       ${tile('data-open="about"', '<span class="emo">📄</span>', t('tool_about'), t('tool_about_sub'))}
     </div>`;
@@ -106,6 +108,6 @@ export function moreSheet() {
     <div class="sheet-body more">
       <nav class="more-nav" aria-label="${esc(t('moreTitle'))}">${TABS.map(([k, ic]) => `<button type="button" class="${tab === k ? 'on' : ''}" data-act="moreTab" data-arg="${k}" aria-current="${tab === k}">${ic}<span>${esc(t('more_' + k))}</span></button>`).join('')}</nav>
       <div class="more-main">${sections[tab]()}
-        <p class="more-foot">Macro Meals ${config.version} · ${t('nRestaurants', { n: CHAINS.length })} · ${fmtInt(items)} ${esc(t('items'))}</p></div>
+        <p class="more-foot">Macro Meals ${config.version} (${config.build}) · ${t('nRestaurants', { n: CHAINS.length })} · ${fmtInt(items)} ${esc(t('items'))}</p></div>
     </div>`;
 }
