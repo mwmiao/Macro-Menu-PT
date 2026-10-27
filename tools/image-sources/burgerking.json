@@ -49,9 +49,17 @@
   "Asas de Frango x3": "6b4857359a153ceb21c6bb65beeb55e05cdb5c0c-1333x1333.png",
   "Asas de Frango x6": "6b4857359a153ceb21c6bb65beeb55e05cdb5c0c-1333x1333.png",
   "King Nuggets® x3": "88e82109f220907e074bb44d43d9a53a8d7e2aad-1333x1333.png",
-  "King Nuggets® x5": "88e82109f220907e074bb44d43d9a53a8d7e2aad-1333x1333.png",
+  "King Nuggets® x5": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/af540b2acc6278c0cfa43fb697cb35c3e362631b-1333x1333.png?w=600&fm=png",
+    "region": "es",
+    "match": "equivalent"
+  },
   "King Nuggets® x6": "88e82109f220907e074bb44d43d9a53a8d7e2aad-1333x1333.png",
-  "King Nuggets® x9": "88e82109f220907e074bb44d43d9a53a8d7e2aad-1333x1333.png",
+  "King Nuggets® x9": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/e5afb7e31930e745bf8cb9f6031d0def8d9654c4-1333x1333.png?w=600&fm=png",
+    "region": "es",
+    "match": "equivalent"
+  },
   "King Nuggets® x20": "88e82109f220907e074bb44d43d9a53a8d7e2aad-1333x1333.png",
   "Chicken Fries x6": "189ed97a8f046ea6017e45936f554c82b7879236-1333x1333.png",
   "Chicken Fries x9": "189ed97a8f046ea6017e45936f554c82b7879236-1333x1333.png",

@@ -7,7 +7,7 @@ the other items show the drawn placeholder.
 
 - `burgerking/02cd02c78202` Double Whopper® Spicy — "SPICY WHOPPER" headline
 - `burgerking/042d7e5b8fd7` Brutal Bacon Crispy (1 patty) — "BRUTAL BACON" headline
-- `burgerking/066498d9f50a` King Nuggets® x20, King Nuggets® x3, King Nuggets® x5, King Nuggets® x6, King Nuggets® x9 — "COM PEITO DE FRANGO" headline
+- `burgerking/066498d9f50a` King Nuggets® x20, King Nuggets® x3, King Nuggets® x6 — "COM PEITO DE FRANGO" headline
 - `burgerking/107998225387` Krispper® Spicy (2 patties) — "KRISPPER" headline, "NOVO" badge, chilli graphic
 - `burgerking/12d804b9d2e0` Long Chicken® Spicy — "SPICY LONG CHICKEN" headline
 - `burgerking/13657696f196` Whopper® Spicy Vegetal — "SPICY WHOPPER" headline and leaf badge

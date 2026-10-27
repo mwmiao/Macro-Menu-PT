@@ -41,9 +41,7 @@
   "items": [
    "burgerking:king-nuggets-x20",
    "burgerking:king-nuggets-x3",
-   "burgerking:king-nuggets-x5",
-   "burgerking:king-nuggets-x6",
-   "burgerking:king-nuggets-x9"
+   "burgerking:king-nuggets-x6"
   ],
   "status": "fallback",
   "issue": "\"COM PEITO DE FRANGO\" headline",
@@ -574,6 +572,17 @@
   "output": "images/burgerking/4a0258eb97b2.webp",
   "stamp": "52418ca08517"
  },
+ "burgerking/b6972aad8096": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/e5afb7e31930e745bf8cb9f6031d0def8d9654c4-1333x1333.png?w=600&fm=png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "burgerking:king-nuggets-x9"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/e326f2b729c2.webp",
+  "stamp": "d3f8124a5b6e"
+ },
  "burgerking/b6b31ee7e0d0": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/846d57d47148dd70885137d32cb7fef6bd85bcbf-1333x1333.png?w=600&fm=png",
   "region": "pt",
@@ -783,6 +792,17 @@
   "status": "approved",
   "output": "images/burgerking/c79d1509d452.webp",
   "stamp": "099a72b2a32c"
+ },
+ "burgerking/eb1a3b19ffe8": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/af540b2acc6278c0cfa43fb697cb35c3e362631b-1333x1333.png?w=600&fm=png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "burgerking:king-nuggets-x5"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/8c1208dd7c84.webp",
+  "stamp": "6040fccef07e"
  },
  "burgerking/ee02e280a01e": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/d34f69de7b738da8f3e0450c0f5fed4b9ee0f3ed-1333x1333.png?w=600&fm=png",
