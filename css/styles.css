@@ -699,3 +699,8 @@ body.touring { overflow: hidden; }
 button.stamp { cursor: pointer; }
 button.stamp:hover { transform: scale(1.08); }
 @media (prefers-reduced-motion: reduce) { .tour-hole, .tour-panel { transition: none; } }
+.field-error { color: var(--bad-fg); font-size: 13px; font-weight: 600; }
+.form textarea[aria-invalid='true'], .form input[aria-invalid='true'] { border-color: var(--bad-fg); }
+.error-box { display: grid; gap: 8px; padding: 14px; border-radius: 14px; border: 1px solid var(--bad-fg); background: color-mix(in srgb, var(--mp) 10%, transparent); }
+.error-box p { margin: 0; font-size: 13.5px; }
+a.btn { text-decoration: none; color: inherit; }

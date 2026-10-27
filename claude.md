@@ -134,8 +134,21 @@ All user data that syncs lives in one object (`js/core/merge.js`):
 - `sanitize()` validates anything read from storage, Drive or links; malformed records are dropped, never thrown.
 - Migration from the pre-2.0 keys (`mmpt.favs`, `mmpt.meal`, `mmpt.target`, …) runs once with `t = 1` so already-synced data wins; old keys are left in place.
 - Device-only (not synced): compare list, matcher/TDEE inputs, sync session.
-- Sync: optional Google sign-in (Google Identity Services token flow, scopes `drive.appdata` + `userinfo.email`). One file `macro-meals.json` in the user's hidden appDataFolder. Pull → merge → save locally → upload if different; local edits push after 2.5 s. Tokens last ~1 h; then status becomes "reconnect" and the user taps Reconnect (Google needs a click). No server.
-- **To enable sync**: Google Cloud Console → create project → enable "Google Drive API" → OAuth consent screen (External; add the two scopes; while in "Testing", add your Google accounts as test users) → Credentials → OAuth client ID, type "Web application", Authorised JavaScript origins `https://macro-meals.nuka-drifter.com` (and `http://localhost:5173` for testing) → put the client ID in `js/config.js` (`googleClientId`). Client IDs are public by design.
+- Sync: optional Google sign-in (Google Identity Services token flow, **one scope: `drive.appdata`**; the email shown comes from Drive `about.get`, best-effort). One file `macro-meals.json` in the user's hidden appDataFolder. Pull → merge → save locally → upload if different; local edits push after 2.5 s. Tokens last ~1 h; then status becomes "reconnect" and the user taps Reconnect (Google needs a click). No server.
+- **To enable sync**: Google Cloud Console → create project → enable "Google Drive API" → OAuth consent screen (External; add the `drive.appdata` scope; while in "Testing", add your Google accounts as test users) → Credentials → OAuth client ID, type "Web application", Authorised JavaScript origins `https://macro-meals.nuka-drifter.com` (and `http://localhost:5173` for testing) → put the client ID in `js/config.js` (`googleClientId`). Client IDs are public by design.
+
+### Sync errors (2.1.1)
+
+Google's consent screen gives each requested scope its own checkbox and still returns a token if one is unticked. 2.1.0 asked for two scopes and never checked what was granted, so a first sign-in with the Drive box unticked hit Drive with a token lacking Drive access → "Google Drive 403"; "Reconnect" re-asked and then worked. Now: a single scope, `hasGrantedAllScopes` is checked before any Drive call, and Drive errors are classified from Google's error body:
+- missing scope (`insufficientPermissions`/`ACCESS_TOKEN_SCOPE_INSUFFICIENT`) → state `permission`, "Allow Drive access" (re-asks with `prompt: 'consent'`);
+- `accessNotConfigured`/`SERVICE_DISABLED` → "Drive API not enabled" (owner config);
+- rate limits (403 `rateLimitExceeded`/`userRateLimitExceeded`, 429) → retried with backoff, as Google requires;
+- 401 → "Reconnect"; anything else → error with Google's status and message.
+`tests/sync.test.js` covers each case against a fake GIS/Drive using Google's real error shapes.
+
+### Report a problem (2.1.1)
+
+Validation errors are shown inline next to the field (the old code used the browser's validity bubble and cleared it immediately, so a too-short description did nothing visible). Typed values, type and the diagnostics choice live in `state.report` so re-renders never lose them. Success is shown only when Web3Forms answers `{ success: true }`; otherwise the form stays filled in with the reason and three ways out: Try again, Send by email instead (prefilled `mailto:`), Copy report. Delivery goes to the email the Web3Forms access key was created with.
 
 ## Features (2.0, 2.1)
 

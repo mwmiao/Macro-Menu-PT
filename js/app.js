@@ -11,7 +11,7 @@ import { $, esc, ICON, visual, macroBar, tierStamp, badges, card, row, sheetHead
 import { padSheets, padActions, padForms, padPanel, padCount, addToPad } from './ui/pad.js';
 import { collectionSheets, collectionActions, collectionForms, editorInput, editorQty } from './ui/collections.js';
 import { moreSheet } from './ui/more.js';
-import { reportSheet, submitReport, reportReset } from './ui/report.js';
+import { reportSheet, submitReport, reportReset, reportInput, reportActions } from './ui/report.js';
 import { startTour, maybeStartTour } from './ui/tour.js';
 import { initSync, signIn, signOut, syncNow } from './sync.js';
 import { initPwa, pwa } from './pwa.js';
@@ -507,6 +507,7 @@ function updateTdee() {
 const ACTIONS = {
   ...padActions,
   ...collectionActions,
+  ...reportActions,
   ddToggle() { state.ddOpen = !state.ddOpen; renderSidebar(); if (state.ddOpen) $('.dd-list [aria-selected="true"]')?.focus(); },
   clearTarget() { userData.setPref('target', null); openSheet('meal'); },
   clearCompare() { state.compare = []; local.set('compare', state.compare); renderMain(); },
@@ -524,6 +525,9 @@ const ACTIONS = {
     applySkin();
   },
   signIn() { signIn(); },
+  allowDrive() { signIn(true); },
+  // Retry after an error; if the sign-in has lapsed this switches to "Reconnect".
+  syncRetry() { syncNow(); },
   signOut() { if (confirm(t('confirmSignOut'))) signOut(); },
   syncNow() { syncNow(); },
   async install() { await pwa.prompt(); },
@@ -631,10 +635,11 @@ document.addEventListener('input', (e) => {
   if (e.target.id === 'q') { state.q = e.target.value; renderMain(); return; }
   if (e.target.id === 'kjIn') { $('#kcalIn').value = Math.round(+e.target.value / 4.184); return; }
   if (e.target.id === 'kcalIn') { $('#kjIn').value = Math.round(+e.target.value * 4.184); return; }
+  if (reportInput(e)) return;
   if (editorInput(e)) return;
   if (e.target.closest('#tdeeForm')) updateTdee();
 });
-document.addEventListener('change', (e) => { if (e.target.closest('#tdeeForm')) updateTdee(); });
+document.addEventListener('change', (e) => { if (reportInput(e)) return; if (e.target.closest('#tdeeForm')) updateTdee(); });
 document.addEventListener('focusin', (e) => { if (e.target.matches('[data-select-all]')) e.target.select(); });
 
 document.addEventListener('submit', (e) => {

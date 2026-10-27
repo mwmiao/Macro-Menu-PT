@@ -20,30 +20,40 @@ function skinPicker() {
     <span class="swatch"><i></i><i></i><i></i></span><b>${esc(t('skin_' + s))}</b><small>${esc(t('skin_' + s + '_sub'))}</small></button>`).join('')}</div>`;
 }
 
+function syncErrorText(err) {
+  if (!err) return '';
+  const key = { 'api-disabled': 'syncErrApi', busy: 'syncErrBusy', timeout: 'syncErrTimeout' }[err.kind];
+  return key ? t(key) : t('sync_error', { e: err.detail || '' });
+}
+
 function accountCard() {
   const s = syncStatus();
   if (s.state === 'unconfigured') {
     return `<div class="card-box"><h3>${ICON.cloud}${esc(t('syncTitle'))}</h3><p class="muted">${esc(t('syncUnconfigured'))}</p></div>`;
   }
-  const signedIn = !['off', 'unconfigured'].includes(s.state) || s.email;
   const label = {
-    off: t('sync_off'), connecting: t('sync_connecting'), syncing: t('sync_syncing'), reconnect: t('sync_reconnect'),
-    offline: t('sync_offline'), error: t('sync_error', { e: s.error || '' }),
+    connecting: t('sync_connecting'), syncing: t('sync_syncing'), reconnect: t('sync_reconnect'),
+    permission: t('sync_permission'), offline: t('sync_offline'), error: syncErrorText(s.error),
     synced: s.last ? t('sync_synced', { when: fmtDateTime(s.last) }) : t('sync_ready'),
   }[s.state];
-  if (!signedIn || s.state === 'off') {
+  if (s.state === 'off') {
     return `<div class="promo">${ICON.cloud}<div><b>${esc(t('syncPromoTitle'))}</b><p>${esc(t('syncPromo'))}</p></div>
       <button type="button" class="btn primary" data-act="signIn">${esc(t('signIn'))}</button></div>
-      ${s.error ? `<p class="error">${esc(t('sync_error', { e: s.error }))}</p>` : ''}
       <p class="muted">${esc(t('syncWhat'))}</p>`;
   }
+  const action = {
+    reconnect: ['signIn', t('reconnect')],
+    permission: ['allowDrive', t('allowDrive')],
+    error: ['syncRetry', t('tryAgain')],
+    offline: ['syncRetry', t('tryAgain')],
+  }[s.state];
   return `<div class="card-box">
     <h3>${ICON.cloud}${esc(t('syncTitle'))}</h3>
-    <p><b>${esc(s.email || '')}</b></p>
+    ${s.email ? `<p><b>${esc(s.email)}</b></p>` : ''}
     <p class="sync-line sync-${s.state}" role="status">${esc(label)}</p>
     <div class="form-actions start">
-      ${s.state === 'reconnect' || s.state === 'error' ? `<button type="button" class="btn primary" data-act="signIn">${esc(t('reconnect'))}</button>`
-        : `<button type="button" class="btn ghost" data-act="syncNow" ${s.state === 'syncing' ? 'disabled' : ''}>${esc(t('syncNow'))}</button>`}
+      ${action ? `<button type="button" class="btn primary" data-act="${action[0]}">${esc(action[1])}</button>`
+        : `<button type="button" class="btn ghost" data-act="syncNow" ${['syncing', 'connecting'].includes(s.state) ? 'disabled' : ''}>${esc(t('syncNow'))}</button>`}
       <button type="button" class="btn ghost" data-act="signOut">${esc(t('signOut'))}</button>
     </div>
     <p class="muted">${esc(t('syncWhat'))}</p>

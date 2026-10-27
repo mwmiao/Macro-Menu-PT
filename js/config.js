@@ -1,6 +1,6 @@
 // Site configuration. These values are public by design (they end up in the browser either way).
 export default {
-  version: '2.1.0',
+  version: '2.1.1',
   // Release id; 'dev' is replaced with the commit at image build (see Dockerfile).
   build: 'dev',
   siteUrl: 'https://macro-meals.nuka-drifter.com/',
