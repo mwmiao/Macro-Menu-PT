@@ -40,9 +40,11 @@ Categories are the `cat_*` keys in `js/i18n.js`. Register a new chain in `js/dat
 
 ## Product photos
 
-Photos are the chains' own product images, saved in `images/<chain>/` as 480px WebP. `tools/image-sources/<chain>.json` maps each item's Portuguese name to the image URL on the chain's site; `node tools/fetch-images.mjs [chain…]` downloads anything new (needs `ffmpeg`) and regenerates `js/data/images.js`. Every run also writes `tools/image-report.json` with failures and the items still without a photo; those show a drawn placeholder.
+Photos must already be clean product shots from the chain's own sites: only the product, on a real transparent background, with no headlines, badges, slogans, people or decoration. They are never edited (no erasing, cut-outs or reconstruction). An unsuitable Portuguese photo is replaced by the same product from another country's official site (recorded as an `equivalent` match, which never changes the item's name, nutrition or portion); if there is none, the item keeps the drawn placeholder and is listed in `tools/image-review.md`.
 
-mcdonalds.pt refuses scripted downloads, so McDonald's photos are fetched in a browser on the site's product pages (www.mcdonalds.pt/#produtos), converted to WebP there and saved as `images/mcdonalds/<id>.webp`, where `<id>` is the first 12 hex characters of the SHA-1 of the image URL. The fetch script then indexes them without downloading.
+Pipeline: `tools/image-sources/<chain>.json` maps each item's Portuguese name to an image URL (or `{url, region, match}`). `node tools/fetch-images.mjs [chain…]` downloads new originals (needs `ffmpeg`) into `tools/image-originals/<chain>/<sha1(url)[0:12]>.webp` and records them in `tools/image-manifest.json` (source, region, match, items, status `pending`/`approved`/`rejected`, issue). After checking a photo by eye (`python tools/image-sheet.py <chain>` draws a contact sheet on a checkerboard), set its status. `python tools/process-images.py` (needs `pillow numpy`) then trims the transparent margin of approved photos, saves them to `images/<chain>/` named by a hash of their content (so a changed photo always gets a new URL), regenerates `js/data/images.js` and writes the review list. Originals stay in `tools/`, which is not copied into the Docker image.
+
+mcdonalds.pt refuses scripted downloads, so McDonald's photos are fetched in a browser on the site's product pages (www.mcdonalds.pt/#produtos), converted to WebP there and saved as `tools/image-originals/mcdonalds/<id>.webp`, where `<id>` is the first 12 hex characters of the SHA-1 of the image URL. The fetch script then indexes them without downloading.
 
 ## Run locally
 

@@ -1,0 +1,3636 @@
+{
+ "burgerking/02cd02c78202": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e619c1f720a1abed50a1258946b76a6360c5bfbf-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:double-whopper-spicy"
+  ],
+  "status": "rejected",
+  "issue": "\"SPICY WHOPPER\" headline"
+ },
+ "burgerking/042d7e5b8fd7": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/2eb360a14b2f26936eba024eca7f28fbdfea1c84-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:brutal-bacon-crispy-1-patty"
+  ],
+  "status": "rejected",
+  "issue": "\"BRUTAL BACON\" headline"
+ },
+ "burgerking/05f9afdd90a3": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/0490736c530e66202ae7102ad95cb19ccef81cf4-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:king-fries-queijo-bacon"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/33d504d394b5.webp",
+  "stamp": "803d7e91b6dd"
+ },
+ "burgerking/066498d9f50a": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/88e82109f220907e074bb44d43d9a53a8d7e2aad-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:king-nuggets-x20",
+   "burgerking:king-nuggets-x3",
+   "burgerking:king-nuggets-x5",
+   "burgerking:king-nuggets-x6",
+   "burgerking:king-nuggets-x9"
+  ],
+  "status": "rejected",
+  "issue": "\"COM PEITO DE FRANGO\" headline"
+ },
+ "burgerking/075656e487df": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/189ed97a8f046ea6017e45936f554c82b7879236-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:chicken-fries-x24",
+   "burgerking:chicken-fries-x6",
+   "burgerking:chicken-fries-x9"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/5126944fe1db.webp",
+  "stamp": "b8ae7c768f95"
+ },
+ "burgerking/0d2388cadd2a": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e480bdeeade10ac73b717859968d522108fe906f-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:long-chicken"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/cf6f620d1bd1.webp",
+  "stamp": "d435356d2b27"
+ },
+ "burgerking/0f9939e0e90b": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/a91243f44a1da132c6130e3275f8931414e435ba-400x400.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:dip-molho-queijo"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/dc36a4c99c18.webp",
+  "stamp": "327221937911"
+ },
+ "burgerking/107998225387": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/4b2f4d6315ae5461ff0d2103d3c14985e92b05f9-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:krispper-spicy-2-patties"
+  ],
+  "status": "rejected",
+  "issue": "\"KRISPPER\" headline, \"NOVO\" badge, chilli graphic"
+ },
+ "burgerking/115eeb09c393": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/c9f0823be1c4b3d277e8886dc04004c2834a9a5d-1333x1333.png?w=600&fm=png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "burgerking:double-whopper"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/8e95d39c41e4.webp",
+  "stamp": "ded0f4ac7f09"
+ },
+ "burgerking/12d804b9d2e0": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/fdf2ee6da2e779452500a4e8aeb2fc15075ea966-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:long-chicken-spicy"
+  ],
+  "status": "rejected",
+  "issue": "\"SPICY LONG CHICKEN\" headline"
+ },
+ "burgerking/13657696f196": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/48a6d7e85e74898784c057e79931b04e25fc4599-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:whopper-spicy-vegetal"
+  ],
+  "status": "rejected",
+  "issue": "\"SPICY WHOPPER\" headline and leaf badge"
+ },
+ "burgerking/1575e9ddf81c": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/64f87434acaedca64f41d277704ba970a3224340-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:dip-molho-maionese-com-alho"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/1bba36db03d5.webp",
+  "stamp": "af636c256824"
+ },
+ "burgerking/1ea523b62ffd": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/8efeda577cefb995d82dcdaaec20cd651043e70d-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:steakhouse"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/233db7d93940.webp",
+  "stamp": "782fa7e4ad49"
+ },
+ "burgerking/26e02cd0759e": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/3812be0ec11ebb5e12e410a028f7e00609c9b398-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:burger-king-sandy"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/a43605eb8d79.webp",
+  "stamp": "85b679693e17"
+ },
+ "burgerking/28f0ac02310f": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/372fed3385ec1c0ac7e5be85238776c7e1e31239-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:batatas-supreme-grandes",
+   "burgerking:batatas-supreme-medias"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/87a778632b04.webp",
+  "stamp": "5f0399ffbb37"
+ },
+ "burgerking/2e72d7e10b17": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/a9997087b64300cacd5cdc6dad66d92b32e7560d-1333x1333.png?w=600&fm=png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "burgerking:whopper"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/a922c84f0865.webp",
+  "stamp": "c1afc12b630b"
+ },
+ "burgerking/31622aea7871": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/16f285919239ced4ed93250fa780b5c585fc6d90-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:double-cheese-bacon-xxl"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/375bae2cae73.webp",
+  "stamp": "f6c870176b9e"
+ },
+ "burgerking/350666c646a5": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/50de1f805cf9e471b6c484a641023d28ad4fe5a5-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:fuze-tea-limao-medio"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/cacd22263958.webp",
+  "stamp": "f1c57cf9939e"
+ },
+ "burgerking/366764cef66c": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/b7ba7dbcc04b6f42d4dc0dc113a0747b9d655ab3-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:long-texas"
+  ],
+  "status": "rejected",
+  "issue": "menu-deal photo (fries, drink, logo, headline)"
+ },
+ "burgerking/3b1f71f03e16": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e55db9de3a259c20861832921b40dbdfe3789b4c-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:whopper-sem-gluten"
+  ],
+  "status": "rejected",
+  "issue": "\"APC\" gluten-free badge; every PT/ES alternative has an APC or gluten-free badge too"
+ },
+ "burgerking/4caac28f5029": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/0e7e9a48e13c2a3cebca4c6ba44b917f6fc0f6ed-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:sprite-baixa-em-acucar-media"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/748ee2236542.webp",
+  "stamp": "b356b332e6a1"
+ },
+ "burgerking/4ea73cdae95e": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/76ae00e1eab88139d5195ed6dd2c93e5fb6af9e5-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:cheeseburger-sem-gluten"
+  ],
+  "status": "rejected",
+  "issue": "\"APC\" gluten-free badge; every PT/ES alternative has an APC or gluten-free badge too"
+ },
+ "burgerking/4f3ecd99df0c": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/7f8e28f5c90926c931314f18653f426af9f1a33a-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:dip-molho-maionese",
+   "burgerking:maionese"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/099cb611800d.webp",
+  "stamp": "94e6827486a6"
+ },
+ "burgerking/511aaaa6a503": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/011d915962e5dc729f8fceeafc1442c8be4239b5-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:dip-bacon-xxl"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO DIP XXL\" headline"
+ },
+ "burgerking/5127d6d133f2": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/85e2afddadc5511f5da467fd0bed94943962d51e-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:krispper-spicy-1-patty"
+  ],
+  "status": "rejected",
+  "issue": "\"KRISPPER\" headline, \"NOVO\" badge, chilli graphic"
+ },
+ "burgerking/5288ff05f8de": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/98e9fb123725dbb92728e081634724d17e0fbe9d-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "output": "images/burgerking/0b2b8c3bc8d7.webp",
+  "stamp": "e24f69e8c4d7",
+  "issue": "\"APC\" gluten-free badge (all PT/ES alternatives have a badge too)"
+ },
+ "burgerking/5b2316849c41": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/69bcdc8666ee555b5e8dc3ea8e91c6a048b2b7c5-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:hamburger"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/7b4144dd7f6c.webp",
+  "stamp": "5f194c2235c8"
+ },
+ "burgerking/5b6eab4e4ba0": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/0abe92c9cc56887d937747840b8faba92cb62caa-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "issue": "campaign slogan and stripes"
+ },
+ "burgerking/5d09895779d3": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/3a3aa3f12493c48e13a61444aaa59050f55b9732-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:chicken-wrap"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/c07cc064a657.webp",
+  "stamp": "b751637caaf7"
+ },
+ "burgerking/6916deea7fbe": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/767a4cad6221d5a33143c14f7c23f9a924164480-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:chicken-burger"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/997a4e391db4.webp",
+  "stamp": "f33480be14a7"
+ },
+ "burgerking/69979d10117e": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/70fb9bac3bb6ce40df8272a2c86416790d85a837-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:whopper-vegetal"
+  ],
+  "status": "rejected",
+  "issue": "campaign slogan, stripes and leaf badge"
+ },
+ "burgerking/6c2509580c3d": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/4cd63b84c5a03bb04ad7fde9dd5ed35224b0fd81-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:double-duo-bacon-cheddar"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/746c12a8392a.webp",
+  "stamp": "6d3bbe4ba870"
+ },
+ "burgerking/6e12f2db6e2a": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/fb7f07fae733c2a7280db725e564bb489d10cf3a-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:duo-bacon-cheddar"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/ff4b70776e6a.webp",
+  "stamp": "092b67201bd0"
+ },
+ "burgerking/714731968df1": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/8bbe0a9326e23830089ec12fed50fd9c88b96d19-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:double-crispy-chicken"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/fdbdba660d2c.webp",
+  "stamp": "8fa8d146fd46"
+ },
+ "burgerking/71de812e835b": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/9aad6ff73662ff618843869a90920f300e8a719a-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:cheeseburger"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/7d98b6d128c7.webp",
+  "stamp": "858259cdfce7"
+ },
+ "burgerking/78091ef3d806": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/1c889b8b98a820ebb43593f706e9be6bc873e224-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:batatas-fritas-gigantes",
+   "burgerking:batatas-fritas-grandes",
+   "burgerking:batatas-fritas-medias",
+   "burgerking:batatas-fritas-pequenas"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/55f8fa78445d.webp",
+  "stamp": "424384fe5120"
+ },
+ "burgerking/7ad84f3a434a": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e82a64e577ece027f27f0b9156fe2e7fe5973653-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:long-vegetal"
+  ],
+  "status": "rejected",
+  "issue": "leaf badge"
+ },
+ "burgerking/7dde5f0cd3f5": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/fc3c4a839b3335e7bdf85b1971d8befcbd4b5a7e-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:crispy-chicken"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/cdd7e2e86d95.webp",
+  "stamp": "e23c8d7f4047"
+ },
+ "burgerking/7f463bc2f7b6": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/a6aa1865884ef54c5827abf232b0d97fd07e60e2-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:the-king-ovo-1-carne"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/11b7688b0dd3.webp",
+  "stamp": "4c6fe8787fa9"
+ },
+ "burgerking/8a6c8be976e0": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e3036b8d709a2f021dd02da7ee0c24b627767ab1-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:dip-molho-mostarda-e-mel"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/37d5866c9ebf.webp",
+  "stamp": "cdb953a9dc8f"
+ },
+ "burgerking/8eb1b7ba4977": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/03880fc99bb221533ab9e4cdb2bfc1086bb29677-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:double-cheeseburger"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/9f6ce3b9a458.webp",
+  "stamp": "b1f7e5fbc18c"
+ },
+ "burgerking/906b7ee60b5e": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/c5d2080e45279e9caab7a6f50fe13debf7be2b3f-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:chili-cheese-bites-x6"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/6a2c74fc2fde.webp",
+  "stamp": "7b22fc89bf54"
+ },
+ "burgerking/96fb6eaeacd6": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e0e2f095ef2de7c98874fb4d6af8de667e67f4f0-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:king-aros-de-cebola-x10",
+   "burgerking:king-aros-de-cebola-x7"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/f7e34a9b0e11.webp",
+  "stamp": "497910bb3846"
+ },
+ "burgerking/9c8da776b79c": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/ed3866c0770338d93ea6c66452a84d0c37d22ccf-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:big-king",
+   "burgerking:big-king-xxl"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/c9be5292b8df.webp",
+  "stamp": "5abc1bfc4f0f"
+ },
+ "burgerking/9d24582bdd2e": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e497c4c874aeaec16ea902d8c6b8af33d29fabe0-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:krispper-original-2-patties"
+  ],
+  "status": "rejected",
+  "issue": "\"KRISPPER\" headline, \"NOVO\" and \"Sabor assado\" badges"
+ },
+ "burgerking/9f590f15f16a": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/aac1dd9068585d5f0dc5607c890e36d63ef43f8e-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:whopper-spicy"
+  ],
+  "status": "rejected",
+  "issue": "\"SPICY WHOPPER\" headline"
+ },
+ "burgerking/a3d5b577c399": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/c138ea654b5404b35a7042a5d76316dc3ed27d07-667x667.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:cerveja-media"
+  ],
+  "status": "rejected",
+  "issue": "shows two cans and a glass; serving format not verified"
+ },
+ "burgerking/b1d5c03f1442": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/3bb1a04e4318654a511babb204aaf475e28c898f-1333x1333.png?w=600&fm=png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "burgerking:triple-whopper"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/44abc9b270ab.webp",
+  "stamp": "ca617d7ae33b"
+ },
+ "burgerking/b27f211c4e7f": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/17e0c707c3c24f93ffe633bb4e500ef9c5811f0b-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:krispper-original-1-patty"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/77287cd93e58.webp",
+  "stamp": "c73fa53c29a8"
+ },
+ "burgerking/b293d425b829": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/98889d6ecdd02b2fcae0f324a0612c271a593e6b-400x400.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:brownie"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/4a0258eb97b2.webp",
+  "stamp": "52418ca08517"
+ },
+ "burgerking/b6b31ee7e0d0": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/846d57d47148dd70885137d32cb7fef6bd85bcbf-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:brutal-bacon-2-carnes"
+  ],
+  "status": "rejected",
+  "issue": "\"VOLTOU BRUTAL BACON\" headline"
+ },
+ "burgerking/b8bdf7d17fbb": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/a8117be8eb05a8157c550a2d51f566e96b782b8f-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:fanta-laranja-zero-media"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/1976573bf1f7.webp",
+  "stamp": "80ea6bb0435e"
+ },
+ "burgerking/b9941a218438": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/9b9c23325e88a5e31b06a7280ca70f69e0f0462e-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:coca-cola-media"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/f6398f6e85c0.webp",
+  "stamp": "db179f6bbc2b"
+ },
+ "burgerking/bd0ae998ba2a": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/6b4857359a153ceb21c6bb65beeb55e05cdb5c0c-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:asas-de-frango-x3",
+   "burgerking:asas-de-frango-x6"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/72db9844b463.webp",
+  "stamp": "c66c5d9a3f21"
+ },
+ "burgerking/be43842a5b5d": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/7b5491786d274ddd0c570a887e59eb340614f2fe-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:the-king-ovo-2-carnes"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/23715031b493.webp",
+  "stamp": "f543d95bf5d4"
+ },
+ "burgerking/c2929b52725d": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/78c85a02f613db677ffcb9336fbdfa7de5fd7322-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:duo-bacon-cheddar-crispy"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/c2a7cf758a08.webp",
+  "stamp": "a26b8436ebf9"
+ },
+ "burgerking/c8642e2b9703": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/894b2a26ee910d12d43f4ae495185688de234bf2-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:king-fries-cowboy-classic"
+  ],
+  "status": "rejected",
+  "issue": "\"COM MOLHO RANCH\" badge"
+ },
+ "burgerking/c8e35e0dad6e": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/c32835f913cbf07bf1c76eb5d8fd6866fecdd2e2-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:long-vegetal-spicy"
+  ],
+  "status": "rejected",
+  "issue": "\"SPICY LONG CHICKEN\" headline and leaf badge"
+ },
+ "burgerking/cce17358ccbb": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/7c0fa4c9fd50400f6e8f0f6d11f028ba6fb1bce6-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "issue": "campaign slogan and stripes"
+ },
+ "burgerking/cdb6afa2b831": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/a5c0459916f4cbff26c64211279231347a23b00c-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:triple-whopper-spicy"
+  ],
+  "status": "rejected",
+  "issue": "\"SPICY WHOPPER\" headline"
+ },
+ "burgerking/d0c71fe57280": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/886a37f8dab249cb05ad93f63e8f90e4ded78f96-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:burger-sem-gluten"
+  ],
+  "status": "rejected",
+  "issue": "\"APC\" gluten-free badge; every PT/ES alternative has an APC or gluten-free badge too"
+ },
+ "burgerking/d232f9685c62": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/7b73c9a4f487147555b7bf93d2e8b43d96b486a9-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:brutal-bacon-crispy-2-patties"
+  ],
+  "status": "rejected",
+  "issue": "\"BRUTAL BACON\" headline"
+ },
+ "burgerking/d316f21d4f3f": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/7adad6aec33883597ec3dd5b9f5f9d878a557343-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "issue": "\"KRISPPER\" headline, \"NOVO\" and \"Sabor assado\" badges"
+ },
+ "burgerking/d5211e615e98": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/36f2e47a65ab12c03b768f9c22047f5c64a210cc-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:coca-cola-zero-media"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/014bee818f4f.webp",
+  "stamp": "6b81d1c3da65"
+ },
+ "burgerking/d6da3f14860a": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/b76987503ec4d2ef5354b11a23192b89002e44c3-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:fuze-tea-pessego-medio"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/9ed9b32739b6.webp",
+  "stamp": "08822d3582d1"
+ },
+ "burgerking/dbed7a09c1fc": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e45d3a4743476aa81da88fddebed8569143cf704-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:king-loaded-nuggets-x6",
+   "burgerking:king-loaded-nuggets-x9"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO\" badge"
+ },
+ "burgerking/de1f18fdca96": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/436c8fe3aac16498fd6240d3ff00e5c29ce5665c-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "issue": "campaign slogan and stripes"
+ },
+ "burgerking/e520c6eeedbb": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/9766b973358b04408264c4e4f21a6932f92430ad-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:barbecue",
+   "burgerking:dip-molho-barbecue"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/d3ffff923605.webp",
+  "stamp": "298b1de0babd"
+ },
+ "burgerking/e97124249028": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/35157840eda5555eaa48f75148dd9ad23180e5a5-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:western-xxl-double"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/c79d1509d452.webp",
+  "stamp": "099a72b2a32c"
+ },
+ "burgerking/ee02e280a01e": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/d34f69de7b738da8f3e0450c0f5fed4b9ee0f3ed-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "output": "images/burgerking/4975e891a25e.webp",
+  "stamp": "c9b7db6267e6",
+  "issue": "\"APC\" gluten-free badge (all PT/ES alternatives have a badge too)"
+ },
+ "burgerking/efd0cd713adc": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/ed7d5202b6a4f73b49b2f428b20222bed0197afb-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:brutal-bacon-1-carne"
+  ],
+  "status": "rejected",
+  "issue": "\"BRUTAL BACON\" headline"
+ },
+ "burgerking/f0cfad70d69d": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/bf13cedaf6387c577eb98d8ae6b120dd5e1012db-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:western-xxl-triplo"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/e7459a929670.webp",
+  "stamp": "12521e7df2fe"
+ },
+ "burgerking/f17887c917d2": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/8651a14dda9bd6657464fbc91180d204e37eab3d-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:western-xxl"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/2aa92e045d4c.webp",
+  "stamp": "7eb2a6837180"
+ },
+ "burgerking/f3dbcf7a4347": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/5506ce553d1410d1f76e1ba3b1be4b4584ba726d-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:cone-de-baunilha"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/32175f0a5235.webp",
+  "stamp": "afcdfdce8148"
+ },
+ "burgerking/f6af9dd88570": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/659e62b6ed9bf5d611b111c1e1e955cf68ff23da-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:cbk-2-patties"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/85bec1b1dcdf.webp",
+  "stamp": "c3649d122933"
+ },
+ "burgerking/fba22e971b55": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/557bdf043be95841df79c89ebc223f282e2775ae-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:dip-queso-xxl"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO DIP XXL\" headline"
+ },
+ "burgerking/fbd030ca5773": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/29648f655992beed69447306ff460885587d457b-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:cbk-1-patty"
+  ],
+  "status": "approved",
+  "output": "images/burgerking/e91f4759d04f.webp",
+  "stamp": "85a75ee46095"
+ },
+ "kfc/023b7f842537": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-lotus-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:sundae-lotus-biscoff"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/07953034239a": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-caramelo-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:sundae-caramelo"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/0ba4bfea0cfd": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/burger-veggie-1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:classica-veggie"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/0c9c16bf7bc1": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2022/11/shakes_morango-1920x1080-1.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:shake-morango"
+  ],
+  "status": "approved",
+  "output": "images/kfc/909997a07109.webp",
+  "stamp": "e8f766c2dfb9"
+ },
+ "kfc/1d79943de4c8": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/molho_Honey-Mustard_1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:molho-de-mostarda-e-mel"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/1e734439ba9b": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2026/06/minisundae-morango-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:mini-sundae-morango"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/2693e325ecea": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/Classica-Doble.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:classica-original-double",
+   "kfc:classica-zinger-double"
+  ],
+  "status": "approved",
+  "output": "images/kfc/39a1f6595f4c.webp",
+  "stamp": "70a60ea9422d"
+ },
+ "kfc/2a5bc440ee9f": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2026/06/minisundae-chocolate-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:mini-sundae-chocolate"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/3e0a0e2f2643": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2026/06/BOWL-ARROZ-ASIATICO-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:arroz-asiatico"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/3e131e53a8db": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2019/09/boxmaster-1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:boxmaster-original",
+   "kfc:boxmaster-zinger"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/4152cbcea741": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/DOUBLE-KRUNCH-CLASSICO_Kioskes_1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:double-krunch-classico"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/436b41cc7990": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/2HotWings-1.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:hot-wing-1-un"
+  ],
+  "status": "approved",
+  "output": "images/kfc/d635eb02640c.webp",
+  "stamp": "0a38a2f1642c"
+ },
+ "kfc/4687df7d7509": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2019/09/molho_Smoky-BBQ_1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:molho-smoky-bbq"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/4a3eb677a9d4": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/molho-caesar-kiosk-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:molho-cesar"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/4cc3a6241805": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/TWISTER-Clasico-1920x1080-ALC.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:wrap-classica"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/536afd9dc866": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2019/09/maionese-1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:maionese"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/556681fcc6b9": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/11/molho-coronel-kiosk-1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:molho-coronel"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/559690399bbe": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2026/06/minisundae-caramelo-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:mini-sundae-caramelo"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/59def2c437ef": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/11/wrap-junior-cheese-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:wrap-junior-cheese"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/5aff22d024e9": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-morango-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:sundae-morango"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/5d79285d4388": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2023/05/kream-lotus-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:kream-ball-lotus-biscoff"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/631c55af1242": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2026/06/krunch-classico-1920x1080px-1.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:krunch-classico"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/656214c5b719": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/ketchup-1920x1080px-1.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:ketchup"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/6c6458876e70": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2026/06/minisundae-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:mini-sundae-natura"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/6ea1ac1d3bd6": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2020/03/Gelatina_1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:gelatina"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/7433f00dbde2": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/kentucky-bbq-1920x1080ox.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:kentucky-bbq-original",
+   "kfc:kentucky-bbq-zinger"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/76de224c24c1": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/DOUBLE-KRUNCH-BBQ_Kioskes_1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:double-krunch-bbq"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/7d0223b7103d": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2021/06/Aros-de-Cebola-1.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:aros-de-cebola"
+  ],
+  "status": "approved",
+  "output": "images/kfc/1d17511d940e.webp",
+  "stamp": "52fcf9a2a3ee"
+ },
+ "kfc/819ac4214cf8": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2019/09/Macaroca.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:1-2-macaroca"
+  ],
+  "status": "approved",
+  "output": "images/kfc/c56cd2dd2cfc.webp",
+  "stamp": "b2910112b56b"
+ },
+ "kfc/8aa9bbae8d3e": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/TOWER-SINGLE-NEW_Kioskes1920x1080.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:tower-original",
+   "kfc:tower-zinger"
+  ],
+  "status": "approved",
+  "output": "images/kfc/caa735855823.webp",
+  "stamp": "5b883a6396e9"
+ },
+ "kfc/8bef1f34baf0": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/double-kentucky-bbq-1920x1080ox.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:kentucky-bbq-original-double",
+   "kfc:kentucky-bbq-zinger-double"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/8d96e153f6b1": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/TOWER-DOUBLE-NEW-_Kioskes-1920x1080-1.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:tower-original-double",
+   "kfc:tower-zinger-double"
+  ],
+  "status": "approved",
+  "output": "images/kfc/b74b3a28b5cf.webp",
+  "stamp": "25ec8ed9100b"
+ },
+ "kfc/9a2a1a0055d7": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/11/wrap-junior-classico-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:wrap-junior-classico"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/9f26aacaa8d2": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2023/10/Salada-Emmental_1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:salada-emmental-sem-molho"
+  ],
+  "status": "approved",
+  "output": "images/kfc/5692320e620a.webp",
+  "stamp": "fa2f8294761c"
+ },
+ "kfc/a78e91e032bc": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2019/08/JUNIOR-KRUNCH_Kioskes_1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:burguer-junior"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/ac2fee816668": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2022/11/shakes_caramelo-1920x1080-1.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:shake-caramelo"
+  ],
+  "status": "approved",
+  "output": "images/kfc/24f8c52a044c.webp",
+  "stamp": "edffc33c171d"
+ },
+ "kfc/b01a8855e4c7": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2020/08/profiteroles-1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:profiteroles"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/b050897e0007": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2026/06/sundae-nocilla-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:sundae-nocilla"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/b98dc90c5cde": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/2-Tenders.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:tender-1-un"
+  ],
+  "status": "approved",
+  "output": "images/kfc/35115bbab8a6.webp",
+  "stamp": "05f15e6e13b3"
+ },
+ "kfc/b9dc9e9df13d": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2024/08/wrap-veggie-1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:wrap-veggie"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/baa00db9adae": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-1920x1080px.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:sundae-natura"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/bc5ea4a8c003": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/02/wrap-kentucky-bbq-1920x1980px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:wrap-kentucky-bbq"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/bd4ded59d902": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2019/09/molho_Garlic-Sauce_1920x1080px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:molho-de-alho"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/cf0cf01a5b8f": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/kentuchy-fries-cheddar-1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:kentucky-fries-cheese"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/d472ded8374f": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2019/09/Salada-Snack-_1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:salada-snack"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/d9d57aef450f": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2019/09/molho-cheddar-kiosk-1920x1080px-.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:molho-cheddar-dip"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/dcc67a0e1009": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-chocolate-1920x1080px-1.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:sundae-chocolate"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/e31553502a13": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2023/10/Salada-Coronel-RO-_1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:salada-coronel-sem-molho"
+  ],
+  "status": "rejected",
+  "output": "images/kfc/e69f586ed5e4.webp",
+  "stamp": "fc01432300c0",
+  "issue": "\"Receita Original\" badge"
+ },
+ "kfc/e4c2f745a959": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/02/TWISTER-Sobrado-1920x1080-ALC.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:wrap-o-cheddar"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/e9dec66abe45": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/kentuchy-fries-bbq-1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:kentucky-fries-bbq"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/ea1cf264438d": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/Classica-Single.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:classica-original",
+   "kfc:classica-zinger"
+  ],
+  "status": "approved",
+  "output": "images/kfc/52c3bfb4adb3.webp",
+  "stamp": "c2fd471e790c"
+ },
+ "kfc/ea3d8a9e959f": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/2-tender-veggie-1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:tender-veggie-1-un"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/edf8dced709e": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/02/TWISTER-Coronel-1920x1080-ALC.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:wrap-coronel"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/f12752b85aa6": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/krunch-bbq-1920x1080px-1.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:krunch-bbq"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/f12fe5fcc058": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/novas-batatas-media-kiosk-1920x1080px-copia-1.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:super-batata"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/f50e34b8cd1c": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2021/03/SINGLE_Kioskes_1920x1080px-1.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:o-cheddar-original",
+   "kfc:o-cheddar-zinger"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/f76b5c42a210": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2021/03/DOUBLE_Kioskes_1920x1080px-1.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:o-cheddar-original-double",
+   "kfc:o-cheddar-zinger-double"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/f776dce478a1": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2022/11/Shakes-sueltos-OREO-1920x1080-1.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:shake-oreo"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/f98e9ed82942": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/11/novas-batatas-ktf-kiosk-1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:kentucky-fries-coronel"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/fb74e770c23f": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2025/01/DOUBLE-KRUNCH-CHEESE_Kioskes_1920x1080px.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:double-krunch-cheese"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "kfc/fd4cdd690880": {
+  "source": "https://www.kfc.pt/wp-content/uploads/2022/04/4-Emmental-Bites.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "kfc:emmental-bites"
+  ],
+  "status": "approved",
+  "output": "images/kfc/611b445542cc.webp",
+  "stamp": "f0da1eec8e63"
+ },
+ "mcdonalds/00bc070b0d27": {
+  "source": "https://www.mcdonalds.pt/media/10451/220729_mcdbatatassumo27858.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:batatas-fritas-grandes"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/243b17856ec7.webp",
+  "stamp": "b4b54356ebf1"
+ },
+ "mcdonalds/020a23636e53": {
+  "source": "https://www.mcdonalds.pt/media/10512/kitkat_pequeno-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mini-mcflurry-kitkat"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/1a8c17ed6d93.webp",
+  "stamp": "01dcef66ab3e"
+ },
+ "mcdonalds/033d34f36e01": {
+  "source": "https://www.mcdonalds.pt/media/10464/copos_0000_descafeinado.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:descafeinado"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/d140fd3bd0f4.webp",
+  "stamp": "5e5c234365b6"
+ },
+ "mcdonalds/07b3437965c2": {
+  "source": "https://www.mcdonalds.pt/media/10663/220509_mcd87154_pressel_double_cheese-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:double-cheeseburger"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/996190690a76.webp",
+  "stamp": "2b497736e438"
+ },
+ "mcdonalds/07d3a487a80c": {
+  "source": "https://www.mcdonalds.pt/media/10669/220509_mcd87204-copy_chickenbacon-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:chicken-bacon"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/ef5f640be315.webp",
+  "stamp": "9187b6f8cca7"
+ },
+ "mcdonalds/08dabbbd9da7": {
+  "source": "https://www.mcdonalds.pt/media/10660/190925_mcdonaldsbigtasty70729_2.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:cbo"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/c78301e78731.webp",
+  "stamp": "72e9ff75580c"
+ },
+ "mcdonalds/0af058d3225b": {
+  "source": "https://www.mcdonalds.pt/media/11327/produto_royalcheese_sgluten.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "issue": "gluten-free badge"
+ },
+ "mcdonalds/0b78c68f86cf": {
+  "source": "https://www.mcdonalds.pt/media/10519/mms_pequeno-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mini-mcflurry-m-m-s"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/202f14dc7f75.webp",
+  "stamp": "29298ca3e8a4"
+ },
+ "mcdonalds/0d10e952086e": {
+  "source": "https://www.mcdonalds.pt/media/10452/220729_mcdbatatassumo27859.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:batatas-fritas-medias"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/d64434f745e8.webp",
+  "stamp": "547026f5ca4b"
+ },
+ "mcdonalds/0d8276c48249": {
+  "source": "https://www.mcdonalds.pt/media/10850/produto_gogsqueez.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:polpa-de-fruta"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/8ba12e11de86.webp",
+  "stamp": "b27cb96cceb1"
+ },
+ "mcdonalds/1571d77b28a7": {
+  "source": "https://www.mcdonalds.pt/media/10468/copos_0004_cappuccino.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:cappuccino"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/d5afba579173.webp",
+  "stamp": "10a18ace759b"
+ },
+ "mcdonalds/163d77b03779": {
+  "source": "https://www.mcdonalds.pt/media/10483/testecopos_fanta.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:fanta-laranja-zero-media"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/56ac82e2e1f7.webp",
+  "stamp": "ec7b73d49444"
+ },
+ "mcdonalds/1c245464b495": {
+  "source": "https://www.mcdonalds.pt/media/10488/250227_mcdsok54865.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:compal-classico-pessego"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/e0a226b46540.webp",
+  "stamp": "96ea277383a1"
+ },
+ "mcdonalds/1c57cfc85734": {
+  "source": "https://www.mcdonalds.pt/media/11426/produto_smoky_veggie.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mcveggie-smoky"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO\" and vegetable badges"
+ },
+ "mcdonalds/1ecec7854514": {
+  "source": "https://www.mcdonalds.pt/media/10665/220509_mcd87166-copy_royal_cheese_delux-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mcroyal-cheese"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/6acd2822d61f.webp",
+  "stamp": "3cfdbd60c9f0"
+ },
+ "mcdonalds/1fff4d8e8fe0": {
+  "source": "https://www.mcdonalds.pt/media/1419/009_ketchup-tinified.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:ketchup"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/ec741612cbad.webp",
+  "stamp": "6c8b2c95baf6"
+ },
+ "mcdonalds/213e3b5e9763": {
+  "source": "https://www.mcdonalds.pt/media/10840/220509_mcd87188_cheeseburguer.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:cheeseburger"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/7c608f66b89b.webp",
+  "stamp": "23c1eea5bba4"
+ },
+ "mcdonalds/215723dd3459": {
+  "source": "https://www.mcdonalds.pt/media/10662/220509_mcd87150_pressel_bigmac.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:big-mac"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/e4e09fbdff9d.webp",
+  "stamp": "4b89a2f53bba"
+ },
+ "mcdonalds/21e08e8512e7": {
+  "source": "https://www.mcdonalds.pt/media/1502/004_bolopaolo-tinified.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:bolo-de-aniversario-pao-de-lo"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/44ea73078a0a.webp",
+  "stamp": "4cd6c0b5c8a6"
+ },
+ "mcdonalds/2240ed1fe45e": {
+  "source": "https://www.mcdonalds.pt/media/10511/kitkat_grande-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mcflurry-kitkat"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/308673cc5dac.webp",
+  "stamp": "1dac38306fbc"
+ },
+ "mcdonalds/22803ea1807b": {
+  "source": "https://www.mcdonalds.pt/media/10529/170103_mcmenuboard15501-ok.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:bacon-egg-mcmuffin"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/3a8cc20f5b8d.webp",
+  "stamp": "627b82ff3eb4"
+ },
+ "mcdonalds/234e923f63b9": {
+  "source": "https://mcdonalds.es/api/cms/images/Z4md-ZbqstJ99jCZ_Cheeseburger.png?auto=compress&fm=png&w=600",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "mcdonalds:cheeseburger-sem-gluten"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/dd31daca1275.webp",
+  "stamp": "27857d1423f7"
+ },
+ "mcdonalds/28e6b92261c0": {
+  "source": "https://www.mcdonalds.pt/media/11060/produto_fuzetea_copo-1.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:fuze-tea-pessego-e-hibisco-zero-media"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/6bfdaa9ee9c3.webp",
+  "stamp": "e7d8a066c547"
+ },
+ "mcdonalds/297eea32d626": {
+  "source": "https://www.mcdonalds.pt/media/11403/produto_molhomaionesealho.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:molho-maionese-com-alho"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/ae1827322916.webp",
+  "stamp": "7df2df68af96"
+ },
+ "mcdonalds/2adaa93c3de4": {
+  "source": "https://www.mcdonalds.pt/media/10563/panquecas-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:panqueca",
+   "mcdonalds:panquecas-com-xarope"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/0cc0ab588f6d.webp",
+  "stamp": "dc1fcb19c60c"
+ },
+ "mcdonalds/2d4d253e8cc7": {
+  "source": "https://www.mcdonalds.pt/media/11410/produto_royalbacondouble.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mcroyal-bacon-double"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO\" badge"
+ },
+ "mcdonalds/312c663c6559": {
+  "source": "https://www.mcdonalds.pt/media/10455/250227_mcdchickenwings54732_6wings_sok.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:chicken-wings-6"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/fc0391c6b4af.webp",
+  "stamp": "c74aab9c09e4"
+ },
+ "mcdonalds/35bbc0ed9786": {
+  "source": "https://www.mcdonalds.pt/media/11371/produto_mccrispyhothoney.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mccrispy-hot-honey"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO\" badge and spice drops"
+ },
+ "mcdonalds/35c976d24d96": {
+  "source": "https://www.mcdonalds.pt/media/10481/testecopos_coca_cola.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:coca-cola-grande",
+   "mcdonalds:coca-cola-media",
+   "mcdonalds:coca-cola-pequena"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/efa1715fe4bd.webp",
+  "stamp": "ea7508dff890"
+ },
+ "mcdonalds/37e7849f3cd1": {
+  "source": "https://www.mcdonalds.pt/media/10500/230417_mcdbigmac32289-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:sundae-caramelo"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/c1d04dc92577.webp",
+  "stamp": "3f841573cf64"
+ },
+ "mcdonalds/38304b0c5aea": {
+  "source": "https://www.mcdonalds.pt/media/10493/250403_mcdsok56994_agua-50cl_500x500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:agua-serra-da-estrela"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/fd549f8e9e39.webp",
+  "stamp": "bddf007ffc93"
+ },
+ "mcdonalds/39cf825a4ad9": {
+  "source": "https://www.mcdonalds.pt/media/10499/230417_mcdbigmac32276-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:sundae-chocolate"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/a28e712bf53c.webp",
+  "stamp": "e32e7bbd3f46"
+ },
+ "mcdonalds/3bbb89817ab6": {
+  "source": "https://www.mcdonalds.pt/media/10458/emptyname-329_nuggets-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:chicken-mcnuggets-4"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/c8a08e69c059.webp",
+  "stamp": "3eff8cd8e5f3"
+ },
+ "mcdonalds/3ee0b3423425": {
+  "source": "https://www.mcdonalds.pt/media/11404/produto_molhohothoney.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:molho-hot-honey"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO\" badge and spice drops"
+ },
+ "mcdonalds/4136060bed90": {
+  "source": "https://www.mcdonalds.pt/media/10554/250403_mcdsok56897_panqueca_morango_500x500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:panquecas-com-topping-morango"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/1c1355291745.webp",
+  "stamp": "d1a5d4eefafb"
+ },
+ "mcdonalds/4384818b0663": {
+  "source": "https://www.mcdonalds.pt/media/11328/produto_hamburger_sgluten.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "issue": "gluten-free badge"
+ },
+ "mcdonalds/4429e578e49a": {
+  "source": "https://www.mcdonalds.pt/media/10553/250403_mcdsok56883_croissant_queijo_500x500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:croissant-com-queijo"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/78a54fca1d0c.webp",
+  "stamp": "eb29e2010916"
+ },
+ "mcdonalds/4ed6dc1c0668": {
+  "source": "https://www.mcdonalds.pt/media/10521/oreo_pequeno-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mini-mcflurry-oreo"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/0aa0f04ecf43.webp",
+  "stamp": "c12a70bc2497"
+ },
+ "mcdonalds/4eddb944b535": {
+  "source": "https://www.mcdonalds.pt/media/10695/230728_mcd_abacaxi-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:abacaxi"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/8811027c998e.webp",
+  "stamp": "5d557595c916"
+ },
+ "mcdonalds/5542802fbafa": {
+  "source": "https://www.mcdonalds.pt/media/10530/170103_mcmenuboard15769-ok-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:croissant-misto"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/01e8965d7610.webp",
+  "stamp": "07491ee5f15f"
+ },
+ "mcdonalds/56b8638b0453": {
+  "source": "https://www.mcdonalds.pt/media/10502/230417_sundaemorango-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:sundae-morango"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/a262ed86be64.webp",
+  "stamp": "0425b968e845"
+ },
+ "mcdonalds/5822ac621d8e": {
+  "source": "https://www.mcdonalds.pt/media/10528/170103_mcmenuboard15484-ok-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:tosta-mista"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/fcf67755f41d.webp",
+  "stamp": "7656605ba2cc"
+ },
+ "mcdonalds/5ab5899d855d": {
+  "source": "https://www.mcdonalds.pt/media/11383/molho_bigmac_500x500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:molho-big-mac"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/5ffa7d6635e3.webp",
+  "stamp": "33e6c662f33b"
+ },
+ "mcdonalds/5db2157b3770": {
+  "source": "https://www.mcdonalds.pt/media/10556/250403_mcdsok56945_panqueca_chocolate_500x500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:panquecas-com-topping-chocolate"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/3c6d1006f7e5.webp",
+  "stamp": "902604a4db47"
+ },
+ "mcdonalds/5dde2355445e": {
+  "source": "https://www.mcdonalds.pt/media/10485/testecopos_sumol.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:sumol-ananas-grande",
+   "mcdonalds:sumol-ananas-medio",
+   "mcdonalds:sumol-ananas-pequeno"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/b929d5594a18.webp",
+  "stamp": "e9dd8b451b74"
+ },
+ "mcdonalds/6290e53a7a3d": {
+  "source": "https://www.mcdonalds.pt/media/10555/250403_mcdsok56921_panqueca_caramelo_500x500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:panquecas-com-topping-caramelo"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/c7df9f4fc040.webp",
+  "stamp": "604efc7bba6b"
+ },
+ "mcdonalds/667e8c82e98f": {
+  "source": "https://www.mcdonalds.pt/media/10694/vegiie-happy-meal-sok_1.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:veggie-burger"
+  ],
+  "status": "rejected",
+  "issue": "vegetable badge"
+ },
+ "mcdonalds/69cc499a4ae3": {
+  "source": "https://www.mcdonalds.pt/media/10700/240912_mcdsok48748_salada_mista-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:salada-mista-sem-molho"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/9e7b3defc33d.webp",
+  "stamp": "ae8923b196bf"
+ },
+ "mcdonalds/6f9055038b8b": {
+  "source": "https://www.mcdonalds.pt/media/10453/240711_mcdbatatasok47293.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:batatas-fritas-pequenas"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/b371fb1783e5.webp",
+  "stamp": "030691142300"
+ },
+ "mcdonalds/703087cb7b68": {
+  "source": "https://www.mcdonalds.pt/media/10482/testecopos_coca_cola_zero.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:coca-cola-zero-media"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/a7f2dca425d4.webp",
+  "stamp": "bd3fed64df38"
+ },
+ "mcdonalds/7277a901d8d6": {
+  "source": "https://www.mcdonalds.pt/media/10440/thumbnail_copos_0000_cafe_gelado_500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:cafe-com-gelado"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/92fcd8bf71f4.webp",
+  "stamp": "29a5f14e10d2"
+ },
+ "mcdonalds/73b3f5dbba26": {
+  "source": "https://www.mcdonalds.pt/media/11425/produto_10mcnuggets_veggie.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:veggie-nuggets-10"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO\" and vegetable badges"
+ },
+ "mcdonalds/74800c583eb4": {
+  "source": "https://www.mcdonalds.pt/media/9005/240415_mcdsaladassok109032_pesto.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:vinagrete-de-pesto"
+  ],
+  "status": "rejected",
+  "issue": "white background, not transparent"
+ },
+ "mcdonalds/79546f3339c2": {
+  "source": "https://www.mcdonalds.pt/media/10536/181009_mccafesok68064_cookie-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:cookie-com-pepitas-de-chocolate"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/8771dbf7c403.webp",
+  "stamp": "a864bdcb545c"
+ },
+ "mcdonalds/7af0e173c1e8": {
+  "source": "https://www.mcdonalds.pt/media/10664/220509_mcd87158_pressel_mcroyal_deluxe-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mcroyal-deluxe"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/c22d59a31b30.webp",
+  "stamp": "c25c7e319dfa"
+ },
+ "mcdonalds/7b6223265ea6": {
+  "source": "https://www.mcdonalds.pt/media/10462/copos_0000_cafe-com-leite.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:meia-de-leite"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/e833f3834a33.webp",
+  "stamp": "bd4a1e38fade"
+ },
+ "mcdonalds/7bfa00ebf6a3": {
+  "source": "https://www.mcdonalds.pt/media/11370/produto_mccrispycheddarbacon.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mccrispy-cheddar-bacon"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO\" badge"
+ },
+ "mcdonalds/7c1b2d788b08": {
+  "source": "https://www.mcdonalds.pt/media/1417/007_molhocaesar-tinified.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:molho-caesar"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/dc8e65d44fe8.webp",
+  "stamp": "511bc2467218"
+ },
+ "mcdonalds/7f482fee193a": {
+  "source": "https://www.mcdonalds.pt/media/10839/220509_mcd87193_simples_edit2_500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:hamburger"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/b65ef35cada7.webp",
+  "stamp": "4b52f53ac450"
+ },
+ "mcdonalds/819b55e5248b": {
+  "source": "https://www.mcdonalds.pt/media/10518/mms_grande-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mcflurry-m-m-s"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/fb9d84f1c66e.webp",
+  "stamp": "91b2969acaa8"
+ },
+ "mcdonalds/82e8caa4b743": {
+  "source": "https://www.mcdonalds.pt/media/11070/produto_sopa_feijaoverde.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:sopa-de-feijao-verde"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/120516cfbd92.webp",
+  "stamp": "74f07822fea0"
+ },
+ "mcdonalds/85b305265bd9": {
+  "source": "https://www.mcdonalds.pt/media/10661/200121_sok_mcdbigtasty7694_1_double.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:big-tasty-double"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/93a253797df5.webp",
+  "stamp": "8891228e37a9"
+ },
+ "mcdonalds/86f040908053": {
+  "source": "https://www.mcdonalds.pt/media/10668/220509_mcd87199-copy_mcchicken-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mcchicken"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/0b7a9b8149d1.webp",
+  "stamp": "ae5d73154ece"
+ },
+ "mcdonalds/8706aaa1ae7e": {
+  "source": "https://www.mcdonalds.pt/media/10692/sok_deluxbacon_02_b_acrescentopao_500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mcroyal-bacon"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/47635664d87d.webp",
+  "stamp": "bda9a003c1fd"
+ },
+ "mcdonalds/87cc67e15d15": {
+  "source": "https://www.mcdonalds.pt/media/10680/bigtasty_single_sok.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:big-tasty-single"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/5d9bf6c1e7d1.webp",
+  "stamp": "94ba48902943"
+ },
+ "mcdonalds/8a403785261f": {
+  "source": "https://www.mcdonalds.pt/media/10520/oreo_grande-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mcflurry-oreo"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/0e2a2d4bd66a.webp",
+  "stamp": "42522187d741"
+ },
+ "mcdonalds/8d18a2918c0d": {
+  "source": "https://www.mcdonalds.pt/media/10456/250227_mcdchickenwings54781_nuggets_v2.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:chicken-mcnuggets-10"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/5f7ec157f0b1.webp",
+  "stamp": "f3b35aca8008"
+ },
+ "mcdonalds/8fe1d2cff70b": {
+  "source": "https://mcdonalds.es/api/cms/images/Z4meAZbqstJ99jCh_Cuarto-de-Libra.png?auto=compress&fm=png&w=600",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "mcdonalds:mcroyal-cheese-sem-gluten"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/78be4f3a6774.webp",
+  "stamp": "407cafb69637"
+ },
+ "mcdonalds/93ea30666295": {
+  "source": "https://www.mcdonalds.pt/media/10697/240912_mcdsok48763_tarte_maca-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:tarte-de-maca"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/061842047d95.webp",
+  "stamp": "4491d6de5b6c"
+ },
+ "mcdonalds/94b923ed9a41": {
+  "source": "https://www.mcdonalds.pt/media/10701/mcd_salada_atum.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:salada-atum-pasta"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/577335585cb6.webp",
+  "stamp": "216672b5b4f3"
+ },
+ "mcdonalds/9623ffc4f86f": {
+  "source": "https://www.mcdonalds.pt/media/11329/produto_doublecheese_sgluten.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "issue": "gluten-free badge"
+ },
+ "mcdonalds/986cb824991a": {
+  "source": "https://www.mcdonalds.pt/media/10449/20_nuggets_menu.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:chicken-mcnuggets-20"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/690235d32040.webp",
+  "stamp": "548c9d795bf8"
+ },
+ "mcdonalds/98b114c0e827": {
+  "source": "https://mcdonalds.es/api/cms/images/Z4meBJbqstJ99jCk_HamburguesaHappyMeal.png?auto=compress&fm=png&w=600",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "mcdonalds:hamburger-sem-gluten"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/59c007863429.webp",
+  "stamp": "d797764781a7"
+ },
+ "mcdonalds/9f3b7a777dad": {
+  "source": "https://www.mcdonalds.pt/media/10552/250403_mcdsok56869_croissant_fiambre_500x500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:croissant-com-fiambre"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/62449240418d.webp",
+  "stamp": "381ed13fbe8d"
+ },
+ "mcdonalds/a6d44b365c61": {
+  "source": "https://www.mcdonalds.pt/media/1503/005_bolobrigadeiro-tinified.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:bolo-de-aniversario-brigadeiro"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/4229fc3f8396.webp",
+  "stamp": "7d4b0d69276c"
+ },
+ "mcdonalds/a9ef8fd9f006": {
+  "source": "https://www.mcdonalds.pt/media/11326/produto_royaldeluxe_sgluten.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "issue": "gluten-free badge"
+ },
+ "mcdonalds/b21a9972c242": {
+  "source": "https://mcdonalds.es/api/cms/images/Z4md95bqstJ99jCX_Cheeseburger-doble.png?auto=compress&fm=png&w=600",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "mcdonalds:double-cheeseburger-sem-gluten"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/a30d8d004fa7.webp",
+  "stamp": "45de0be186c3"
+ },
+ "mcdonalds/b3c2750c15b2": {
+  "source": "https://www.mcdonalds.pt/media/10652/250227_mcdsok54878.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:vinagrete"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/0a10ff4faed8.webp",
+  "stamp": "fed6e3926988"
+ },
+ "mcdonalds/bb0307d2c7d9": {
+  "source": "https://www.mcdonalds.pt/media/10526/170103_mcmenuboard15463-ok-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:meia-torrada-com-manteiga"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/03ffe6c5c33f.webp",
+  "stamp": "c255accff1cc"
+ },
+ "mcdonalds/bdbbf68c9e37": {
+  "source": "https://www.mcdonalds.pt/media/11073/produto_sopa_cenoura.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:creme-de-cenoura"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/9e1c47959e4c.webp",
+  "stamp": "1f6213860f89"
+ },
+ "mcdonalds/bf070610394b": {
+  "source": "https://www.mcdonalds.pt/media/10687/mcd_bigarch_largebeef_sok-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:big-arch"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/603ad274d84b.webp",
+  "stamp": "1c20dcbc8de5"
+ },
+ "mcdonalds/bfe3ac937efa": {
+  "source": "https://www.mcdonalds.pt/media/11373/produto_wrapcheddarbacon.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:snack-wrap-cheddar-bacon"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO\" badge"
+ },
+ "mcdonalds/c4451997b608": {
+  "source": "https://www.mcdonalds.pt/media/10682/emptyname-193_foco_merged-ok_wrap_ranch-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:snack-wrap-mayo"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/10f6ec5eb7ac.webp",
+  "stamp": "e1ce739ee319"
+ },
+ "mcdonalds/c6b8787bf9da": {
+  "source": "https://www.mcdonalds.pt/media/10492/250227_mcdsok54873.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:um-bongo-8-frutos"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/4a33b604a88b.webp",
+  "stamp": "194291a14934"
+ },
+ "mcdonalds/c753f001452a": {
+  "source": "https://www.mcdonalds.pt/media/1533/001_hashbrown-tinified.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:hash-brown-so-aeroporto-t1-t2"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/975d33be0aed.webp",
+  "stamp": "f0b28871650d"
+ },
+ "mcdonalds/c76563ae38f0": {
+  "source": "https://www.mcdonalds.pt/media/10489/250227_mcdsok54866.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:compal-classico-laranja-do-algarve"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/bd35d450b8b2.webp",
+  "stamp": "09a542b91b29"
+ },
+ "mcdonalds/c9e8dc40d181": {
+  "source": "https://www.mcdonalds.pt/media/11399/produto_wraphothoney.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:snack-wrap-hot-honey"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO\" badge and spice drops"
+ },
+ "mcdonalds/cbd39c392113": {
+  "source": "https://www.mcdonalds.pt/media/11330/produto_cheeseburger_sgluten.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "issue": "gluten-free badge"
+ },
+ "mcdonalds/d0107051ad54": {
+  "source": "https://www.mcdonalds.pt/media/11401/produto_molhoagridoce.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:molho-agridoce"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/7ba94d83067c.webp",
+  "stamp": "7b1c48e41d59"
+ },
+ "mcdonalds/d9acc17f615d": {
+  "source": "https://www.mcdonalds.pt/media/11402/produto_molhobarbecue.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:molho-barbecue"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/c4c463cafa77.webp",
+  "stamp": "00b904d97301"
+ },
+ "mcdonalds/dc0641d09b43": {
+  "source": "https://www.mcdonalds.pt/media/10459/mcd_chicken_sharebox_500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:chicken-share-box"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/fe5009effdcd.webp",
+  "stamp": "ebbe53a6997e"
+ },
+ "mcdonalds/dc5622a74909": {
+  "source": "https://www.mcdonalds.pt/media/10523/snickers_pequeno-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mini-mcflurry-snickers"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/8bc6072ea1fd.webp",
+  "stamp": "e86f242f155f"
+ },
+ "mcdonalds/dd66a545b506": {
+  "source": "https://www.mcdonalds.pt/media/10674/240829_mcdjoanamarques_crispy_original_sok-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mccrispy-original"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/075628341260.webp",
+  "stamp": "7448ac94c992"
+ },
+ "mcdonalds/deb83c1c45c2": {
+  "source": "https://www.mcdonalds.pt/media/10538/181009_mccafesok68219_croissant-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:croissant-simples"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/769f832097e1.webp",
+  "stamp": "2d865b16a6ae"
+ },
+ "mcdonalds/dedd69637ec3": {
+  "source": "https://mcdonalds.es/api/cms/images/ah6vWQeQX7-eWil8_bigMac-listing.png?auto=compress&fm=png&w=600",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "mcdonalds:big-mac-sem-gluten"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/774db31b2756.webp",
+  "stamp": "6875798bf41b"
+ },
+ "mcdonalds/e08372d10363": {
+  "source": "https://www.mcdonalds.pt/media/10487/250227_mcdsok54863.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:compal-vital-equilibrio-manga-laranja"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/dfc79e9443cc.webp",
+  "stamp": "7af86f848ce5"
+ },
+ "mcdonalds/e134f64c6c69": {
+  "source": "https://www.mcdonalds.pt/media/11087/produto_sopa_caldoverde-1.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:sopa-caldo-verde"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/cc258c789ac3.webp",
+  "stamp": "32b2288f5217"
+ },
+ "mcdonalds/e216baf197bb": {
+  "source": "https://www.mcdonalds.pt/media/10522/snickers_grande-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mcflurry-snickers"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/df5b2ec55d0b.webp",
+  "stamp": "7d046e36d6f0"
+ },
+ "mcdonalds/e2b80f418a03": {
+  "source": "https://www.mcdonalds.pt/media/10466/copos_0002_leite.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:leite"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/c257ccff4c0a.webp",
+  "stamp": "d4c7469c3b2f"
+ },
+ "mcdonalds/e36cb21a46bf": {
+  "source": "https://www.mcdonalds.pt/media/11424/produto_4mcnuggets_veggie.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:veggie-nuggets-4"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO\" and vegetable badges"
+ },
+ "mcdonalds/e68d044ad289": {
+  "source": "https://www.mcdonalds.pt/media/10703/mcd_salada_fetapasta_plastico_500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:salada-feta-pasta"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/e1758714534f.webp",
+  "stamp": "4f05c8c751a3"
+ },
+ "mcdonalds/e79712312b10": {
+  "source": "https://www.mcdonalds.pt/media/10498/230417_mcdbigmac32243-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:sundae-natura"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/ba33649361bb.webp",
+  "stamp": "c9293148a16b"
+ },
+ "mcdonalds/e7e775abb20b": {
+  "source": "https://www.mcdonalds.pt/media/10450/190201_mcdeuropoupanca61319-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:chicken-delights"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/9a466420e9b2.webp",
+  "stamp": "6ab280fff2fe"
+ },
+ "mcdonalds/e9ddc05311cb": {
+  "source": "https://www.mcdonalds.pt/media/11400/produto_molhoparabatatas.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:molho-para-batatas"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/bdece89e2798.webp",
+  "stamp": "1f9f22328a79"
+ },
+ "mcdonalds/eba551a5fee7": {
+  "source": "https://www.mcdonalds.pt/media/1450/005_saladacaesarchicken-tinified.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:salada-caesar-chicken-crispy-sem-molho-e-croutons",
+   "mcdonalds:salada-caesar-chicken-grilled-sem-molho-e-croutons"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/485bb6c5f76f.webp",
+  "stamp": "b83a3285dcdb"
+ },
+ "mcdonalds/eba65abb2ee2": {
+  "source": "https://mcdonalds.es/api/cms/images/Z4meFJbqstJ99jC0_McRoyal-Deluxe.png?auto=compress&fm=png&w=600",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "mcdonalds:mcroyal-deluxe-sem-gluten"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/64f043529fd8.webp",
+  "stamp": "3f9aca6cc638"
+ },
+ "mcdonalds/ed0dd3f6abcb": {
+  "source": "https://www.mcdonalds.pt/media/10467/copos_0003_leite-com-chocolate.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:leite-com-chocolate"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/e0761c701b69.webp",
+  "stamp": "116f0b0c0c06"
+ },
+ "mcdonalds/f1333a817465": {
+  "source": "https://www.mcdonalds.pt/media/10454/250227_mcdchickenwings54697_3wings_sok.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:chicken-wings-3"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/8335cc94bbfe.webp",
+  "stamp": "4725b2ff12b4"
+ },
+ "mcdonalds/f2fb10e3ab06": {
+  "source": "https://www.mcdonalds.pt/media/10465/copos_0001_cha.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:cha-preto",
+   "mcdonalds:cha-verde",
+   "mcdonalds:infusao-de-camomila"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/fc739abf4d7d.webp",
+  "stamp": "b2b461e9fb3a"
+ },
+ "mcdonalds/f32cf2c959be": {
+  "source": "https://www.mcdonalds.pt/media/10691/royal_veggie_sok_1.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mcveggie"
+  ],
+  "status": "rejected",
+  "issue": "vegetable badge"
+ },
+ "mcdonalds/f391283bed27": {
+  "source": "https://www.mcdonalds.pt/media/10696/230728_mcd_maca-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:maca-fatiada"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/6420a2ffdcfe.webp",
+  "stamp": "edbe33f06972"
+ },
+ "mcdonalds/f3dfb098ab28": {
+  "source": "https://www.mcdonalds.pt/media/11385/produto_sundaepistachio.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:sundae-pistachio"
+  ],
+  "status": "rejected",
+  "issue": "\"NOVO\" badge"
+ },
+ "mcdonalds/f42fd2a4368d": {
+  "source": "https://www.mcdonalds.pt/media/10463/copos_0000_cafe.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:cafe-expresso"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/4ba5ae74e3ea.webp",
+  "stamp": "cb3dcb8dbcd7"
+ },
+ "mcdonalds/f46a040915dd": {
+  "source": "https://www.mcdonalds.pt/media/11331/produto_bigmac_sgluten.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [],
+  "status": "rejected",
+  "issue": "gluten-free badge"
+ },
+ "mcdonalds/f7b54f917487": {
+  "source": "https://www.mcdonalds.pt/media/10461/copos_0000_abatanado_v1_500px.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:cafe-americano"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/2d00511132d9.webp",
+  "stamp": "968d42de6628"
+ },
+ "mcdonalds/f7dc4cd50a5d": {
+  "source": "https://www.mcdonalds.pt/media/10698/170103_mcmenuboard56301-ok_cenouras-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:mini-cenouras"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/2e380cf527a4.webp",
+  "stamp": "d2020f04a54c"
+ },
+ "mcdonalds/fcf010b13aa2": {
+  "source": "https://www.mcdonalds.pt/media/10527/170103_mcmenuboard15478-ok-copy.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "mcdonalds:torrada-com-manteiga"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/4449c747ba0d.webp",
+  "stamp": "8e0e32b79877"
+ },
+ "pans/07461db5e5ec": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_pasta_atum.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-pasta-de-atum"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/12606c1eb6a2": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_arty_club_pans.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-club"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/14790b7e21cb": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_frango.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-frango"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/18b60a076b03": {
+  "source": "https://www.pans.pt/wp-content/uploads/veggie_heura_trufado.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-de-heura-trufada"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/1f676cd6dae5": {
+  "source": "https://www.pans.pt/wp-content/uploads/singles_mozzarella_pesto_pinsa.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-mozzarella-pesto"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/293f9574fa2e": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_delicias_do_mar.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-pasta-de-delicias"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/2c0b19d0904a": {
+  "source": "https://www.pans.pt/wp-content/uploads/glutenfree-lqb.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:lbq-sem-gluten"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/33b03b15b824": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_lombo_raclette.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-de-lombo-raclette"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/3fa4fca8479e": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_inglesa.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-inglesa"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/47ce56a01df4": {
+  "source": "https://www.pans.pt/wp-content/uploads/veggie_crocante_heura.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-heura-crocante"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/4cc07dd69a4f": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_crocante_frango.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-frango-crocante"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/4fd8e0270171": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_pulled-1.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-pulled-pork-bbq"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/63b89ff7a05b": {
+  "source": "https://www.pans.pt/wp-content/uploads/veggie_humus_beterraba.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-de-hummus-beterraba"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/7a45a752992d": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_frango_supreme.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-supremo-de-frango-pao-gran-reserva"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/a24e77dbd6f6": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_POLLO_BRIE_TRUFADO.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-de-frango-brie-trufada"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/a9575b424c87": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_lqb.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-lombo-queijo-e-bacon"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/ae292cf15bb9": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_IBERICO-1.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-de-presunto-iberico"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/c7d230b2d12a": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_arty_frango_crispy.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-de-frango-crispy-bbq"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/d2634904fb39": {
+  "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_COMPLEMENTOS_POSTRES_sopa.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:creme-de-abobora",
+   "pans:creme-de-agriao"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/d4f49cd9ce9e": {
+  "source": "https://www.pans.pt/wp-content/uploads/singles_presunto_brie.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-presunto-brie"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/d73375f079e1": {
+  "source": "https://www.pans.pt/wp-content/uploads/glutenfree-inglesa.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:inglesa-sem-gluten"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/e80dca3a7a84": {
+  "source": "https://www.pans.pt/wp-content/uploads/tosta_mista.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:1-2-tosta-mista",
+   "pans:tosta-mista-pao-saloio"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/f6d8c3bda2a0": {
+  "source": "https://www.pans.pt/wp-content/uploads/torrada_inteira.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:torrada-pao-saloio"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pans/f8f54dbb469e": {
+  "source": "https://www.pans.pt/wp-content/uploads/singles_salmao_abacate_pinsa.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pans:sande-salmao-abacate-pinsa"
+  ],
+  "status": "rejected",
+  "issue": "photographed on a table/background, not transparent"
+ },
+ "pizzahut/0c1e1fdc992f": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/asas_de_frango_380x218_11439722176825b2f52c1f5.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:asas-de-frango-sem-molho"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/110af86b5be6": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/batascountry_3q_bacon_mobile_set23_600x400px_01_96139953565031ff7e9cec.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:batatas-country-com-queijo-e-bacon",
+   "pizzahut:batatas-rusticas-com-queijo-e-bacon"
+  ],
+  "status": "rejected",
+  "output": "images/pizzahut/42d96a31ba0b.webp",
+  "stamp": "0892d84b6ca6",
+  "issue": "\"NO FORNO\" badge"
+ },
+ "pizzahut/1ae13bfc2e78": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_cheeseham_114081744368fe5477bde49.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:cheeseham-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/1be08a5b6556": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_carbonara_16032158226a2fdcdc294ce.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:carbonara-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/2ba6a4f28f0d": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_margarita_vegan_80039419067813190e93bf.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:margarita-vegan-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/3862e2c74b0d": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_salada_chicken_garden_1211508696a3a3b35c4f82.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:salada-chicken-garden"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/3c534c8a03a9": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_serrana_84041800467813203c87ac.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:serrana-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/425222a1fb32": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_margarita_15018538916788dd861023f.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:base-margarita-pan-media-fatia",
+   "pizzahut:base-margarita-sao-francisco-media-fatia",
+   "pizzahut:base-margarita-stuffed-crust-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/44bec3fb05e4": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/lasanha_2_recorte_171_5894590255a7b4806fefb.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:lasanha-de-carne"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/450396c612c2": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/pa_supremo_38801001460ef04d560f89.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:pao-de-alho-supremo-un"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/59aacc41486b": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/burger_lovers_400x400px_7661274467fd22f91d90a.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:burger-lovers-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/627c92df369d": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_pepperoni_lovers_474239786678142713c9fe.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:pepperoni-lovers-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/657593d2ce47": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/pa_bacon_4549964645d9f1f6e870f1.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:pao-de-alho-com-bacon-un"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/6856e154b965": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_hot_chicken_fiesta_21249201836a2fdde7517dc.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:hot-chicken-fiesta-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/8fb408346b06": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_tropical_10774663326781338bae688.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:tropical-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/96abd5f2f3a9": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_aloha_vegan_12776555836a2fdd4cae5ee.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:aloha-vegan-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/99fe3c164d00": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/salada_rustica_corte_1392543791667ad05ca2d60.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:salada-rustica"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/9ff4a3fae72b": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_havaiana_2135426398678142f065e5f.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:havaiana-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/ab6c88b03ad8": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/box_prof_16492734425fc9241268885.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:profiteroles"
+  ],
+  "status": "approved",
+  "output": "images/pizzahut/c830bc680b13.webp",
+  "stamp": "26b0a4be4df1"
+ },
+ "pizzahut/b4efb121f457": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_pepperoni_hot_honey_123611366678141d8e9ffd.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:original-hot-honey-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/b8ac97f8ba15": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_veggie_lovers_21143133916a2fdd84af961.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:veggie-lovers-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/c632de63891b": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_bacon_lovers_1737869157678132b74b1a7.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:bacon-lovers-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/caac6e5ac181": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_camponesa_1879330981678132d56e7e9.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:camponesa-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/cf4e84a49dd8": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_chicken_carbonara_11272621586a2fdcf421f92.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:chicken-carbonara-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/dd5046ff8c8a": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/salada_do_campo_corte_943581284667ad08a20f71.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:salada-do-campo"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/df32a5ac0053": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_crispy_chicken_supreme_20770281236781429d1a41a.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:crispy-chicken-supreme-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/ec87d7dc1f3c": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_portuguesa_2056403739678142444af9d.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:portuguesa-media-fatia"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/f5d1d7bc9eaf": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/batatas_country_106048699455afb3c3cba88.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:batatas-country",
+   "pizzahut:batatas-rusticas"
+  ],
+  "status": "approved",
+  "output": "images/pizzahut/d720c3984cf9.webp",
+  "stamp": "50efd3700225"
+ },
+ "pizzahut/f971b1b084e1": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_chicken_fillet_12475694196a44e1ef68e85.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:chicken-fillets-sem-molho"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "pizzahut/faf4f0231857": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/pa_simples_15631508635d9f1f5443fea.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:pao-de-alho-simples-un"
+  ],
+  "status": "rejected",
+  "issue": "cropped photo on white, not an isolated transparent product"
+ },
+ "tacobell/07421889e878": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2026/03/caramel-apple.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:empanada-de-maca"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/0e7a07be0ef8": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2025/02/taconomicos_wrap_slider.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:wrap-slider-com-carne-picada"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/10b0edda73e9": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-arroz.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:arroz-mexicano"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/1189b9584705": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2024/04/tacobell-burritos-quesarito-bacon.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:quesarito-bacon-com-frango-assado"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/1363a6bc8e11": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2026/09/burrito-xl.webp",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:burrito-xxl-com-carne-picada",
+   "tacobell:burrito-xxl-com-frango-assado"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/1a51c6aaaad9": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2024/06/BC_Chicken_Burrito_500x600.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:bacon-cheesy-chicken-burrito-com-frango-crocante"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/1b4d1f895fda": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_tacabell.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:taca-bell-chocolate"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/1b98aa57aec0": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2025/02/taconomicos_tacabell.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:mini-taca-bell-chocolate"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/2140223e4434": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-crunchywrap.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:crunchwrap-supreme-com-carne-picada",
+   "tacobell:crunchwrap-supreme-com-frango-assado",
+   "tacobell:crunchwrap-supreme-com-proteina-veggie"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/252ff28a989c": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-burritos-san-diego.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:burrito-san-diego-com-carne-picada",
+   "tacobell:burrito-san-diego-com-frango-assado",
+   "tacobell:burrito-san-diego-com-proteina-veggie"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/28f523398420": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_cerveja.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:cerveja-super-bock"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/31461333e3a4": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_taco-soft.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:soft-taco-com-carne-picada",
+   "tacobell:soft-taco-com-frango-assado",
+   "tacobell:soft-taco-com-frango-picante",
+   "tacobell:soft-taco-com-proteina-veggie",
+   "tacobell:soft-taco-com-veggie-feijao"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/319a07924bdb": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2025/02/taconomicos_batatas.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:batatas-mexican-grandes",
+   "tacobell:batatas-mexican-medias",
+   "tacobell:batatas-mexican-pequenas"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/35c1a12c68db": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2025/08/tb_creamy_bell.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:creamy-bell-pistachio"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/384d110e5775": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-burritos-quesarito2.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:mas-quesarito-com-carne-picada",
+   "tacobell:quesarito-com-carne-picada",
+   "tacobell:quesarito-com-frango-assado",
+   "tacobell:quesarito-com-proteina-veggie"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/393010073e0f": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_chocadilla-1.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:chocadilla-de-kit-kat"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/4355d9a65e34": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_taca-lupita.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:taquito-lupita"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/4b55d3e42cea": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_taco-crunchy-supreme.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:crunchy-taco-supreme-com-carne-picada",
+   "tacobell:crunchy-taco-supreme-com-frango-assado"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/541c909f894c": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2022/12/tacobell-menu-gran-burrito.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:gran-burrito-com-carne-picada",
+   "tacobell:gran-burrito-com-frango-assado",
+   "tacobell:gran-burrito-com-frango-picante",
+   "tacobell:gran-burrito-com-proteina-veggie"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/5b6d8aa1442e": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2025/02/taconomicos_chicken_nachos.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:chicken-nachos-sem-molhos-4-un",
+   "tacobell:chicken-nachos-sem-molhos-6-un"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/5f9e0a91f774": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_cone_bell.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:cone-bell"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/74acae0533ba": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2024/04/chocoball.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:chocoball"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/7b744db73e37": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-complementos-nachos-fire.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:nachos-fire"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/942eb87f4111": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2024/06/BC_CBCrunchyweap_500x600.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:bacon-cheesy-crunchwrap-com-frango-assado"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/a0e79973f48b": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-complementos-top-fries.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:bacon-top-fries"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/a6e6109c8cb3": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-burritos-chicken.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:chicken-burrito-com-frango-crocante"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/ab7827e22c8f": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_taco-crunchy.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:crunchy-taco-com-carne-picada",
+   "tacobell:crunchy-taco-com-frango-assado",
+   "tacobell:crunchy-taco-com-frango-picante",
+   "tacobell:crunchy-taco-com-proteina-veggie"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/b2e40230f183": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-complementos-nachos-bell.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:nachos-bell-com-carne-picada",
+   "tacobell:nachos-bell-com-frango-picante"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/bc9e4fa53569": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_refrigerantes.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:ice-tea-limao",
+   "tacobell:pepsi",
+   "tacobell:pepsi-max",
+   "tacobell:seven-up"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/cb53d15c40aa": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2025/02/taconomicos_chicken_taco.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:chicken-taco-com-frango-crocante"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/d14306329844": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2025/02/taconomicos_cheesyburrito.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:cheesy-burrito-com-carne-picada"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/ea3bee945f00": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_taco-soft-supreme.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:soft-taco-supreme-com-carne-picada",
+   "tacobell:soft-taco-supreme-com-frango-assado"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ },
+ "tacobell/fe00d3a8b2d0": {
+  "source": "https://www.tacobell.pt/wp-content/uploads/2017/05/tacobell-quesadilla.jpg",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "tacobell:mini-quesadilla-com-carne-picada",
+   "tacobell:mini-quesadilla-com-frango-assado",
+   "tacobell:quesadilla-com-carne-picada",
+   "tacobell:quesadilla-com-frango-assado",
+   "tacobell:quesadilla-com-frango-picante",
+   "tacobell:quesadilla-com-proteina-veggie",
+   "tacobell:quesadilla-de-queijo"
+  ],
+  "status": "rejected",
+  "issue": "lifestyle photo (hands, table, scene), no transparent background"
+ }
+}

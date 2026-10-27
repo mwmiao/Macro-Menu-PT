@@ -1,6 +1,6 @@
 {
   "_base": "https://www.mcdonalds.pt/media/",
-  "_note": "mcdonalds.pt refuses scripted downloads; these are fetched in a browser on the site and saved as images/mcdonalds/<id>.webp (see README).",
+  "_note": "mcdonalds.pt refuses scripted downloads; its photos were fetched in a browser on the site and saved as tools/image-originals/mcdonalds/<id>.webp, which fetch-images.mjs then reuses.",
   "Hamburger": "10839/220509_mcd87193_simples_edit2_500px.png",
   "Cheeseburger": "10840/220509_mcd87188_cheeseburguer.png",
   "Double Cheeseburger": "10663/220509_mcd87154_pressel_double_cheese-copy.png",
@@ -33,12 +33,36 @@
   "Veggie Burger": "10694/vegiie-happy-meal-sok_1.png",
   "Veggie Nuggets (4)": "11424/produto_4mcnuggets_veggie.png",
   "Veggie Nuggets (10)": "11425/produto_10mcnuggets_veggie.png",
-  "Hamburger sem glúten": "11328/produto_hamburger_sgluten.png",
-  "Cheeseburger sem glúten": "11330/produto_cheeseburger_sgluten.png",
-  "Double Cheeseburger sem glúten": "11329/produto_doublecheese_sgluten.png",
-  "Big Mac® sem glúten": "11331/produto_bigmac_sgluten.png",
-  "McRoyal® Deluxe sem glúten": "11326/produto_royaldeluxe_sgluten.png",
-  "McRoyal® Cheese sem glúten": "11327/produto_royalcheese_sgluten.png",
+  "Hamburger sem glúten": {
+    "url": "https://mcdonalds.es/api/cms/images/Z4meBJbqstJ99jCk_HamburguesaHappyMeal.png?auto=compress&fm=png&w=600",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Cheeseburger sem glúten": {
+    "url": "https://mcdonalds.es/api/cms/images/Z4md-ZbqstJ99jCZ_Cheeseburger.png?auto=compress&fm=png&w=600",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Double Cheeseburger sem glúten": {
+    "url": "https://mcdonalds.es/api/cms/images/Z4md95bqstJ99jCX_Cheeseburger-doble.png?auto=compress&fm=png&w=600",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Big Mac® sem glúten": {
+    "url": "https://mcdonalds.es/api/cms/images/ah6vWQeQX7-eWil8_bigMac-listing.png?auto=compress&fm=png&w=600",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "McRoyal® Deluxe sem glúten": {
+    "url": "https://mcdonalds.es/api/cms/images/Z4meFJbqstJ99jC0_McRoyal-Deluxe.png?auto=compress&fm=png&w=600",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "McRoyal® Cheese sem glúten": {
+    "url": "https://mcdonalds.es/api/cms/images/Z4meAZbqstJ99jCh_Cuarto-de-Libra.png?auto=compress&fm=png&w=600",
+    "region": "es",
+    "match": "equivalent"
+  },
   "Bacon & Egg McMuffin®": "10529/170103_mcmenuboard15501-ok.png",
   "Tosta mista": "10528/170103_mcmenuboard15484-ok-copy.png",
   "Torrada com manteiga": "10527/170103_mcmenuboard15478-ok-copy.png",

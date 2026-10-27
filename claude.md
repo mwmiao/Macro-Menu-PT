@@ -98,7 +98,7 @@ Live at https://macro-meals.nuka-drifter.com/ (Docker image `eazyeight/macro-men
 | --- | --- |
 | `npm test` | Node's built-in test runner over `tests/*.test.js` (no dependencies) |
 | `npm run check` | The lint step: syntax of every JS file, pt/en translation parity, every `t('key')` defined, data sanity, image index integrity |
-| `npm run images [chain…]` | Download/convert official photos and rebuild `js/data/images.js` (needs `ffmpeg`) |
+| `npm run images [chain…]` | Download new photo originals into `tools/image-originals/` (needs `ffmpeg`); then `python tools/process-images.py` rebuilds `images/` and `js/data/images.js` |
 | `python -m http.server 5173` | Serve locally (there is no build step) |
 
 Run `npm test` and `npm run check` before every commit. Pushing to `main` builds and pushes the Docker image (GitHub Actions); work on a branch and merge when verified.
@@ -183,7 +183,11 @@ McDonald's Portugal breakfast is served 08:00–11:00 (`js/core/availability.js`
 
 ## Product photos
 
-`tools/image-sources/<chain>.json` maps PT item names to official image URLs; `npm run images` downloads each URL once (20 s timeout, 3 attempts with backoff), converts to 480 px WebP and writes `js/data/images.js` plus `tools/image-report.json` (failures and items still without a photo). Files already on disk are never re-downloaded. mcdonalds.pt refuses scripted downloads: its photos were fetched in a browser on the site's product pages and saved as `images/mcdonalds/<sha1(url)[0:12]>.webp`, which the script then just indexes. Items without a photo show a drawn placeholder. Chains' photos are their copyright; the owner accepted that for this personal site.
+Photos must already be clean product shots from the chain's own sites: only the product, on a real transparent background, with no headlines, badges, slogans, people or decoration. They are never edited (no erasing, cut-outs or reconstruction). An unsuitable Portuguese photo is replaced by the same product from another country's official site (recorded as an `equivalent` match, which never changes the item's name, nutrition or portion); if there is none, the item keeps the drawn placeholder and is listed in `tools/image-review.md`.
+
+Pipeline: `tools/image-sources/<chain>.json` maps each item's Portuguese name to an image URL (or `{url, region, match}`). `node tools/fetch-images.mjs [chain…]` downloads new originals (needs `ffmpeg`) into `tools/image-originals/<chain>/<sha1(url)[0:12]>.webp` and records them in `tools/image-manifest.json` (source, region, match, items, status `pending`/`approved`/`rejected`, issue). After checking a photo by eye (`python tools/image-sheet.py <chain>` draws a contact sheet on a checkerboard), set its status. `python tools/process-images.py` (needs `pillow numpy`) then trims the transparent margin of approved photos, saves them to `images/<chain>/` named by a hash of their content (so a changed photo always gets a new URL), regenerates `js/data/images.js` and writes the review list. Originals stay in `tools/`, which is not copied into the Docker image.
+
+mcdonalds.pt refuses scripted downloads: its originals were fetched in a browser on the site's product pages. Taco Bell (PT, ES, US), Pans (PT, ES), KFC PT and Pizza Hut PT only publish JPEG photos on backgrounds, so most of their items show the placeholder. Chains' photos are their copyright; the owner accepted that for this personal site.
 
 ## Data sources
 

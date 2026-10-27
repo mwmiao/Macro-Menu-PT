@@ -1,9 +1,21 @@
 {
   "_base": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/",
   "_query": "?w=600&fm=png",
-  "Whopper®": "7c0fa4c9fd50400f6e8f0f6d11f028ba6fb1bce6-1333x1333.png",
-  "Double Whopper®": "436c8fe3aac16498fd6240d3ff00e5c29ce5665c-1333x1333.png",
-  "Triple Whopper®": "0abe92c9cc56887d937747840b8faba92cb62caa-1333x1333.png",
+  "Whopper®": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/a9997087b64300cacd5cdc6dad66d92b32e7560d-1333x1333.png?w=600&fm=png",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Double Whopper®": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/c9f0823be1c4b3d277e8886dc04004c2834a9a5d-1333x1333.png?w=600&fm=png",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Triple Whopper®": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/3bb1a04e4318654a511babb204aaf475e28c898f-1333x1333.png?w=600&fm=png",
+    "region": "es",
+    "match": "equivalent"
+  },
   "Whopper® Spicy": "aac1dd9068585d5f0dc5607c890e36d63ef43f8e-1333x1333.png",
   "Double Whopper® Spicy": "e619c1f720a1abed50a1258946b76a6360c5bfbf-1333x1333.png",
   "Triple Whopper® Spicy": "a5c0459916f4cbff26c64211279231347a23b00c-1333x1333.png",
@@ -27,7 +39,7 @@
   "Long Chicken® Spicy": "fdf2ee6da2e779452500a4e8aeb2fc15075ea966-1333x1333.png",
   "CBK (1 patty)": "29648f655992beed69447306ff460885587d457b-1333x1333.png",
   "CBK (2 patties)": "659e62b6ed9bf5d611b111c1e1e955cf68ff23da-1333x1333.png",
-  "Krispper® Original (1 patty)": "7adad6aec33883597ec3dd5b9f5f9d878a557343-1333x1333.png",
+  "Krispper® Original (1 patty)": "17e0c707c3c24f93ffe633bb4e500ef9c5811f0b-1333x1333.png",
   "Krispper® Original (2 patties)": "e497c4c874aeaec16ea902d8c6b8af33d29fabe0-1333x1333.png",
   "Krispper® Spicy (1 patty)": "85e2afddadc5511f5da467fd0bed94943962d51e-1333x1333.png",
   "Krispper® Spicy (2 patties)": "4b2f4d6315ae5461ff0d2103d3c14985e92b05f9-1333x1333.png",
