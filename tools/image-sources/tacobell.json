@@ -7,7 +7,11 @@
   "Soft Taco com Veggie Feijão": "2020/10/tacobell_taco-soft.jpg",
   "Soft Taco Supreme com Carne Picada": "2020/10/tacobell_taco-soft-supreme.jpg",
   "Soft Taco Supreme com Frango Assado": "2020/10/tacobell_taco-soft-supreme.jpg",
-  "Crunchy Taco com Carne Picada": "2020/10/tacobell_taco-crunchy.jpg",
+  "Crunchy Taco com Carne Picada": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-TA-NYBQ-2/product_P-TA-NYBQ-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
   "Crunchy Taco com Frango Assado": "2020/10/tacobell_taco-crunchy.jpg",
   "Crunchy Taco com Frango Picante": "2020/10/tacobell_taco-crunchy.jpg",
   "Crunchy Taco com Proteína Veggie": "2020/10/tacobell_taco-crunchy.jpg",
@@ -17,7 +21,11 @@
   "Burrito San Diego com Carne Picada": "2020/10/tacobell-burritos-san-diego.jpg",
   "Burrito San Diego com Frango Assado": "2020/10/tacobell-burritos-san-diego.jpg",
   "Burrito San Diego com Proteína Veggie": "2020/10/tacobell-burritos-san-diego.jpg",
-  "Gran Burrito com Carne Picada": "2022/12/tacobell-menu-gran-burrito.jpg",
+  "Gran Burrito com Carne Picada": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-GR-mAz6-2/product_P-GR-mAz6-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
   "Gran Burrito com Frango Assado": "2022/12/tacobell-menu-gran-burrito.jpg",
   "Gran Burrito com Frango Picante": "2022/12/tacobell-menu-gran-burrito.jpg",
   "Gran Burrito com Proteína Veggie": "2022/12/tacobell-menu-gran-burrito.jpg",
@@ -25,12 +33,24 @@
   "Burrito XXL com Frango Assado": "2026/09/burrito-xl.webp",
   "Chicken Burrito com Frango Crocante": "2020/10/tacobell-burritos-chicken.jpg",
   "Bacon Cheesy Chicken Burrito com Frango Crocante": "2024/06/BC_Chicken_Burrito_500x600.jpg",
-  "Quesarito com Carne Picada": "2020/10/tacobell-burritos-quesarito2.jpg",
+  "Quesarito com Carne Picada": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-QU-5YoR-2/product_P-QU-5YoR-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
   "Quesarito com Frango Assado": "2020/10/tacobell-burritos-quesarito2.jpg",
   "Quesarito com Proteína Veggie": "2020/10/tacobell-burritos-quesarito2.jpg",
-  "Más Quesarito com Carne Picada": "2020/10/tacobell-burritos-quesarito2.jpg",
+  "Más Quesarito com Carne Picada": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-QU-5YoR-2/product_P-QU-5YoR-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
   "Quesarito Bacon com Frango Assado": "2024/04/tacobell-burritos-quesarito-bacon.jpg",
-  "Crunchwrap Supreme com Carne Picada": "2020/10/tacobell-crunchywrap.jpg",
+  "Crunchwrap Supreme com Carne Picada": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CR-rsm3-2/product_P-CR-rsm3-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
   "Crunchwrap Supreme com Frango Assado": "2020/10/tacobell-crunchywrap.jpg",
   "Crunchwrap Supreme com Proteína Veggie": "2020/10/tacobell-crunchywrap.jpg",
   "Bacon Cheesy Crunchwrap com Frango Assado": "2024/06/BC_CBCrunchyweap_500x600.jpg",
@@ -43,21 +63,65 @@
   "Mini Quesadilla com Frango Assado": "2017/05/tacobell-quesadilla.jpg",
   "Cheesy Burrito com Carne Picada": "2025/02/taconomicos_cheesyburrito.jpg",
   "Wrap Slider com Carne Picada": "2025/02/taconomicos_wrap_slider.jpg",
-  "Nachos Bell com Carne Picada": "2020/10/tacobell-complementos-nachos-bell.jpg",
-  "Nachos Bell com Frango Picante": "2020/10/tacobell-complementos-nachos-bell.jpg",
+  "Nachos Bell com Carne Picada": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-NA-e7Y2-2/product_P-NA-e7Y2-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Nachos Bell com Frango Picante": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-NA-e7Y2-2/product_P-NA-e7Y2-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
   "Nachos Fire": "2020/10/tacobell-complementos-nachos-fire.jpg",
   "Chicken Nachos sem molhos (4 un.)": "2025/02/taconomicos_chicken_nachos.jpg",
   "Chicken Nachos sem molhos (6 un.)": "2025/02/taconomicos_chicken_nachos.jpg",
-  "Batatas Mexican (pequenas)": "2025/02/taconomicos_batatas.jpg",
-  "Batatas Mexican (médias)": "2025/02/taconomicos_batatas.jpg",
-  "Batatas Mexican (grandes)": "2025/02/taconomicos_batatas.jpg",
-  "Bacon Top Fries": "2020/10/tacobell-complementos-top-fries.jpg",
+  "Batatas Mexican (pequenas)": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-PA-su0d-2/product_P-PA-su0d-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Batatas Mexican (médias)": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-PA-su0d-2/product_P-PA-su0d-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Batatas Mexican (grandes)": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-PA-su0d-2/product_P-PA-su0d-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Bacon Top Fries": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-BA-rZEW-2/product_P-BA-rZEW-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
   "Arroz Mexicano": "2020/10/tacobell-arroz.jpg",
-  "Cone Bell": "2020/10/tacobell_cone_bell.jpg",
-  "Chocoball": "2024/04/chocoball.jpg",
-  "Chocadilla de Kit Kat": "2020/10/tacobell_chocadilla-1.jpg",
-  "Empanada de Maçã": "2026/03/caramel-apple.jpg",
-  "Taquito Lupita": "2020/10/tacobell_taca-lupita.jpg",
+  "Cone Bell": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2081/product_2081_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Chocoball": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CH-vUgW-2/product_P-CH-vUgW-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Chocadilla de Kit Kat": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2074/product_2074_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Empanada de Maçã": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/107097/product_107097_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Taquito Lupita": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2087/product_2087_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
   "Mini Taça Bell Chocolate": "2025/02/taconomicos_tacabell.jpg",
   "Taça Bell Chocolate": "2020/10/tacobell_tacabell.jpg",
   "Creamy Bell Pistáchio": "2025/08/tb_creamy_bell.jpg",
@@ -65,5 +129,35 @@
   "Pepsi Max": "2020/10/tacobell_refrigerantes.jpg",
   "Seven Up": "2020/10/tacobell_refrigerantes.jpg",
   "Ice Tea Limão": "2020/10/tacobell_refrigerantes.jpg",
-  "Cerveja Super Bock": "2020/10/tacobell_cerveja.jpg"
+  "Cerveja Super Bock": "2020/10/tacobell_cerveja.jpg",
+  "Nachos Supreme": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2223/product_2223_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Nachos sem molhos (pequeno)": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-NA-3u7x-2/product_P-NA-3u7x-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Nachos sem molhos (médio)": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-NA-3u7x-2/product_P-NA-3u7x-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Nachos sem molhos (grande)": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-NA-3u7x-2/product_P-NA-3u7x-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Bacon Cheesy Quesadilla com Carne Picada": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-QU-okX6-2/product_P-QU-okX6-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Crunchywrap Junior com Carne Picada": {
+    "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CR-aRmn-2/product_P-CR-aRmn-2_desktop_large.jpg",
+    "region": "es",
+    "match": "equivalent"
+  }
 }
