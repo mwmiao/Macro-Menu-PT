@@ -1,5 +1,5 @@
 // Meal Matcher: finds a combination of one chain's items near a calorie target with enough protein.
-import { totals } from './nutrition.js';
+import { totals, NON_FOOD } from './nutrition.js';
 import { isAvailable } from './availability.js';
 
 const BEAM = 400; // partial combinations kept per step
@@ -9,8 +9,9 @@ const CHOICES = 12; // distinct finished combinations a shuffle picks from
 // prefs: { kcal, protein, max, desserts, drinks }. `rng` is injectable for tests.
 // Returns { combo, tot } or { combo: null } when nothing fits.
 export function buildMeal(items, prefs, now, rng = Math.random, reshuffle = false) {
-  const pool = items.filter((it) => it.kcal >= 30 && it.cat !== 'sauces' && it.cat !== 'hotdrinks' && it.cat !== 'extras'
-    && isAvailable(it, now) && (prefs.drinks || it.cat !== 'colddrinks') && (prefs.desserts || it.cat !== 'desserts'));
+  // Sauces, hot drinks and extras never; cold drinks and desserts only when asked for.
+  const pool = items.filter((it) => it.kcal >= 30 && isAvailable(it, now)
+    && (!NON_FOOD.has(it.cat) || (prefs.drinks && it.cat === 'colddrinks')) && (prefs.desserts || it.cat !== 'desserts'));
   const cap = prefs.kcal * 1.04;
   const score = (tot, n) => {
     const kcalMiss = Math.abs(prefs.kcal - tot.kcal) / prefs.kcal;

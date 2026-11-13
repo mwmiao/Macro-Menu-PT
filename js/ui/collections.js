@@ -1,12 +1,9 @@
 // Saved meals (snapshots you reload), meal presets (templates you add to the pad) and custom items.
-import { CHAINS } from '../data/index.js';
 import { totals } from '../core/nutrition.js';
 import { userData, newId } from '../store.js';
-import { state, t, fmt, fmtInt, fmtDateTime, nameOf, chainOf, padEntries, getItem, customToItem } from '../state.js';
+import { state, t, fmt, fmtInt, fmtDateTime, nameOf, chainOf, padEntries, getItem, customToItem, ALL_ITEMS, norm } from '../state.js';
 import { esc, ICON, visual, sheetHead, stepper, toast } from './parts.js';
 import { addToPad, confirmReplacePad } from './pad.js';
-
-const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
 function summary(items) {
   const entries = padEntries(items);
@@ -33,7 +30,7 @@ function mealCard(coll, rec) {
 function searchResults(q) {
   const s = norm(q.trim());
   if (s.length < 2) return '';
-  const all = [...userData.list('custom').map(customToItem), ...CHAINS.flatMap((c) => c.items)];
+  const all = [...userData.list('custom').map(customToItem), ...ALL_ITEMS];
   const hits = all.filter((it) => norm(it.pt + ' ' + (it.en || '') + ' ' + chainOf(it).name).includes(s)).slice(0, 10);
   if (!hits.length) return `<p class="muted">${esc(t('noMatches'))}</p>`;
   return `<ul class="pick-list">${hits.map((it) => `<li><button type="button" data-act="edAdd" data-arg="${esc(it.key)}">

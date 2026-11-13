@@ -219,7 +219,7 @@ function incomingCustom(key) {
   return c ? { key, chain: 'custom', pt: c.name, en: null, cat: 'custom', kcal: c.kcal, p: c.p, c: c.c, f: c.f, sug: null, sat: null, salt: null, custom: true } : null;
 }
 
-function confirmReplacePad() {
+export function confirmReplacePad() {
   return !userData.pad().length || confirm(t('confirmReplacePad'));
 }
 
@@ -279,5 +279,3 @@ export const padForms = {
     toast(t('mealSaved'));
   },
 };
-
-export { confirmReplacePad };
