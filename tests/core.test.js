@@ -4,6 +4,8 @@ import { isBreakfastTime, isAvailable } from '../js/core/availability.js';
 import { encodeMeal, decodeMeal, shareUrl } from '../js/core/share.js';
 import { orderScript, orderNumber, macroSplit, barcodeWidths } from '../js/core/order.js';
 import { emptyData, mergeData, sanitize, live } from '../js/core/merge.js';
+import { buildMeal } from '../js/core/matcher.js';
+import { tdee } from '../js/core/tdee.js';
 
 const at = (h, m) => new Date(2026, 9, 26, h, m);
 
@@ -97,4 +99,45 @@ test('sanitize drops malformed records instead of throwing', () => {
   assert.deepEqual(Object.keys(d.prefs), ['skin']);
   assert.deepEqual(sanitize(null), emptyData());
   assert.deepEqual(sanitize('garbage'), emptyData());
+});
+
+// ---------- matcher and TDEE ----------
+const item = (name, cat, kcal, p, extra = {}) => ({ key: 'x:' + name, pt: name, cat, kcal, p, c: 10, f: 5, ...extra });
+const menu = [
+  item('burger', 'burgers', 500, 30), item('wrap', 'wraps', 350, 25), item('fries', 'sides', 300, 4),
+  item('cola', 'colddrinks', 150, 0), item('sundae', 'desserts', 250, 4), item('ketchup', 'sauces', 40, 0),
+  item('muffin', 'breakfast', 400, 20, { breakfastOnly: true }),
+];
+const noon = new Date(2026, 9, 26, 12, 0);
+const prefs = { kcal: 700, protein: 40, max: 3, desserts: false, drinks: false };
+
+test('matcher hits the calorie and protein targets', () => {
+  const r = buildMeal(menu, prefs, noon);
+  assert.ok(r.combo);
+  assert.ok(r.tot.kcal >= 700 * 0.85 && r.tot.kcal <= 700 * 1.04);
+  assert.ok(r.tot.p >= 40 * 0.95);
+});
+
+test('matcher skips sauces, drinks, desserts and unavailable breakfast items unless allowed', () => {
+  const cats = (r) => r.combo.map((it) => it.cat);
+  const base = buildMeal(menu, prefs, noon);
+  for (const c of ['sauces', 'colddrinks', 'desserts']) assert.ok(!cats(base).includes(c));
+  assert.ok(!cats(base).includes('breakfast'));
+  const only = buildMeal([item('x', 'colddrinks', 150, 0), item('y', 'desserts', 250, 4)], { ...prefs, kcal: 150, protein: 0 }, noon);
+  assert.equal(only.combo, null);
+});
+
+test('matcher returns { combo: null } when nothing fits, and shuffle stays within valid combos', () => {
+  assert.deepEqual(buildMeal(menu, { ...prefs, kcal: 5000 }, noon), { combo: null });
+  const r = buildMeal(menu, prefs, noon, () => 0.99, true);
+  assert.ok(r.tot.kcal >= 700 * 0.85 && r.tot.kcal <= 700 * 1.04);
+});
+
+test('tdee: Mifflin–St Jeor, activity and goal factors', () => {
+  const r = tdee({ sex: 'm', age: 30, h: 175, w: 75, act: 2, goal: 'keep' });
+  assert.equal(Math.round(r.maintenance), Math.round((750 + 1093.75 - 150 + 5) * 1.375));
+  assert.equal(r.kcal, Math.round(r.maintenance / 10) * 10);
+  assert.equal(r.protein, 120);
+  assert.equal(tdee({ sex: 'f', age: 30, h: 175, w: 75, act: 2, goal: 'cut' }).protein, 150);
+  assert.ok(tdee({ sex: 'm', age: 30, h: 175, w: 75, act: 2, goal: 'bulk' }).kcal > r.kcal);
 });

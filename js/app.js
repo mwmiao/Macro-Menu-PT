@@ -2,6 +2,8 @@ import { CHAINS, CHAIN, ITEMS } from './data/index.js';
 import { TIERS, NON_FOOD, density, tierOf, totals } from './core/nutrition.js';
 import { isAvailable, isBreakfastTime, BREAKFAST } from './core/availability.js';
 import { decodeMeal } from './core/share.js';
+import { buildMeal } from './core/matcher.js';
+import { tdee } from './core/tdee.js';
 import { userData, local } from './store.js';
 import {
   state, t, setLang, SORTS, SKINS, hashChain, target, getItem, chainOf,
@@ -451,41 +453,7 @@ function runMatcher(form, reshuffle = false) {
   const fd = new FormData(form);
   const prefs = { chain: fd.get('chain'), kcal: +fd.get('kcal') || 700, protein: +fd.get('protein') || 0, max: +fd.get('max') || 3, desserts: !!fd.get('desserts'), drinks: !!fd.get('drinks') };
   local.set('matcher', prefs);
-  const pool = (CHAIN[prefs.chain] || CHAINS[0]).items.filter((it) => it.kcal >= 30 && it.cat !== 'sauces' && it.cat !== 'hotdrinks' && it.cat !== 'extras'
-    && isAvailable(it, state.now) && (prefs.drinks || it.cat !== 'colddrinks') && (prefs.desserts || it.cat !== 'desserts'));
-  const cap = prefs.kcal * 1.04;
-  const score = (tot, n) => {
-    const kcalMiss = Math.abs(prefs.kcal - tot.kcal) / prefs.kcal;
-    const pMiss = Math.max(0, prefs.protein - tot.p) / Math.max(prefs.protein, 1);
-    return kcalMiss * 100 + pMiss * 220 - tot.p * 0.05 + n * 0.5;
-  };
-  // beam search over combinations (an item may repeat, e.g. two burgers)
-  let beam = [{ idx: [], tot: { kcal: 0, p: 0, c: 0, f: 0 } }];
-  const finals = [];
-  for (let depth = 0; depth < prefs.max; depth++) {
-    const next = [];
-    for (const b of beam) {
-      const start = b.idx.length ? b.idx[b.idx.length - 1] : 0;
-      for (let i = start; i < pool.length; i++) {
-        const it = pool[i];
-        const tot = { kcal: b.tot.kcal + it.kcal, p: b.tot.p + it.p, c: b.tot.c + it.c, f: b.tot.f + it.f };
-        if (tot.kcal > cap) continue;
-        next.push({ idx: [...b.idx, i], tot });
-      }
-    }
-    next.sort((a, b) => score(a.tot, a.idx.length) - score(b.tot, b.idx.length));
-    beam = next.slice(0, 400);
-    finals.push(...beam.slice(0, 60));
-  }
-  const ranked = finals.filter((f) => f.tot.kcal >= prefs.kcal * 0.85 && f.tot.p >= prefs.protein * 0.95)
-    .sort((a, b) => score(a.tot, a.idx.length) - score(b.tot, b.idx.length));
-  const uniq = [];
-  const seen = new Set();
-  for (const r of ranked) { const k = r.idx.join(','); if (!seen.has(k)) { seen.add(k); uniq.push(r); } if (uniq.length >= 12) break; }
-  if (!uniq.length) { state.matchResult = { combo: null }; return; }
-  const pick = reshuffle ? uniq[Math.floor(Math.random() * uniq.length)] : uniq[0];
-  const combo = pick.idx.map((i) => pool[i]);
-  state.matchResult = { combo, tot: totals(combo.map((it) => ({ it, qty: 1 }))) };
+  state.matchResult = buildMeal((CHAIN[prefs.chain] || CHAINS[0]).items, prefs, state.now, Math.random, reshuffle);
 }
 
 // ---------- TDEE ----------
@@ -495,12 +463,9 @@ function updateTdee() {
   const fd = new FormData(form);
   const p = { sex: fd.get('sex'), age: +fd.get('age'), h: +fd.get('h'), w: +fd.get('w'), act: +fd.get('act'), goal: fd.get('goal') };
   local.set('tdee', p);
-  const bmr = 10 * p.w + 6.25 * p.h - 5 * p.age + (p.sex === 'm' ? 5 : -161);
-  const m = bmr * [1.2, 1.375, 1.55, 1.725, 1.9][p.act - 1];
-  const k = Math.round((m * { cut: 0.8, keep: 1, bulk: 1.1 }[p.goal]) / 10) * 10;
-  const prot = Math.round(p.w * (p.goal === 'keep' ? 1.6 : 2));
-  $('#tdeeResult').innerHTML = `<b>${esc(t('tdeeResult', { m: fmtInt(m) }))}</b><span>${esc(t('tdeeTarget', { k: fmtInt(k), p: prot }))}</span>`;
-  return { kcal: k, protein: prot };
+  const r = tdee(p);
+  $('#tdeeResult').innerHTML = `<b>${esc(t('tdeeResult', { m: fmtInt(r.maintenance) }))}</b><span>${esc(t('tdeeTarget', { k: fmtInt(r.kcal), p: r.protein }))}</span>`;
+  return { kcal: r.kcal, protein: r.protein };
 }
 
 // ---------- actions (data-act) and forms (data-form) ----------
