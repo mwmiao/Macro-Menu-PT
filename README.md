@@ -1,79 +1,111 @@
+<div align="center">
+
+<img src="favicon.svg" width="72" alt="Macro Meals" />
+
 # Macro Meals
 
-Calories, protein and macros for fast-food menus in Portugal, in European Portuguese and English. A Portuguese take on [macromenu.com.au](https://macromenu.com.au/).
+**Calorias, proteína e macros dos menus de fast food em Portugal — para montares a refeição certa antes de chegares ao balcão.**
 
-- Browse all restaurants together (the home page) or pick one from the dropdown; search, filter by category and sort by calories, protein, protein density, fat, carbs, sugar or salt
-- Protein-density tiers (S–F, grams of protein per 100 kcal) on every item, with the chains' own product photos
-- Order pad with a daily calorie and protein target, a receipt card, a "How to order" script (PT/EN) and shareable meal links
-- Saved meals, meal presets and your own custom items
-- Auto Meal Matcher, compare up to 4 items, favourites, a cross-chain protein ranking, kJ ↔ kcal and maintenance-calorie calculators
-- McDonald's breakfast items are greyed out outside 08:00–11:00
-- Skins (dark, light, Azulejo, Locker, Pastel de nata), installable as an app (works offline), optional Google Drive sync, and "Report a problem"
-- Works on phones (bottom navigation, bottom sheets) and desktops (sidebar, plus an always-open order pad on wide screens)
+[![Build](https://github.com/mwmiao/Macro-Menu-PT/actions/workflows/docker.yml/badge.svg)](https://github.com/mwmiao/Macro-Menu-PT/actions/workflows/docker.yml)
+[![Docker](https://img.shields.io/docker/v/eazyeight/macro-menu-pt?label=docker&sort=semver)](https://hub.docker.com/r/eazyeight/macro-menu-pt)
 
-Everything runs in the browser. There's no build step and no backend: data is kept in the browser and, if you sign in, in a private app folder in your own Google Drive.
+🇵🇹 Português · [🇺🇸 English](README.en-US.md)
 
-Project details (architecture, data/sync model, routing, decisions) are in [claude.md](claude.md).
+<img src="docs/screenshots/dashboard.png" alt="Macro Meals no computador" width="900" />
 
-## Chains and sources
+</div>
 
-| Chain | Source | Table date |
-| --- | --- | --- |
-| McDonald's | [mcdonalds.pt nutrition table](https://www.mcdonalds.pt/produtos/informacao-nutricional-alergenios) | 15 Oct 2026 |
-| Burger King | [burgerking.pt nutrition sheet](https://www.burgerking.pt/pt/nutricionais) | 28 Sep 2026 |
-| KFC | [vivabem.pt (Ibersol)](https://vivabem.pt/marcas/kfc) | 12 Oct 2026 |
-| Pizza Hut | [vivabem.pt (Ibersol)](https://vivabem.pt/marcas/pizza_hut) | 22 Oct 2026 |
-| Taco Bell | [vivabem.pt (Ibersol)](https://vivabem.pt/marcas/taco_bell) | 2 Sep 2026 |
-| Pans & Company | [vivabem.pt (Ibersol)](https://vivabem.pt/marcas/pans_company) | 22 Sep 2026 |
+O Macro Meals junta as tabelas nutricionais oficiais do McDonald's, Burger King, KFC, Pizza Hut, Taco Bell e Pans & Company. Vê o nível de proteína de cada produto num relance, monta uma refeição à medida do teu objetivo diário e mostra a lista ao empregado. Funciona só no browser: sem conta e sem servidor — os teus dados ficam no teu dispositivo.
 
-Rows whose macros didn't add up to their calories in the source table were left out.
+Inspirado no [macromenu.com.au](https://macromenu.com.au/), mas para Portugal e com os valores oficiais portugueses.
 
-## Adding or updating a chain
+## Funcionalidades
 
-Each chain is one file in `js/data/`. Rows are:
+- **Todos os restaurantes juntos** — ou um de cada vez, com pesquisa, categorias e ordenação por calorias, proteína, densidade proteica, gordura, hidratos, açúcar ou sal.
+- **Níveis de proteína (S–F)** — gramas de proteína por 100 kcal em cada produto, com as fotografias oficiais das marcas.
+- **Lista de pedido** — quantidades, objetivo diário de calorias e proteína, talão, guião “Como pedir” (PT/EN) e links para partilhar a refeição.
+- **Refeições guardadas e predefinidas** — e os teus próprios produtos, com macros à escolha.
+- **Gerador de refeições** — diz as calorias e a proteína que queres e ele propõe combinações.
+- **Comparar até 4 produtos**, favoritos, ranking de proteína entre marcas e calculadoras de kJ ↔ kcal e de calorias de manutenção.
+- **Pequeno-almoço do McDonald's** — os produtos ficam a cinzento fora das 08:00–11:00.
+- **Temas** (escuro, claro, Azulejo, Cacifo, Pastel de nata), **PT / EN**, instalável como app (funciona offline) e **sincronização opcional** com o teu Google Drive.
+- Pensado para telemóvel (navegação em baixo, painéis deslizantes) e computador (barra lateral e lista de pedido sempre aberta em ecrãs largos).
 
-```js
-[namePT, nameEN /* or null when it's the same */, category, kcal, protein, carbs, sugars, fat, saturates, salt, portion?]
+<div align="center">
+  <img src="docs/screenshots/mobile.png" alt="Menu no telemóvel" width="250" />
+  &nbsp;
+  <img src="docs/screenshots/receipt.png" alt="Talão da refeição" width="250" />
+  &nbsp;
+  <img src="docs/screenshots/matcher.png" alt="Gerador de refeições" width="250" />
+</div>
+
+> Projeto independente, sem qualquer ligação aos restaurantes listados. Os valores são um guia: as receitas e as porções variam e os alergénios não estão incluídos.
+
+## Instalar com Docker Compose
+
+```yaml
+services:
+  macro-menu-pt:
+    image: eazyeight/macro-menu-pt:latest
+    container_name: macro-menu-pt
+    restart: unless-stopped
+    ports:
+      - "1390:80"
+    labels:
+      - com.centurylinklabs.watchtower.enable=true
 ```
-
-Categories are the `cat_*` keys in `js/i18n.js`. Register a new chain in `js/data/index.js`.
-
-## Product photos
-
-Photos must already be clean product shots from the chain's own sites: only the product, on a real transparent background, with no headlines, badges, slogans, people or decoration. They are never edited (no erasing, cut-outs or reconstruction). An unsuitable Portuguese photo is replaced by the same product from another country's official site (recorded as an `equivalent` match, which never changes the item's name, nutrition or portion); if there is none, the chain's own unsuitable photo is shown anyway with status `fallback` (items with no photo at all show the drawn placeholder), and the item is listed in `tools/image-review.md` until a clean source is found.
-
-Pipeline: `tools/image-sources/<chain>.json` maps each item's Portuguese name to an image URL (or `{url, region, match}`). `node tools/fetch-images.mjs [chain…]` downloads new originals (needs `ffmpeg`) into `tools/image-originals/<chain>/<sha1(url)[0:12]>.webp` and records them in `tools/image-manifest.json` (source, region, match, items, status `pending`/`approved`/`fallback`/`rejected`, issue). After checking a photo by eye (`python tools/image-sheet.py <chain>` draws a contact sheet on a checkerboard), set its status. `python tools/process-images.py` (needs `pillow numpy`) then trims the transparent margin of approved photos, saves them to `images/<chain>/` named by a hash of their content (so a changed photo always gets a new URL), regenerates `js/data/images.js` and writes the review list. Originals stay in `tools/`, which is not copied into the Docker image.
-
-mcdonalds.pt refuses scripted downloads, so McDonald's photos are fetched in a browser on the site's product pages (www.mcdonalds.pt/#produtos), converted to WebP there and saved as `tools/image-originals/mcdonalds/<id>.webp`, where `<id>` is the first 12 hex characters of the SHA-1 of the image URL. The fetch script then indexes them without downloading.
-
-## Run locally
-
-```bash
-python -m http.server 5173
-```
-
-Then open http://127.0.0.1:5173. Before committing:
-
-```bash
-npm test
-```
-
-```bash
-npm run check
-```
-
-Google sync needs an OAuth Client ID in `js/config.js`; the steps are in claude.md.
-
-## Docker
-
-Every push to `main` builds a multi-arch image (amd64 + arm64) and pushes it to Docker Hub as `eazyeight/macro-menu-pt:latest` (plus a tag per commit). The workflow uses the `DOCKERHUB_USERNAME` and `DOCKERHUB_TOKEN` repository secrets.
 
 ```bash
 docker compose up -d
 ```
 
-The site is then on port 1390. The container serves static files with nginx on port 80 and has a `/healthz` endpoint.
+Abre `http://<ip-do-servidor>:1390`. O contentor serve ficheiros estáticos com nginx na porta 80 e tem um endpoint `/healthz`. Cada push para `main` publica `eazyeight/macro-menu-pt:latest` (amd64 + arm64) e uma etiqueta por commit; com a label do Watchtower, o contentor atualiza-se sozinho.
 
----
+## Instalar como app (PWA)
 
-Macro Meals is an independent project and isn't affiliated with any restaurant listed. Figures are a guide; recipes and portions vary, and allergens aren't covered.
+O Macro Meals pode ser instalado no ecrã principal e abre em ecrã inteiro. **Requer HTTPS.**
+
+- **iPhone / iPad:** no **Safari**, toca em **Partilhar** › **Adicionar ao ecrã principal**.
+- **Android (Chrome):** menu ⋮ › **Instalar app**, ou o botão de instalar em **Mais**.
+- **Computador (Chrome/Edge):** ícone de instalar na barra de endereço.
+
+As páginas e fotografias já abertas ficam guardadas e abrem sem rede. Cada versão traz URLs de código novos, por isso uma atualização nunca mistura ficheiros antigos e novos.
+
+## Sincronização com o Google Drive (opcional)
+
+Inicia sessão em **Mais › A tua conta**. Os favoritos, a lista de pedido, as refeições e as preferências ficam num ficheiro escondido na pasta privada da app no **teu** Drive (âmbito `drive.appdata`: a app não vê mais nenhum ficheiro). Sem servidor. Para ativar na tua instalação precisas de um *OAuth Client ID* em `js/config.js`; os passos estão em [claude.md](claude.md).
+
+## Fontes dos dados
+
+Só as tabelas nutricionais oficiais portuguesas. Linhas cujos macros não batiam certo com as calorias na tabela de origem ficaram de fora.
+
+| Restaurante | Fonte | Data da tabela |
+| --- | --- | --- |
+| McDonald's | [mcdonalds.pt](https://www.mcdonalds.pt/produtos/informacao-nutricional-alergenios) | 15 out 2026 |
+| Burger King | [burgerking.pt](https://www.burgerking.pt/pt/nutricionais) | 28 set 2026 |
+| KFC | [vivabem.pt (Ibersol)](https://vivabem.pt/marcas/kfc) | 12 out 2026 |
+| Pizza Hut | [vivabem.pt (Ibersol)](https://vivabem.pt/marcas/pizza_hut) | 22 out 2026 |
+| Taco Bell | [vivabem.pt (Ibersol)](https://vivabem.pt/marcas/taco_bell) | 2 set 2026 |
+| Pans & Company | [vivabem.pt (Ibersol)](https://vivabem.pt/marcas/pans_company) | 22 set 2026 |
+
+## Desenvolvimento
+
+Sem passo de build: JavaScript simples (módulos ES), sem framework.
+
+```bash
+python -m http.server 5173   # http://127.0.0.1:5173
+npm test                     # testes (node:test, sem dependências)
+npm run check                # sintaxe, traduções PT/EN, dados e fotografias
+```
+
+Cada restaurante é um ficheiro em `js/data/`; as linhas são:
+
+```js
+[namePT, nameEN /* ou null se for igual */, category, kcal, protein, carbs, sugars, fat, saturates, salt, portion?]
+```
+
+As categorias são as chaves `cat_*` de `js/i18n.js`; um restaurante novo regista-se em `js/data/index.js`. A arquitetura, o modelo de dados e sincronização, o encaminhamento e as decisões do projeto estão em [claude.md](claude.md); o processo das fotografias, em [docs/product-photos.md](docs/product-photos.md).
+
+## Licença
+
+Projeto pessoal de [@mwmiao](https://github.com/mwmiao). Feito com JavaScript simples, nginx e Docker.
