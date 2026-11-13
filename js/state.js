@@ -1,5 +1,5 @@
 // Shared UI state and the lookups/formatters every view uses.
-import { CHAIN, ITEMS } from './data/index.js';
+import { CHAINS, CHAIN, ITEMS } from './data/index.js';
 import { makeT } from './i18n.js';
 import { userData, local } from './store.js';
 
@@ -32,11 +32,15 @@ export const state = {
   now: new Date(),
 };
 export { hashChain };
+export const ALL_ITEMS = CHAINS.flatMap((c) => c.items);
+export const isAll = () => state.chain === 'all';
+// Accent- and case-insensitive form of a string, for searching.
+export const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
 export let t = makeT(state.lang);
 export function setLang(lang) {
-  state.lang = lang;
-  t = makeT(lang);
+  state.lang = lang === 'en' ? 'en' : 'pt';
+  t = makeT(state.lang);
 }
 
 export function target() {
