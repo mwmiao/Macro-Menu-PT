@@ -148,5 +148,10 @@
     "url": "https://www.cervejasagres.pt/media/hqidvcb4/sagres-original.png",
     "region": "brand-pt",
     "match": "equivalent"
+  },
+  "Fuze Tea Lima e Menta": {
+    "url": "https://www.coca-cola.com/content/dam/onexp/gr/el/fuzetea-2026/limemint.png",
+    "region": "brand-gr",
+    "match": "equivalent"
   }
 }

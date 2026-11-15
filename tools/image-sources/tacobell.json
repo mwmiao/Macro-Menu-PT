@@ -125,9 +125,17 @@
   "Mini Taça Bell Chocolate": "2025/02/taconomicos_tacabell.jpg",
   "Taça Bell Chocolate": "2020/10/tacobell_tacabell.jpg",
   "Creamy Bell Pistáchio": "2025/08/tb_creamy_bell.jpg",
-  "Pepsi": "2020/10/tacobell_refrigerantes.jpg",
+  "Pepsi": {
+    "url": "https://www.pepsi.pt/prod/s3fs-public/2024-03/PEP-REGULAR-SLEEK-CG.png",
+    "region": "brand-pt",
+    "match": "equivalent"
+  },
   "Pepsi Max": "2020/10/tacobell_refrigerantes.jpg",
-  "Seven Up": "2020/10/tacobell_refrigerantes.jpg",
+  "Seven Up": {
+    "url": "https://www.7up.pt/prod/s3fs-public/2023-08/7up-slim-pack-regular_RET_PT.png",
+    "region": "brand-pt",
+    "match": "equivalent"
+  },
   "Ice Tea Limão": "2020/10/tacobell_refrigerantes.jpg",
   "Cerveja Super Bock": {
     "url": "https://cms.superbock.pt/media/ovshrvuu/product-01_original.webp",
