@@ -129,7 +129,11 @@
   "Pepsi Max": "2020/10/tacobell_refrigerantes.jpg",
   "Seven Up": "2020/10/tacobell_refrigerantes.jpg",
   "Ice Tea Limão": "2020/10/tacobell_refrigerantes.jpg",
-  "Cerveja Super Bock": "2020/10/tacobell_cerveja.jpg",
+  "Cerveja Super Bock": {
+    "url": "https://cms.superbock.pt/media/ovshrvuu/product-01_original.webp",
+    "region": "brand-pt",
+    "match": "equivalent"
+  },
   "Nachos Supreme": {
     "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2223/product_2223_desktop_large.jpg",
     "region": "es",

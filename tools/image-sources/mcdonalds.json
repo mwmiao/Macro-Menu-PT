@@ -143,5 +143,10 @@
   "Compal Clássico Pêssego": "10488/250227_mcdsok54865.png",
   "Compal Vital Equilíbrio Manga Laranja": "10487/250227_mcdsok54863.png",
   "Um Bongo 8 Frutos": "10492/250227_mcdsok54873.png",
-  "Água Serra da Estrela": "10493/250403_mcdsok56994_agua-50cl_500x500px.png"
+  "Água Serra da Estrela": "10493/250403_mcdsok56994_agua-50cl_500x500px.png",
+  "Cerveja Sagres (lata)": {
+    "url": "https://www.cervejasagres.pt/media/hqidvcb4/sagres-original.png",
+    "region": "brand-pt",
+    "match": "equivalent"
+  }
 }
