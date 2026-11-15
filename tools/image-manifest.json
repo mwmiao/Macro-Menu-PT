@@ -535,7 +535,7 @@
    "burgerking:cerveja-media"
   ],
   "status": "fallback",
-  "issue": "shows two cans and a glass; serving format not verified",
+  "issue": "shows two cans and a glass; BK Portugal's menu only says \"Beer\" (with/without alcohol), so the brand cannot be identified and no brand shot can be matched",
   "output": "images/burgerking/af0f52f73ebd.webp",
   "stamp": "a63372ae5a5b"
  },
@@ -1677,6 +1677,17 @@
   "output": "images/mcdonalds/ef5f640be315.webp",
   "stamp": "9187b6f8cca7"
  },
+ "mcdonalds/08166b68b5a3": {
+  "source": "https://www.cervejasagres.pt/media/hqidvcb4/sagres-original.png",
+  "region": "brand-pt",
+  "match": "equivalent",
+  "items": [
+   "mcdonalds:cerveja-sagres-lata"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/53ca4c7aa053.webp",
+  "stamp": "7220fbcf9e44"
+ },
  "mcdonalds/08dabbbd9da7": {
   "source": "https://www.mcdonalds.pt/media/10660/190925_mcdonaldsbigtasty70729_2.png",
   "region": "pt",
@@ -2428,6 +2439,17 @@
   "status": "approved",
   "output": "images/mcdonalds/59c007863429.webp",
   "stamp": "d797764781a7"
+ },
+ "mcdonalds/99a365b0a4fe": {
+  "source": "https://www.coca-cola.com/content/dam/onexp/gr/el/fuzetea-2026/limemint.png",
+  "region": "brand-gr",
+  "match": "equivalent",
+  "items": [
+   "mcdonalds:fuze-tea-lima-e-menta"
+  ],
+  "status": "approved",
+  "output": "images/mcdonalds/4ec8ddbd2ae0.webp",
+  "stamp": "621d8efa9106"
  },
  "mcdonalds/9f3b7a777dad": {
   "source": "https://www.mcdonalds.pt/media/10552/250403_mcdsok56869_croissant_fiambre_500x500px.png",
@@ -3739,9 +3761,7 @@
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_cerveja.jpg",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "tacobell:cerveja-super-bock"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/bd0976c91f0e.webp",
@@ -3906,6 +3926,18 @@
   "output": "images/tacobell/39f46924cec4.webp",
   "stamp": "bab4c9175639"
  },
+ "tacobell/50066cbb409c": {
+  "source": "https://www.pepsi.pt/prod/s3fs-public/2024-03/PEP-REGULAR-SLEEK-CG.png",
+  "region": "brand-pt",
+  "match": "equivalent",
+  "items": [
+   "tacobell:pepsi"
+  ],
+  "status": "fallback",
+  "issue": "clean transparent brand shot (pepsi.pt), but the can touches the image edge so process-images' border check cannot pass; kept as fallback rather than loosening the check",
+  "output": "images/tacobell/810ed24960a8.webp",
+  "stamp": "ce07a9aec914"
+ },
  "tacobell/541c909f894c": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2022/12/tacobell-menu-gran-burrito.jpg",
   "region": "pt",
@@ -3964,6 +3996,17 @@
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/8e777015fb07.webp",
   "stamp": "5b5be0d23818"
+ },
+ "tacobell/831222efe76d": {
+  "source": "https://cms.superbock.pt/media/ovshrvuu/product-01_original.webp",
+  "region": "brand-pt",
+  "match": "equivalent",
+  "items": [
+   "tacobell:cerveja-super-bock"
+  ],
+  "status": "approved",
+  "output": "images/tacobell/d0671465773a.webp",
+  "stamp": "dfb0fefc1d5b"
  },
  "tacobell/8629e5eaacfb": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CR-aRmn-2/product_P-CR-aRmn-2_desktop_large.jpg",
@@ -4053,9 +4096,7 @@
   "match": "exact",
   "items": [
    "tacobell:ice-tea-limao",
-   "tacobell:pepsi",
-   "tacobell:pepsi-max",
-   "tacobell:seven-up"
+   "tacobell:pepsi-max"
   ],
   "status": "fallback",
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
@@ -4135,6 +4176,18 @@
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/9d5b20eea9d1.webp",
   "stamp": "8e1cb01aae4f"
+ },
+ "tacobell/e85005b78fa7": {
+  "source": "https://www.7up.pt/prod/s3fs-public/2023-08/7up-slim-pack-regular_RET_PT.png",
+  "region": "brand-pt",
+  "match": "equivalent",
+  "items": [
+   "tacobell:seven-up"
+  ],
+  "status": "fallback",
+  "issue": "clean transparent brand shot (pepsi.pt), but the can touches the image edge so process-images' border check cannot pass; kept as fallback rather than loosening the check",
+  "output": "images/tacobell/84b453689826.webp",
+  "stamp": "eabf1a43ac91"
  },
  "tacobell/ea3bee945f00": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_taco-soft-supreme.jpg",
