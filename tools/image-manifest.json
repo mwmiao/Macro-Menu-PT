@@ -1838,16 +1838,21 @@
   "items": [
    "kfc:gelatina"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/ef1f13a678ad.webp",
-  "stamp": "466485299914",
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/797f4c52af8d.webp",
+  "stamp": "a007ebe9eae0",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame (border not 95 % transparent)",
-  "gen": "rejected",
-  "gen_reason": "looks fine, but the final photo would be only 234 px wide (rule: at least 300 px); the original is too small"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "clear plastic cup of red and orange jelly cubes, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.0,
+  "gen_width": 234
  },
  "kfc/7433f00dbde2": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/kentucky-bbq-1920x1080ox.webp",
@@ -2067,16 +2072,21 @@
   "items": [
    "kfc:wrap-veggie"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/4f645642264d.webp",
-  "stamp": "e1d3a578a717",
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/4b9214964d75.webp",
+  "stamp": "40ca0e28960d",
   "cutout": "rejected",
   "cutout_reason": "VEGGIE badge left in",
   "ai": "rejected",
   "ai_reason": "VEGGIE badge left in",
-  "gen": "rejected",
-  "gen_reason": "looks fine, but the final photo would be only 288 px wide (rule: at least 300 px); the original is too small"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 2,
+  "gen_prompt": "veggie wrap with breaded patty, lettuce, tomato and mayonnaise, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.12,
+  "gen_width": 288
  },
  "kfc/baa00db9adae": {
   "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-1920x1080px.jpg",
@@ -4157,16 +4167,21 @@
    "pans:creme-de-abobora",
    "pans:creme-de-agriao"
   ],
-  "status": "fallback",
-  "issue": "photographed on a table/background, not transparent",
-  "output": "images/pans/580c5ac8cde5.webp",
-  "stamp": "8ff9a2357ef2",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pans/4abbdcb8f902.webp",
+  "stamp": "028b207874b4",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "rejected",
   "ai_reason": "spoon (separate object) left attached next to the bowl",
-  "gen": "rejected",
-  "gen_reason": "looks fine, but the final photo would be only 207 px wide (rule: at least 300 px); the original is too small"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 4,
+  "gen_prompt": "a bowl of orange pumpkin soup, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.0,
+  "gen_width": 207
  },
  "pans/d4f49cd9ce9e": {
   "source": "https://www.pans.pt/wp-content/uploads/singles_presunto_brie.webp",
@@ -5230,14 +5245,19 @@
    "tacobell:quesarito-com-frango-assado",
    "tacobell:quesarito-com-proteina-veggie"
   ],
-  "status": "fallback",
-  "issue": "lifestyle photo (hands, table, scene), no transparent background",
-  "output": "images/tacobell/fe69a2507303.webp",
-  "stamp": "55ade1711790",
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/600394a4c8e6.webp",
+  "stamp": "b41d9a89c7f4",
   "ai": "skipped",
   "ai_reason": "product touches the frame (border not 95 % transparent)",
-  "gen": "rejected",
-  "gen_reason": "looks plausible, but the final photo would be only 291 px wide (rule: at least 300 px); the original is too small"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 3,
+  "gen_prompt": "quesarito: flour tortilla burrito filled with cheese sauce, rice, beef and sour cream, standing upright, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.12,
+  "gen_width": 291
  },
  "tacobell/38a6cbb720d0": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CR-ifIB-2/product_P-CR-ifIB-2_mobile_large.png",

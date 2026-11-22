@@ -457,7 +457,7 @@
    3,
    4
   ],
-  "chosen": null
+  "chosen": 4
  },
  "pans/12606c1eb6a2": {
   "skip": true,
@@ -710,7 +710,7 @@
    3,
    4
   ],
-  "chosen": null,
+  "chosen": 2,
   "boxes": [
    [
     304,
@@ -729,7 +729,7 @@
    3,
    4
   ],
-  "chosen": null,
+  "chosen": 1,
   "pad": [
    20,
    10,
@@ -1013,7 +1013,7 @@
    3,
    4
   ],
-  "chosen": null,
+  "chosen": 3,
   "pad": [
    10,
    10,
