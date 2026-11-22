@@ -297,5 +297,10 @@
     "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/3c3418b9d94334102bc8b099cfca4b51e1b8a9fa-200x200.png?w=600&fm=png",
     "region": "pt",
     "match": "exact"
+  },
+  "Nuggets Vegetais x9": {
+    "url": "https://cdn.windelivery.io/images/products/63bdf9a269b66ccafbe3049c35d0bf828a7ac818-1333x1333.png",
+    "region": "glovo-pt",
+    "match": "equivalent"
   }
 }

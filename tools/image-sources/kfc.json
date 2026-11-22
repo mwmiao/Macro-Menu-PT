@@ -38,7 +38,11 @@
   "Tender Veggie (1 un.)": "2025/01/2-tender-veggie-1920x1080px.webp",
   "Salada Coronel (sem molho)": "2023/10/Salada-Coronel-RO-_1920x1080px.webp",
   "Salada Emmental (sem molho)": "2023/10/Salada-Emmental_1920x1080px.webp",
-  "Salada Snack": "2019/09/Salada-Snack-_1920x1080px.webp",
+  "Salada Snack": {
+    "url": "https://img.ibersol.com/51139/527153/527153.jpg",
+    "region": "ibersol-pt",
+    "match": "exact"
+  },
   "1/2 Maçaroca": "2019/09/Macaroca.webp",
   "Super Batata": "2025/01/novas-batatas-media-kiosk-1920x1080px-copia-1.webp",
   "Aros de Cebola": "2021/06/Aros-de-Cebola-1.webp",
@@ -95,5 +99,30 @@
     "url": "https://media.imagonist.com/products/products/553_thumb_it.png",
     "region": "it",
     "match": "equivalent"
+  },
+  "Krunch Cheese": {
+    "url": "https://img.ibersol.com/51139/544572/544572.jpg",
+    "region": "ibersol-pt",
+    "match": "exact"
+  },
+  "Coronel Original": {
+    "url": "https://img.ibersol.com/51139/543799/543799.jpg",
+    "region": "ibersol-pt",
+    "match": "exact"
+  },
+  "Coronel Original Double": {
+    "url": "https://img.ibersol.com/51139/543800/543800.jpg",
+    "region": "ibersol-pt",
+    "match": "exact"
+  },
+  "Arroz": {
+    "url": "https://img.ibersol.com/51139/546152/546152.jpg",
+    "region": "ibersol-pt",
+    "match": "exact"
+  },
+  "Molho 2Hot4You": {
+    "url": "https://img.ibersol.com/51139/516899/516899.jpg",
+    "region": "ibersol-pt",
+    "match": "exact"
   }
 }

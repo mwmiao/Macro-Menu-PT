@@ -3,27 +3,63 @@
   "Carbonara Média (fatia)": "miniaturas_carbonara_16032158226a2fdcdc294ce.png",
   "Chicken Carbonara Média (fatia)": "miniaturas_chicken_carbonara_11272621586a2fdcf421f92.png",
   "Hot Chicken Fiesta Média (fatia)": "miniaturas_hot_chicken_fiesta_21249201836a2fdde7517dc.png",
-  "Original Hot&Honey Média (fatia)": "miniaturas_site_pepperoni_hot_honey_123611366678141d8e9ffd.png",
+  "Original Hot&Honey Média (fatia)": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_pepperoni_hot_honey_123611366678141d8e9ffd.png",
+    "region": "pt",
+    "match": "exact"
+  },
   "Burger Lovers Média (fatia)": "burger_lovers_400x400px_7661274467fd22f91d90a.jpg",
-  "Crispy Chicken Supreme Média (fatia)": "miniaturas_site_crispy_chicken_supreme_20770281236781429d1a41a.png",
+  "Crispy Chicken Supreme Média (fatia)": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_crispy_chicken_supreme_20770281236781429d1a41a.png",
+    "region": "pt",
+    "match": "exact"
+  },
   "Havaiana Média (fatia)": {
     "url": "https://www.pizzahut.co.za/images/c09334e0-f86a-11f0-82d5-41a63e3f28db-hawweb_kiosk_thumbnail_0-2026-01-14064647.png",
     "region": "za",
     "match": "equivalent"
   },
-  "Cheeseham Média (fatia)": "miniaturas_site_cheeseham_114081744368fe5477bde49.png",
-  "Serrana Média (fatia)": "miniaturas_site_serrana_84041800467813203c87ac.png",
+  "Cheeseham Média (fatia)": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_cheeseham_114081744368fe5477bde49.png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Serrana Média (fatia)": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_serrana_84041800467813203c87ac.png",
+    "region": "pt",
+    "match": "exact"
+  },
   "Veggie Lovers Média (fatia)": "miniaturas_veggie_lovers_21143133916a2fdd84af961.png",
-  "Bacon Lovers Média (fatia)": "miniaturas_site_bacon_lovers_1737869157678132b74b1a7.png",
-  "Camponesa Média (fatia)": "miniaturas_site_camponesa_1879330981678132d56e7e9.png",
+  "Bacon Lovers Média (fatia)": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_bacon_lovers_1737869157678132b74b1a7.png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Camponesa Média (fatia)": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_camponesa_1879330981678132d56e7e9.png",
+    "region": "pt",
+    "match": "exact"
+  },
   "Pepperoni Lovers Média (fatia)": {
     "url": "https://www.pizzahut.co.za/images/aaf0d2a0-f865-11f0-82d5-41a63e3f28db-pepeweb_kiosk_thumbnail_0-2026-01-14064647.png",
     "region": "za",
     "match": "equivalent"
   },
-  "Portuguesa Média (fatia)": "miniaturas_site_portuguesa_2056403739678142444af9d.png",
-  "Tropical Média (fatia)": "miniaturas_site_tropical_10774663326781338bae688.png",
-  "Margarita Vegan Média (fatia)": "miniaturas_site_margarita_vegan_80039419067813190e93bf.png",
+  "Portuguesa Média (fatia)": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_portuguesa_2056403739678142444af9d.png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Tropical Média (fatia)": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_tropical_10774663326781338bae688.png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Margarita Vegan Média (fatia)": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_margarita_vegan_80039419067813190e93bf.png",
+    "region": "pt",
+    "match": "exact"
+  },
   "Aloha Vegan Média (fatia)": "miniaturas_aloha_vegan_12776555836a2fdd4cae5ee.png",
   "Base Margarita Pan Média (fatia)": "miniaturas_site_margarita_15018538916788dd861023f.png",
   "Base Margarita Stuffed Crust Média (fatia)": "miniaturas_site_margarita_15018538916788dd861023f.png",
@@ -38,9 +74,21 @@
   "Pão de Alho Simples (un.)": "pa_simples_15631508635d9f1f5443fea.jpg",
   "Pão de Alho Supremo (un.)": "pa_supremo_38801001460ef04d560f89.png",
   "Pão de Alho com Bacon (un.)": "pa_bacon_4549964645d9f1f6e870f1.jpg",
-  "Salada Chicken Garden": "miniaturas_salada_chicken_garden_1211508696a3a3b35c4f82.png",
-  "Salada Rústica": "salada_rustica_corte_1392543791667ad05ca2d60.png",
-  "Salada do Campo": "salada_do_campo_corte_943581284667ad08a20f71.png",
+  "Salada Chicken Garden": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/miniaturas_salada_chicken_garden_1211508696a3a3b35c4f82.png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Salada Rústica": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/salada_rustica_corte_1392543791667ad05ca2d60.png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Salada do Campo": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/salada_do_campo_corte_943581284667ad08a20f71.png",
+    "region": "pt",
+    "match": "exact"
+  },
   "Profiteroles": "box_prof_16492734425fc9241268885.png",
   "Super Fatia Margarita": {
     "url": "https://www.pizzahut.co.za/images/613f9e71-f865-11f0-a53a-37b36bc0765e-margweb_kiosk_thumbnail_0-2026-01-14064646.png",
@@ -51,5 +99,10 @@
     "url": "https://www.pizzahut.co.za/images/286e1620-f82f-11f0-82d5-41a63e3f28db-Nugz_thumbnail_0-2026-01-14064647.png",
     "region": "za",
     "match": "equivalent"
+  },
+  "Batatas Chips": {
+    "url": "https://static.pizzahut.pt/fotos/produtos/lays_mobile_600x400px_37535281654a083b2bda2.png",
+    "region": "pt",
+    "match": "exact"
   }
 }

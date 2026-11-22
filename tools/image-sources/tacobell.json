@@ -268,5 +268,10 @@
     "url": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/105111/product_105111_mobile_large.png",
     "region": "es",
     "match": "equivalent"
+  },
+  "Barbecue": {
+    "url": "https://production-uq-menu-maker-item-images.s3.eu-west-3.amazonaws.com/66c2d7ae-ab23-4af1-ac0b-774854e0d091",
+    "region": "glovo-pt",
+    "match": "equivalent"
   }
 }

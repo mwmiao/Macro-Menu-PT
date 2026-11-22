@@ -892,6 +892,16 @@
   "output": "images/burgerking/778da5eda00a.webp",
   "stamp": "bfb248d5633d"
  },
+ "burgerking/b02a89d32a2b": {
+  "source": "https://cdn.windelivery.io/images/products/63bdf9a269b66ccafbe3049c35d0bf828a7ac818-1333x1333.png",
+  "region": "glovo-pt",
+  "match": "equivalent",
+  "items": [
+   "burgerking:nuggets-vegetais-x9"
+  ],
+  "status": "rejected",
+  "issue": "small green leaf icon at the top right of the photo (not a clean product shot)"
+ },
  "burgerking/b1d5c03f1442": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/3bb1a04e4318654a511babb204aaf475e28c898f-1333x1333.png?w=600&fm=png",
   "region": "es",
@@ -1561,6 +1571,20 @@
   "ai": "approved",
   "edited": "ai"
  },
+ "kfc/2c8b630c1434": {
+  "source": "https://img.ibersol.com/51139/543799/543799.jpg",
+  "region": "ibersol-pt",
+  "match": "exact",
+  "items": [
+   "kfc:coronel-original"
+  ],
+  "status": "approved",
+  "issue": "",
+  "ai": "approved",
+  "edited": "ai",
+  "output": "images/kfc/2f7a76186856.webp",
+  "stamp": "41e5e29f2bbe"
+ },
  "kfc/3e0a0e2f2643": {
   "source": "https://www.kfc.pt/wp-content/uploads/2026/06/BOWL-ARROZ-ASIATICO-1920x1080px.jpg",
   "region": "pt",
@@ -1679,6 +1703,20 @@
   "cutout_reason": "v2: grey shadow smudge still under the wrap",
   "ai": "approved",
   "edited": "ai"
+ },
+ "kfc/504e9b085368": {
+  "source": "https://img.ibersol.com/51139/544572/544572.jpg",
+  "region": "ibersol-pt",
+  "match": "exact",
+  "items": [
+   "kfc:krunch-cheese"
+  ],
+  "status": "approved",
+  "issue": "",
+  "ai": "approved",
+  "edited": "ai",
+  "output": "images/kfc/85ca5198cb09.webp",
+  "stamp": "6c82afe740a7"
  },
  "kfc/536afd9dc866": {
   "source": "https://www.kfc.pt/wp-content/uploads/2019/09/maionese-1920x1080px.webp",
@@ -1831,6 +1869,18 @@
   "ai": "approved",
   "edited": "ai"
  },
+ "kfc/6c84bb367d9f": {
+  "source": "https://img.ibersol.com/51139/516899/516899.jpg",
+  "region": "ibersol-pt",
+  "match": "exact",
+  "items": [
+   "kfc:molho-2hot4you"
+  ],
+  "status": "rejected",
+  "issue": "product only about 180 px wide after the cut-out (too small to stay sharp); the cup is labelled \"HOT CHILI\", not clearly the 2Hot4You sauce",
+  "ai": "rejected",
+  "ai_reason": "product only about 180 px wide after the cut-out (too small to stay sharp); the cup is labelled \"HOT CHILI\", not clearly the 2Hot4You sauce"
+ },
  "kfc/6ea1ac1d3bd6": {
   "source": "https://www.kfc.pt/wp-content/uploads/2020/03/Gelatina_1920x1080px.webp",
   "region": "pt",
@@ -1853,6 +1903,20 @@
   "gen_prompt": "clear plastic cup of red and orange jelly cubes, professional food photography, isolated on a plain white background, studio lighting, sharp",
   "gen_fraction": 0.0,
   "gen_width": 234
+ },
+ "kfc/6f03b0bef3b0": {
+  "source": "https://img.ibersol.com/51139/527153/527153.jpg",
+  "region": "ibersol-pt",
+  "match": "exact",
+  "items": [
+   "kfc:salada-snack"
+  ],
+  "status": "approved",
+  "issue": "",
+  "ai": "approved",
+  "edited": "ai",
+  "output": "images/kfc/5ffcb0b6a679.webp",
+  "stamp": "1846bf72f6a8"
  },
  "kfc/7433f00dbde2": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/kentucky-bbq-1920x1080ox.webp",
@@ -1958,6 +2022,20 @@
   "issue": "",
   "output": "images/kfc/17b59cd06d07.webp",
   "stamp": "5d714c9c226b"
+ },
+ "kfc/92515c4a2a10": {
+  "source": "https://img.ibersol.com/51139/543800/543800.jpg",
+  "region": "ibersol-pt",
+  "match": "exact",
+  "items": [
+   "kfc:coronel-original-double"
+  ],
+  "status": "approved",
+  "issue": "",
+  "ai": "approved",
+  "edited": "ai",
+  "output": "images/kfc/7f8c76c61971.webp",
+  "stamp": "bdc2601e1189"
  },
  "kfc/9a2a1a0055d7": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/11/wrap-junior-classico-1920x1080px.jpg",
@@ -2098,6 +2176,18 @@
   "output": "images/kfc/42090976cea7.webp",
   "stamp": "e409ccc70b53"
  },
+ "kfc/baf79278ecaf": {
+  "source": "https://img.ibersol.com/51139/546152/546152.jpg",
+  "region": "ibersol-pt",
+  "match": "exact",
+  "items": [
+   "kfc:arroz"
+  ],
+  "status": "rejected",
+  "issue": "product only about 210 px wide after the cut-out, too small to stay sharp at card size",
+  "ai": "rejected",
+  "ai_reason": "product only about 210 px wide after the cut-out, too small to stay sharp at card size"
+ },
  "kfc/bb0e2bad6ece": {
   "source": "https://media.imagonist.com/products/products/381_thumb_it.png",
   "region": "it",
@@ -2154,9 +2244,7 @@
   "source": "https://www.kfc.pt/wp-content/uploads/2019/09/Salada-Snack-_1920x1080px.webp",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "kfc:salada-snack"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/e6e5cd930475.webp",
@@ -4837,6 +4925,18 @@
   "ai": "approved",
   "edited": "ai"
  },
+ "pizzahut/fb5b2f38b807": {
+  "source": "https://static.pizzahut.pt/fotos/produtos/lays_mobile_600x400px_37535281654a083b2bda2.png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "pizzahut:batatas-chips"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/00b8abc36f98.webp",
+  "stamp": "7ccd6ea435f1"
+ },
  "tacobell/0618da7520bb": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-NA-e7Y2-2/product_P-NA-e7Y2-2_desktop_large.jpg",
   "region": "es",
@@ -5849,6 +5949,20 @@
   "issue": "",
   "output": "images/tacobell/6037494c189d.webp",
   "stamp": "43503dbea360"
+ },
+ "tacobell/daf5cadd4f1a": {
+  "source": "https://production-uq-menu-maker-item-images.s3.eu-west-3.amazonaws.com/66c2d7ae-ab23-4af1-ac0b-774854e0d091",
+  "region": "glovo-pt",
+  "match": "equivalent",
+  "items": [
+   "tacobell:barbecue"
+  ],
+  "status": "approved",
+  "issue": "",
+  "ai": "approved",
+  "edited": "ai",
+  "output": "images/tacobell/0b414c902314.webp",
+  "stamp": "e602d4e7daa6"
  },
  "tacobell/dc4af7f43cd0": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-TA-Sz2J-2/product_P-TA-Sz2J-2_mobile_large.png",
