@@ -3591,7 +3591,6 @@
   "region": "es",
   "match": "equivalent",
   "items": [
-   "tacobell:nachos-bell-com-carne-picada",
    "tacobell:nachos-bell-com-frango-picante"
   ],
   "status": "fallback",
@@ -3609,25 +3608,45 @@
   "output": "images/tacobell/7d5b4ced036a.webp",
   "stamp": "d9b1d373033c"
  },
+ "tacobell/07aab7a2421e": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CR-aRmn-2/product_P-CR-aRmn-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:crunchywrap-junior-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/58a6778b3be0.webp",
+  "stamp": "9a0fd9cd0598"
+ },
  "tacobell/081fee0e066e": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-TA-NYBQ-2/product_P-TA-NYBQ-2_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:crunchy-taco-com-carne-picada"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/ab6cb232c70d.webp",
   "stamp": "a5d79af0ee64"
  },
+ "tacobell/0b57326a1858": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/104200/product_104200_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:quesadilla-de-queijo"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/8775bd1a0d7c.webp",
+  "stamp": "c6a1f97f9b6d"
+ },
  "tacobell/0ca87ad305ba": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2223/product_2223_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:nachos-supreme"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/27c14d64ec9f.webp",
@@ -3661,13 +3680,23 @@
   "source": "https://www.tacobell.pt/wp-content/uploads/2024/04/tacobell-burritos-quesarito-bacon.jpg",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "tacobell:quesarito-bacon-com-frango-assado"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/52f2c1e3cfe9.webp",
   "stamp": "07f2aef6bd4f"
+ },
+ "tacobell/11c348144b20": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/I-MiniQU-Tacon/product_I-MiniQU-Tacon_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:mini-quesadilla-com-frango-assado"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/20679d3050e9.webp",
+  "stamp": "a979bfa2b44e"
  },
  "tacobell/1363a6bc8e11": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2026/09/burrito-xl.webp",
@@ -3682,13 +3711,35 @@
   "output": "images/tacobell/ee260754c61f.webp",
   "stamp": "184a0bee459a"
  },
+ "tacobell/16dd4c015270": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/105111/product_105111_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:jalapenos"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/fe234bc52eb6.webp",
+  "stamp": "713b1f69340a"
+ },
+ "tacobell/174e9f9992bb": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CR-B7yk-2/product_P-CR-B7yk-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:cheesy-crunchwrap-com-frango-assado"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/ba4f68bca8ee.webp",
+  "stamp": "8464e01548ad"
+ },
  "tacobell/1a51c6aaaad9": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2024/06/BC_Chicken_Burrito_500x600.jpg",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "tacobell:bacon-cheesy-chicken-burrito-com-frango-crocante"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/efba168b6b05.webp",
@@ -3698,9 +3749,7 @@
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-GR-mAz6-2/product_P-GR-mAz6-2_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:gran-burrito-com-carne-picada"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/863b7aeadb82.webp",
@@ -3710,9 +3759,7 @@
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_tacabell.jpg",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "tacobell:taca-bell-chocolate"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/0f464256f7d6.webp",
@@ -3730,6 +3777,20 @@
   "output": "images/tacobell/2ef597aafa99.webp",
   "stamp": "b23c7d3f0439"
  },
+ "tacobell/203163553207": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-NA-3u7x-2/product_P-NA-3u7x-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:nachos-sem-molhos-grande",
+   "tacobell:nachos-sem-molhos-medio",
+   "tacobell:nachos-sem-molhos-pequeno"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/c0074c22a721.webp",
+  "stamp": "54c992ae279f"
+ },
  "tacobell/2140223e4434": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-crunchywrap.jpg",
   "region": "pt",
@@ -3742,6 +3803,32 @@
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/983b2c38dbc0.webp",
   "stamp": "3cd64d1be131"
+ },
+ "tacobell/224116a20a84": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-NA-e7Y2-2/product_P-NA-e7Y2-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:nachos-bell-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/0ab48f9cde2e.webp",
+  "stamp": "2d184ef62e25"
+ },
+ "tacobell/2385ddfa2678": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-PA-su0d-2/product_P-PA-su0d-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:batatas-mexican-grandes",
+   "tacobell:batatas-mexican-medias",
+   "tacobell:batatas-mexican-pequenas"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/52ec4c711324.webp",
+  "stamp": "8509927a0e33"
  },
  "tacobell/252ff28a989c": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-burritos-san-diego.jpg",
@@ -3757,6 +3844,18 @@
   "output": "images/tacobell/80bf2a9b2622.webp",
   "stamp": "3f888508ad98"
  },
+ "tacobell/286dc3993a2c": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/107033/product_107033_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:creamy-bell-pistachio"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/e0de9563afdc.webp",
+  "stamp": "6bd1ece20602"
+ },
  "tacobell/28f523398420": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_cerveja.jpg",
   "region": "pt",
@@ -3771,9 +3870,7 @@
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2074/product_2074_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:chocadilla-de-kit-kat"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/4a5ca72097c6.webp",
@@ -3784,7 +3881,6 @@
   "region": "pt",
   "match": "exact",
   "items": [
-   "tacobell:soft-taco-com-carne-picada",
    "tacobell:soft-taco-com-frango-assado",
    "tacobell:soft-taco-com-frango-picante",
    "tacobell:soft-taco-com-proteina-veggie",
@@ -3809,21 +3905,29 @@
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/107097/product_107097_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:empanada-de-maca"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/8080c03e3465.webp",
   "stamp": "2d4e302d8a8b"
  },
+ "tacobell/350cc9ee4f35": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CH-vUgW-2/product_P-CH-vUgW-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:chocoball"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/7d7726fcec2f.webp",
+  "stamp": "ecd1a9718229"
+ },
  "tacobell/359652cd3c86": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-QU-okX6-2/product_P-QU-okX6-2_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:bacon-cheesy-quesadilla-com-carne-picada"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/b9c031b5eea7.webp",
@@ -3833,9 +3937,7 @@
   "source": "https://www.tacobell.pt/wp-content/uploads/2025/08/tb_creamy_bell.jpg",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "tacobell:creamy-bell-pistachio"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/4ad9cd7d1765.webp",
@@ -3846,8 +3948,7 @@
   "region": "es",
   "match": "equivalent",
   "items": [
-   "tacobell:mas-quesarito-com-carne-picada",
-   "tacobell:quesarito-com-carne-picada"
+   "tacobell:mas-quesarito-com-carne-picada"
   ],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
@@ -3867,6 +3968,18 @@
   "output": "images/tacobell/fe69a2507303.webp",
   "stamp": "55ade1711790"
  },
+ "tacobell/38a6cbb720d0": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CR-ifIB-2/product_P-CR-ifIB-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:crunchwrap-supreme-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/05814a86d77b.webp",
+  "stamp": "d750c4ae6e0c"
+ },
  "tacobell/393010073e0f": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_chocadilla-1.jpg",
   "region": "pt",
@@ -3877,13 +3990,23 @@
   "output": "images/tacobell/d7027b505ae0.webp",
   "stamp": "a620b7287099"
  },
+ "tacobell/3cd23a2494fb": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-QU-okX6-2/product_P-QU-okX6-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:bacon-cheesy-quesadilla-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/dd5d89a8daa2.webp",
+  "stamp": "1e8cfbbad4bd"
+ },
  "tacobell/3d00a181fd57": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-BA-rZEW-2/product_P-BA-rZEW-2_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:bacon-top-fries"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/fb03502a397c.webp",
@@ -3893,11 +4016,7 @@
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-NA-3u7x-2/product_P-NA-3u7x-2_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:nachos-sem-molhos-grande",
-   "tacobell:nachos-sem-molhos-medio",
-   "tacobell:nachos-sem-molhos-pequeno"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/c27bd9654de2.webp",
@@ -3913,12 +4032,23 @@
   "output": "images/tacobell/fa0315ff8c0d.webp",
   "stamp": "5ffd0ef3312f"
  },
+ "tacobell/43c79ac373b0": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/105191/product_105191_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:tiras-de-frango-crocante"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/78b264b64b7d.webp",
+  "stamp": "bd31340b6c3a"
+ },
  "tacobell/4b55d3e42cea": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_taco-crunchy-supreme.jpg",
   "region": "pt",
   "match": "exact",
   "items": [
-   "tacobell:crunchy-taco-supreme-com-carne-picada",
    "tacobell:crunchy-taco-supreme-com-frango-assado"
   ],
   "status": "fallback",
@@ -3952,6 +4082,18 @@
   "output": "images/tacobell/b6e9e0d9b941.webp",
   "stamp": "2cfc528a1235"
  },
+ "tacobell/549c5e48559f": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-QU-A8Vd-2/product_P-QU-A8Vd-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:quesadilla-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/8bfe3f8e6ada.webp",
+  "stamp": "7067d37fb06c"
+ },
  "tacobell/5b6d8aa1442e": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2025/02/taconomicos_chicken_nachos.jpg",
   "region": "pt",
@@ -3965,6 +4107,18 @@
   "output": "images/tacobell/363b47b25aa8.webp",
   "stamp": "49d82699762b"
  },
+ "tacobell/5f424f184c05": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-QU-eciL-2/product_P-QU-eciL-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:quesarito-bacon-com-frango-assado"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/2f954ea3caea.webp",
+  "stamp": "0090ff0c2dc5"
+ },
  "tacobell/5f9e0a91f774": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_cone_bell.jpg",
   "region": "pt",
@@ -3974,6 +4128,42 @@
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/d332c9e01555.webp",
   "stamp": "8c13c49a4fea"
+ },
+ "tacobell/6714f14078a6": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2081/product_2081_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:cone-bell"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/4e753750c929.webp",
+  "stamp": "12b3459e52fa"
+ },
+ "tacobell/6ecca722a737": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-SO-q4Mt-2/product_P-SO-q4Mt-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:soft-taco-supreme-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/c47ba10e1774.webp",
+  "stamp": "0ebf008af4e5"
+ },
+ "tacobell/712582a29ed5": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/I-ChickTA-Tacon/product_I-ChickTA-Tacon_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:chicken-taco-com-frango-crocante"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/203ebaa1e9ad.webp",
+  "stamp": "b130405671d3"
  },
  "tacobell/74acae0533ba": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2024/04/chocoball.jpg",
@@ -3997,6 +4187,18 @@
   "output": "images/tacobell/8e777015fb07.webp",
   "stamp": "5b5be0d23818"
  },
+ "tacobell/7cefeb7ac173": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2087/product_2087_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:taquito-lupita"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/7b26ba8c441e.webp",
+  "stamp": "9bd930e233ef"
+ },
  "tacobell/831222efe76d": {
   "source": "https://cms.superbock.pt/media/ovshrvuu/product-01_original.webp",
   "region": "brand-pt",
@@ -4008,17 +4210,63 @@
   "output": "images/tacobell/d0671465773a.webp",
   "stamp": "dfb0fefc1d5b"
  },
+ "tacobell/83bbc266d06b": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/105113/product_105113_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:nata-cremosa"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/40a4e371660f.webp",
+  "stamp": "e5b69657ea80"
+ },
  "tacobell/8629e5eaacfb": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CR-aRmn-2/product_P-CR-aRmn-2_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:crunchywrap-junior-com-carne-picada"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/c3060200d768.webp",
   "stamp": "88d1a522330c"
+ },
+ "tacobell/8736bf6344ab": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/105108/product_105108_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:molho-nacho-queijo"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/372c8cb48371.webp",
+  "stamp": "69b1ede29edb"
+ },
+ "tacobell/8bb995c625bb": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/I-CheeBu-Tacon/product_I-CheeBu-Tacon_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:cheesy-burrito-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/297ec2eb6e6e.webp",
+  "stamp": "298fa1c635af"
+ },
+ "tacobell/929cdec56d38": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-QU-Kfsr-2/product_P-QU-Kfsr-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:quesarito-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/2c56da583a42.webp",
+  "stamp": "9d461dbe0f27"
  },
  "tacobell/942eb87f4111": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2024/06/BC_CBCrunchyweap_500x600.jpg",
@@ -4031,6 +4279,18 @@
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/2018ca3a8f6e.webp",
   "stamp": "7e38399c76d0"
+ },
+ "tacobell/9854ad75c5de": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-SO-6Jc7-2/product_P-SO-6Jc7-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:soft-taco-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/7a15868a77c8.webp",
+  "stamp": "3e06bbe0c95f"
  },
  "tacobell/a0e79973f48b": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-complementos-top-fries.jpg",
@@ -4046,9 +4306,7 @@
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-burritos-chicken.jpg",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "tacobell:chicken-burrito-com-frango-crocante"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/f969041b0a03.webp",
@@ -4068,17 +4326,75 @@
   "output": "images/tacobell/9fb8ad689d43.webp",
   "stamp": "0a3f997ffa73"
  },
+ "tacobell/ab79baabd4c9": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-BE-3a3B-2/product_P-BE-3a3B-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:burrito-grillers-bbq-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/da1b7ef5ce10.webp",
+  "stamp": "c5d8ace6780f"
+ },
+ "tacobell/ac9f18c1fc5f": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-BU-F8d8-2/product_P-BU-F8d8-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:bacon-cheesy-chicken-burrito-com-frango-crocante"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/131456b97669.webp",
+  "stamp": "47ab37d9eece"
+ },
+ "tacobell/ae3832b8a13b": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CH-s5QW-2/product_P-CH-s5QW-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:chicken-burrito-com-frango-crocante"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/c19b3284bbef.webp",
+  "stamp": "6c2de86ecd17"
+ },
  "tacobell/b08dba195932": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CR-rsm3-2/product_P-CR-rsm3-2_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:crunchwrap-supreme-com-carne-picada"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/c2446c054cda.webp",
   "stamp": "9f020ebbf86a"
+ },
+ "tacobell/b16008f61829": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/107078/product_107078_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:taca-bell-chocolate"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/54ebf5f93117.webp",
+  "stamp": "6bcae536cf13"
+ },
+ "tacobell/b23619c693c4": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-BA-rZEW-2/product_P-BA-rZEW-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:bacon-top-fries"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/01f31e8e7d03.webp",
+  "stamp": "2fe914f9ed08"
  },
  "tacobell/b2e40230f183": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-complementos-nachos-bell.jpg",
@@ -4089,6 +4405,18 @@
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/038fcb81cce7.webp",
   "stamp": "e9b672b7f780"
+ },
+ "tacobell/bab1c8868b05": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-GR-ayk8-2/product_P-GR-ayk8-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:gran-burrito-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/6f52ad46634d.webp",
+  "stamp": "b03c44655747"
  },
  "tacobell/bc9e4fa53569": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_refrigerantes.jpg",
@@ -4103,25 +4431,45 @@
   "output": "images/tacobell/e29d8a17918f.webp",
   "stamp": "f13c8f264fce"
  },
+ "tacobell/bd709be0cdd6": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-BU-ka9T-2/product_P-BU-ka9T-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:burrito-beefries-bbq-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/533569bf2900.webp",
+  "stamp": "db1cee90f9bd"
+ },
  "tacobell/bed7f48b1a28": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-CH-vUgW-2/product_P-CH-vUgW-2_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:chocoball"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/d4151f99bb67.webp",
   "stamp": "10f1fb00813c"
  },
+ "tacobell/bfc640d0279b": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-TA-NYBQ-2/product_P-TA-NYBQ-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:crunchy-taco-supreme-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/92ca84c309a4.webp",
+  "stamp": "e03e8c15d8d4"
+ },
  "tacobell/cb53d15c40aa": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2025/02/taconomicos_chicken_taco.jpg",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "tacobell:chicken-taco-com-frango-crocante"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/521a5320b9a5.webp",
@@ -4131,9 +4479,7 @@
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2081/product_2081_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:cone-bell"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/68aaec0640bb.webp",
@@ -4143,35 +4489,87 @@
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2087/product_2087_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:taquito-lupita"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/d107219d569d.webp",
   "stamp": "195d5ec75510"
  },
+ "tacobell/d0a46f62f315": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2074/product_2074_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:chocadilla-de-kit-kat"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/4c3b16e8aae8.webp",
+  "stamp": "35cb2b7d556f"
+ },
  "tacobell/d14306329844": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2025/02/taconomicos_cheesyburrito.jpg",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "tacobell:cheesy-burrito-com-carne-picada"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
   "output": "images/tacobell/179ef422d3b0.webp",
   "stamp": "f406672f4201"
  },
+ "tacobell/d98bdfc506fe": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-BU-LxWb-2/product_P-BU-LxWb-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:cheesy-chicken-burrito-com-frango-crocante"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/6037494c189d.webp",
+  "stamp": "43503dbea360"
+ },
+ "tacobell/dc4af7f43cd0": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-TA-Sz2J-2/product_P-TA-Sz2J-2_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:crunchy-taco-com-carne-picada"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/33a4b61cc82d.webp",
+  "stamp": "3083454b2303"
+ },
+ "tacobell/dce7ace49e01": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/105102/product_105102_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:guacamole"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/beb3d82ed033.webp",
+  "stamp": "7d0088e5fa8b"
+ },
+ "tacobell/e4b7cef30b09": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2223/product_2223_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:nachos-supreme"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/0e9cf3ff7bf1.webp",
+  "stamp": "7ad35901f4d3"
+ },
  "tacobell/e618f14b828f": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-PA-su0d-2/product_P-PA-su0d-2_desktop_large.jpg",
   "region": "es",
   "match": "equivalent",
-  "items": [
-   "tacobell:batatas-mexican-grandes",
-   "tacobell:batatas-mexican-medias",
-   "tacobell:batatas-mexican-pequenas"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
   "output": "images/tacobell/9d5b20eea9d1.webp",
@@ -4194,7 +4592,6 @@
   "region": "pt",
   "match": "exact",
   "items": [
-   "tacobell:soft-taco-supreme-com-carne-picada",
    "tacobell:soft-taco-supreme-com-frango-assado"
   ],
   "status": "fallback",
@@ -4202,18 +4599,27 @@
   "output": "images/tacobell/e42bbe2da905.webp",
   "stamp": "01aeb5c5e4d0"
  },
+ "tacobell/f27b6a769842": {
+  "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/107097/product_107097_mobile_large.png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "tacobell:empanada-de-maca"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/cf6abb415446.webp",
+  "stamp": "4f846a5ababc"
+ },
  "tacobell/fe00d3a8b2d0": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2017/05/tacobell-quesadilla.jpg",
   "region": "pt",
   "match": "exact",
   "items": [
    "tacobell:mini-quesadilla-com-carne-picada",
-   "tacobell:mini-quesadilla-com-frango-assado",
-   "tacobell:quesadilla-com-carne-picada",
    "tacobell:quesadilla-com-frango-assado",
    "tacobell:quesadilla-com-frango-picante",
-   "tacobell:quesadilla-com-proteina-veggie",
-   "tacobell:quesadilla-de-queijo"
+   "tacobell:quesadilla-com-proteina-veggie"
   ],
   "status": "fallback",
   "issue": "lifestyle photo (hands, table, scene), no transparent background",
