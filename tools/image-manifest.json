@@ -1343,7 +1343,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/7204db96f292.webp",
-  "stamp": "44c328f2d07e"
+  "stamp": "44c328f2d07e",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: glass and cup eaten, only the topping left"
  },
  "kfc/07953034239a": {
   "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-caramelo-1920x1080px.jpg",
@@ -1365,7 +1368,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/b9b7ad3fe51e.webp",
-  "stamp": "5f50ffcfefc2"
+  "stamp": "5f50ffcfefc2",
+  "cutout": "rejected",
+  "cutout_reason": "VEGGIE badge left in; grey shadow patch"
  },
  "kfc/0c9c16bf7bc1": {
   "source": "https://www.kfc.pt/wp-content/uploads/2022/11/shakes_morango-1920x1080-1.png",
@@ -1400,7 +1405,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/b6020a332d7e.webp",
-  "stamp": "d4e56709ace6"
+  "stamp": "d4e56709ace6",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "kfc/1e734439ba9b": {
   "source": "https://www.kfc.pt/wp-content/uploads/2026/06/minisundae-morango-1920x1080px.jpg",
@@ -1412,7 +1419,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/f358dc26ae46.webp",
-  "stamp": "062d2e559dc7"
+  "stamp": "062d2e559dc7",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: glass eaten, only the topping and strawberry left"
  },
  "kfc/2693e325ecea": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/Classica-Doble.webp",
@@ -1436,7 +1446,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/3c77519cefe9.webp",
-  "stamp": "f43bd559583f"
+  "stamp": "f43bd559583f",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: glass eaten, only the topping left"
  },
  "kfc/3e0a0e2f2643": {
   "source": "https://www.kfc.pt/wp-content/uploads/2026/06/BOWL-ARROZ-ASIATICO-1920x1080px.jpg",
@@ -1448,7 +1461,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/d3923439bc35.webp",
-  "stamp": "58ab8e2e26d7"
+  "stamp": "58ab8e2e26d7",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: white bowl eaten"
  },
  "kfc/3e131e53a8db": {
   "source": "https://www.kfc.pt/wp-content/uploads/2019/09/boxmaster-1920x1080px.webp",
@@ -1461,7 +1477,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/bf63e73dadb7.webp",
-  "stamp": "a7e09d8dcdf5"
+  "stamp": "a7e09d8dcdf5",
+  "cutout": "rejected",
+  "cutout_reason": "chunk of the white box eaten; ragged"
  },
  "kfc/4152cbcea741": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/DOUBLE-KRUNCH-CLASSICO_Kioskes_1920x1080px.webp",
@@ -1470,10 +1488,13 @@
   "items": [
    "kfc:double-krunch-classico"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/270b1d172c9e.webp",
-  "stamp": "4b12507033fb"
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/3a74b7313687.webp",
+  "stamp": "8670147ee1e7",
+  "cutout": "approved",
+  "cutout_pass": 2,
+  "edited": "cutout"
  },
  "kfc/436b41cc7990": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/2HotWings-1.webp",
@@ -1496,7 +1517,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/2c5494616c2d.webp",
-  "stamp": "6d9590082f32"
+  "stamp": "6d9590082f32",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "kfc/4a3eb677a9d4": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/molho-caesar-kiosk-1920x1080px.jpg",
@@ -1505,10 +1528,12 @@
   "items": [
    "kfc:molho-cesar"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/512d8e8bc18d.webp",
-  "stamp": "26b3786cec6f"
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/b11e33bc3890.webp",
+  "stamp": "181367e876c2",
+  "cutout": "approved",
+  "edited": "cutout"
  },
  "kfc/4c3dea1f9c72": {
   "source": "https://media.imagonist.com/products/products/553_thumb_it.png",
@@ -1532,7 +1557,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/32f267f7773f.webp",
-  "stamp": "9dc65ea0f87a"
+  "stamp": "9dc65ea0f87a",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: grey shadow smudge still under the wrap"
  },
  "kfc/536afd9dc866": {
   "source": "https://www.kfc.pt/wp-content/uploads/2019/09/maionese-1920x1080px.webp",
@@ -1544,7 +1572,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/1fb963fdaeb3.webp",
-  "stamp": "753470a0c6bc"
+  "stamp": "753470a0c6bc",
+  "cutout": "rejected",
+  "cutout_reason": "label text eaten; grey shadow patch"
  },
  "kfc/556681fcc6b9": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/11/molho-coronel-kiosk-1920x1080px.webp",
@@ -1556,7 +1586,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/de17badf07c9.webp",
-  "stamp": "577d3409c8cd"
+  "stamp": "577d3409c8cd",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: ragged left edge on dark"
  },
  "kfc/559690399bbe": {
   "source": "https://www.kfc.pt/wp-content/uploads/2026/06/minisundae-caramelo-1920x1080px.jpg",
@@ -1578,7 +1611,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/447614ee690e.webp",
-  "stamp": "0a4082e8e6ad"
+  "stamp": "0a4082e8e6ad",
+  "cutout": "rejected",
+  "cutout_reason": "VEGGIE badge left in; shadow smudge"
  },
  "kfc/5aff22d024e9": {
   "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-morango-1920x1080px.jpg",
@@ -1590,7 +1625,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/37af3de4dfcc.webp",
-  "stamp": "bf74907e1967"
+  "stamp": "bf74907e1967",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: glass eaten, only the topping and strawberry left"
  },
  "kfc/5d79285d4388": {
   "source": "https://www.kfc.pt/wp-content/uploads/2023/05/kream-lotus-1920x1080px.jpg",
@@ -1602,7 +1640,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/875be97e1942.webp",
-  "stamp": "d6957b0d3a58"
+  "stamp": "d6957b0d3a58",
+  "cutout": "rejected",
+  "cutout_reason": "ragged edge, eaten white parts"
  },
  "kfc/60ccfbc1dc87": {
   "source": "https://media.imagonist.com/products/products/383_thumb_it.png",
@@ -1623,10 +1663,13 @@
   "items": [
    "kfc:krunch-classico"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/e80b6854abdd.webp",
-  "stamp": "16f13d807907"
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/03793644ba84.webp",
+  "stamp": "6e4e54cfa3fb",
+  "cutout": "approved",
+  "cutout_pass": 2,
+  "edited": "cutout"
  },
  "kfc/656214c5b719": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/ketchup-1920x1080px-1.webp",
@@ -1638,7 +1681,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/6b1f72a520cb.webp",
-  "stamp": "bdac3065a144"
+  "stamp": "bdac3065a144",
+  "cutout": "rejected",
+  "cutout_reason": "product mostly eaten; shadow strip"
  },
  "kfc/6c6458876e70": {
   "source": "https://www.kfc.pt/wp-content/uploads/2026/06/minisundae-1920x1080px.jpg",
@@ -1650,7 +1695,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/1b0db3ff4712.webp",
-  "stamp": "8ae208eac2c8"
+  "stamp": "8ae208eac2c8",
+  "cutout": "rejected",
+  "cutout_reason": "white glass eaten, fringe"
  },
  "kfc/6ea1ac1d3bd6": {
   "source": "https://www.kfc.pt/wp-content/uploads/2020/03/Gelatina_1920x1080px.webp",
@@ -1662,7 +1709,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/ef1f13a678ad.webp",
-  "stamp": "466485299914"
+  "stamp": "466485299914",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "kfc/7433f00dbde2": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/kentucky-bbq-1920x1080ox.webp",
@@ -1672,10 +1721,13 @@
    "kfc:kentucky-bbq-original",
    "kfc:kentucky-bbq-zinger"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/0a493da7f414.webp",
-  "stamp": "0c9801cb4bba"
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/e9684f9d986f.webp",
+  "stamp": "b32cb1ceb3e7",
+  "cutout": "approved",
+  "cutout_pass": 2,
+  "edited": "cutout"
  },
  "kfc/76de224c24c1": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/DOUBLE-KRUNCH-BBQ_Kioskes_1920x1080px.webp",
@@ -1684,10 +1736,13 @@
   "items": [
    "kfc:double-krunch-bbq"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/6eab1b712a97.webp",
-  "stamp": "fba2fd90f169"
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/761e50c880bd.webp",
+  "stamp": "aa5c31b38bb4",
+  "cutout": "approved",
+  "cutout_pass": 2,
+  "edited": "cutout"
  },
  "kfc/7d0223b7103d": {
   "source": "https://www.kfc.pt/wp-content/uploads/2021/06/Aros-de-Cebola-1.webp",
@@ -1731,10 +1786,13 @@
    "kfc:kentucky-bbq-original-double",
    "kfc:kentucky-bbq-zinger-double"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/3d2b0c0532ec.webp",
-  "stamp": "de9d14e59b08"
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/e09f5d16b954.webp",
+  "stamp": "66d0cecdd84b",
+  "cutout": "approved",
+  "cutout_pass": 2,
+  "edited": "cutout"
  },
  "kfc/8d96e153f6b1": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/TOWER-DOUBLE-NEW-_Kioskes-1920x1080-1.webp",
@@ -1770,7 +1828,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/ea5214b79814.webp",
-  "stamp": "8cd29a02ac6b"
+  "stamp": "8cd29a02ac6b",
+  "cutout": "rejected",
+  "cutout_reason": "VEGGIE badge left in; shadow smudge"
  },
  "kfc/9f26aacaa8d2": {
   "source": "https://www.kfc.pt/wp-content/uploads/2023/10/Salada-Emmental_1920x1080px.webp",
@@ -1790,10 +1850,12 @@
   "items": [
    "kfc:burguer-junior"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/4355b10d16f1.webp",
-  "stamp": "91a5affa7516"
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/01ab0103e725.webp",
+  "stamp": "007bd65e795e",
+  "cutout": "approved",
+  "edited": "cutout"
  },
  "kfc/a9a1ce5d5985": {
   "source": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/2026_grafika/Loaded_Doritos/doritos_paczka.png",
@@ -1825,10 +1887,13 @@
   "items": [
    "kfc:profiteroles"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/f43a1a1e819f.webp",
-  "stamp": "08adee5d9a8f"
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/2a66e292cf80.webp",
+  "stamp": "ce21faf32def",
+  "cutout": "approved",
+  "cutout_pass": 2,
+  "edited": "cutout"
  },
  "kfc/b050897e0007": {
   "source": "https://www.kfc.pt/wp-content/uploads/2026/06/sundae-nocilla-1920x1080px.jpg",
@@ -1840,7 +1905,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/f5544cb080e5.webp",
-  "stamp": "67f6b01edff0"
+  "stamp": "67f6b01edff0",
+  "cutout": "rejected",
+  "cutout_reason": "dark gaps in the glass, shadow"
  },
  "kfc/b98dc90c5cde": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/2-Tenders.webp",
@@ -1863,7 +1930,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/4f645642264d.webp",
-  "stamp": "e1d3a578a717"
+  "stamp": "e1d3a578a717",
+  "cutout": "rejected",
+  "cutout_reason": "VEGGIE badge left in"
  },
  "kfc/baa00db9adae": {
   "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-1920x1080px.jpg",
@@ -1894,10 +1963,12 @@
   "items": [
    "kfc:wrap-kentucky-bbq"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/eca89f98ad73.webp",
-  "stamp": "f14dd0854ae6"
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/78cc07d51bed.webp",
+  "stamp": "09dec58ad209",
+  "cutout": "approved",
+  "edited": "cutout"
  },
  "kfc/bd4ded59d902": {
   "source": "https://www.kfc.pt/wp-content/uploads/2019/09/molho_Garlic-Sauce_1920x1080px.png",
@@ -1909,7 +1980,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/b2d0a51efb86.webp",
-  "stamp": "f0afb86e383b"
+  "stamp": "f0afb86e383b",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "kfc/cf0cf01a5b8f": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/kentuchy-fries-cheddar-1920x1080px.webp",
@@ -1931,7 +2004,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/e6e5cd930475.webp",
-  "stamp": "37ed34dcd2f3"
+  "stamp": "37ed34dcd2f3",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "kfc/d9d57aef450f": {
   "source": "https://www.kfc.pt/wp-content/uploads/2019/09/molho-cheddar-kiosk-1920x1080px-.webp",
@@ -1943,7 +2018,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/aee2bdc42268.webp",
-  "stamp": "36a2c7e2f335"
+  "stamp": "36a2c7e2f335",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: ragged edge along the lid and bottom"
  },
  "kfc/dcc67a0e1009": {
   "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-chocolate-1920x1080px-1.jpg",
@@ -1955,7 +2033,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/6bc98a8133c3.webp",
-  "stamp": "cee3939e3280"
+  "stamp": "cee3939e3280",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: glass eaten, only the topping left"
  },
  "kfc/e31553502a13": {
   "source": "https://www.kfc.pt/wp-content/uploads/2023/10/Salada-Coronel-RO-_1920x1080px.webp",
@@ -1979,7 +2060,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/e63d9f7536c8.webp",
-  "stamp": "c94e2c3498e6"
+  "stamp": "c94e2c3498e6",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: grey shadow smudge still under the wrap"
  },
  "kfc/e9dec66abe45": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/kentuchy-fries-bbq-1920x1080px.webp",
@@ -1991,7 +2075,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/9d4a8537ac64.webp",
-  "stamp": "1bcafffc41bd"
+  "stamp": "1bcafffc41bd",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: white box eaten"
  },
  "kfc/ea1cf264438d": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/Classica-Single.webp",
@@ -2015,7 +2102,9 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/3224e197bf9d.webp",
-  "stamp": "79dbd8f5fb15"
+  "stamp": "79dbd8f5fb15",
+  "cutout": "rejected",
+  "cutout_reason": "VEGGIE badge left in"
  },
  "kfc/edf8dced709e": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/02/TWISTER-Coronel-1920x1080-ALC.webp",
@@ -2027,7 +2116,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/3d1c29421108.webp",
-  "stamp": "c2ae685a8fbe"
+  "stamp": "c2ae685a8fbe",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: grey shadow smudge still under the wrap"
  },
  "kfc/f12752b85aa6": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/krunch-bbq-1920x1080px-1.jpg",
@@ -2036,10 +2128,12 @@
   "items": [
    "kfc:krunch-bbq"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/4590cceca0c5.webp",
-  "stamp": "0c3680fdf290"
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/b2d9c7cda873.webp",
+  "stamp": "43502a7bec17",
+  "cutout": "approved",
+  "edited": "cutout"
  },
  "kfc/f12fe5fcc058": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/novas-batatas-media-kiosk-1920x1080px-copia-1.webp",
@@ -2051,7 +2145,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/aae7da92748f.webp",
-  "stamp": "dfc753db866c"
+  "stamp": "dfc753db866c",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: white box and text eaten"
  },
  "kfc/f50e34b8cd1c": {
   "source": "https://www.kfc.pt/wp-content/uploads/2021/03/SINGLE_Kioskes_1920x1080px-1.webp",
@@ -2064,7 +2161,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/327b653cd992.webp",
-  "stamp": "6163a2f6ca61"
+  "stamp": "6163a2f6ca61",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: stray crumb specks under the bun"
  },
  "kfc/f76b5c42a210": {
   "source": "https://www.kfc.pt/wp-content/uploads/2021/03/DOUBLE_Kioskes_1920x1080px-1.webp",
@@ -2077,7 +2177,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/48948822620f.webp",
-  "stamp": "9e9d64449541"
+  "stamp": "9e9d64449541",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: stray crumb speck under the bun"
  },
  "kfc/f776dce478a1": {
   "source": "https://www.kfc.pt/wp-content/uploads/2022/11/Shakes-sueltos-OREO-1920x1080-1.jpg",
@@ -2089,7 +2192,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/9cb23114feb1.webp",
-  "stamp": "985b487a2be3"
+  "stamp": "985b487a2be3",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: white shake eaten"
  },
  "kfc/f98e9ed82942": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/11/novas-batatas-ktf-kiosk-1920x1080px.webp",
@@ -2101,7 +2207,10 @@
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/bdc96159aff9.webp",
-  "stamp": "06dc1414924a"
+  "stamp": "06dc1414924a",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: white box and text eaten"
  },
  "kfc/fb74e770c23f": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/DOUBLE-KRUNCH-CHEESE_Kioskes_1920x1080px.webp",
@@ -2110,10 +2219,13 @@
   "items": [
    "kfc:double-krunch-cheese"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/kfc/70fb4300aeea.webp",
-  "stamp": "722f64684994"
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/26cf60312a60.webp",
+  "stamp": "8e01568c0d7d",
+  "cutout": "approved",
+  "cutout_pass": 2,
+  "edited": "cutout"
  },
  "kfc/fd4cdd690880": {
   "source": "https://www.kfc.pt/wp-content/uploads/2022/04/4-Emmental-Bites.webp",
@@ -2721,10 +2833,12 @@
   "items": [
    "mcdonalds:vinagrete-de-pesto"
   ],
-  "status": "fallback",
-  "issue": "white background, not transparent",
-  "output": "images/mcdonalds/800c0121cbb6.webp",
-  "stamp": "28a71da3ab77"
+  "status": "approved",
+  "issue": "",
+  "output": "images/mcdonalds/237d0f062648.webp",
+  "stamp": "503dfaf862c1",
+  "cutout": "approved",
+  "edited": "cutout"
  },
  "mcdonalds/79546f3339c2": {
   "source": "https://www.mcdonalds.pt/media/10536/181009_mccafesok68064_cookie-copy.png",
@@ -3460,7 +3574,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/5485f7bdfc15.webp",
-  "stamp": "14557863c2b4"
+  "stamp": "14557863c2b4",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/12606c1eb6a2": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_arty_club_pans.jpg",
@@ -3472,7 +3588,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/fffc4b97b515.webp",
-  "stamp": "52ff3c2412ce"
+  "stamp": "52ff3c2412ce",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/14790b7e21cb": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_frango.jpg",
@@ -3484,7 +3602,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/0c9eefbdc60d.webp",
-  "stamp": "43daab583c41"
+  "stamp": "43daab583c41",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/18b60a076b03": {
   "source": "https://www.pans.pt/wp-content/uploads/veggie_heura_trufado.webp",
@@ -3496,7 +3616,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/7bed5b5df269.webp",
-  "stamp": "a5e16f775161"
+  "stamp": "a5e16f775161",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/1f676cd6dae5": {
   "source": "https://www.pans.pt/wp-content/uploads/singles_mozzarella_pesto_pinsa.webp",
@@ -3508,7 +3630,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/ae674c511b64.webp",
-  "stamp": "d2b889a0356c"
+  "stamp": "d2b889a0356c",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/293f9574fa2e": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_delicias_do_mar.jpg",
@@ -3520,7 +3644,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/262fa002f08a.webp",
-  "stamp": "08834d8d37bd"
+  "stamp": "08834d8d37bd",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/2c0b19d0904a": {
   "source": "https://www.pans.pt/wp-content/uploads/glutenfree-lqb.webp",
@@ -3532,7 +3658,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/742a731106a8.webp",
-  "stamp": "217ea93cd479"
+  "stamp": "217ea93cd479",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/33b03b15b824": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_lombo_raclette.jpg",
@@ -3544,7 +3672,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/f2fb7a1207b6.webp",
-  "stamp": "eb88a45151e9"
+  "stamp": "eb88a45151e9",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/3fa4fca8479e": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_inglesa.jpg",
@@ -3556,7 +3686,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/acee839b82e1.webp",
-  "stamp": "79e12c7484b0"
+  "stamp": "79e12c7484b0",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/47ce56a01df4": {
   "source": "https://www.pans.pt/wp-content/uploads/veggie_crocante_heura.webp",
@@ -3568,7 +3700,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/720b828348a8.webp",
-  "stamp": "8192647abb8d"
+  "stamp": "8192647abb8d",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/4cc07dd69a4f": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_crocante_frango.jpg",
@@ -3580,7 +3714,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/8db9c1f81939.webp",
-  "stamp": "a86d7501b702"
+  "stamp": "a86d7501b702",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/4fd8e0270171": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_pulled-1.jpg",
@@ -3592,7 +3728,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/fa975cc702d1.webp",
-  "stamp": "941be5417471"
+  "stamp": "941be5417471",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/63b89ff7a05b": {
   "source": "https://www.pans.pt/wp-content/uploads/veggie_humus_beterraba.webp",
@@ -3604,7 +3742,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/37d662bcdc9a.webp",
-  "stamp": "76e1b9e4cdd3"
+  "stamp": "76e1b9e4cdd3",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/7a45a752992d": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_frango_supreme.jpg",
@@ -3616,7 +3756,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/0afee54c57cd.webp",
-  "stamp": "c87f72d0be54"
+  "stamp": "c87f72d0be54",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/a24e77dbd6f6": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_POLLO_BRIE_TRUFADO.jpg",
@@ -3628,7 +3770,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/d19a53eba681.webp",
-  "stamp": "61429b5284c4"
+  "stamp": "61429b5284c4",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/a9575b424c87": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_lqb.jpg",
@@ -3640,7 +3784,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/ee7bfe9d0cd6.webp",
-  "stamp": "cd9a784b5c28"
+  "stamp": "cd9a784b5c28",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/ae292cf15bb9": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_IBERICO-1.jpg",
@@ -3652,7 +3798,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/414623b8834c.webp",
-  "stamp": "ef119d29deb0"
+  "stamp": "ef119d29deb0",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/c7d230b2d12a": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_arty_frango_crispy.jpg",
@@ -3664,7 +3812,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/4b4a9cdbda1b.webp",
-  "stamp": "04a6ed64ac80"
+  "stamp": "04a6ed64ac80",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/d2634904fb39": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_COMPLEMENTOS_POSTRES_sopa.jpg",
@@ -3677,7 +3827,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/580c5ac8cde5.webp",
-  "stamp": "8ff9a2357ef2"
+  "stamp": "8ff9a2357ef2",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/d4f49cd9ce9e": {
   "source": "https://www.pans.pt/wp-content/uploads/singles_presunto_brie.webp",
@@ -3689,7 +3841,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/33b5f331e72f.webp",
-  "stamp": "0117d8d6d914"
+  "stamp": "0117d8d6d914",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/d73375f079e1": {
   "source": "https://www.pans.pt/wp-content/uploads/glutenfree-inglesa.webp",
@@ -3701,7 +3855,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/fffbdbbb2c6c.webp",
-  "stamp": "4ce98dbb8708"
+  "stamp": "4ce98dbb8708",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/e80dca3a7a84": {
   "source": "https://www.pans.pt/wp-content/uploads/tosta_mista.webp",
@@ -3714,7 +3870,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/c8132edf07a0.webp",
-  "stamp": "bbc87ec763c5"
+  "stamp": "bbc87ec763c5",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/f6d8c3bda2a0": {
   "source": "https://www.pans.pt/wp-content/uploads/torrada_inteira.webp",
@@ -3726,7 +3884,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/0440f8ff67a3.webp",
-  "stamp": "ab19998d8585"
+  "stamp": "ab19998d8585",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pans/f8f54dbb469e": {
   "source": "https://www.pans.pt/wp-content/uploads/singles_salmao_abacate_pinsa.webp",
@@ -3738,7 +3898,9 @@
   "status": "fallback",
   "issue": "photographed on a table/background, not transparent",
   "output": "images/pans/b78c42eca5cd.webp",
-  "stamp": "f8605b2a28d7"
+  "stamp": "f8605b2a28d7",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/07c6f9584548": {
   "source": "https://www.pizzahut.co.za/images/613f9e71-f865-11f0-a53a-37b36bc0765e-margweb_kiosk_thumbnail_0-2026-01-14064646.png",
@@ -3762,7 +3924,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/1dac117ed4c7.webp",
-  "stamp": "f03001676d28"
+  "stamp": "f03001676d28",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/110af86b5be6": {
   "source": "https://static.pizzahut.pt/fotos/produtos/batascountry_3q_bacon_mobile_set23_600x400px_01_96139953565031ff7e9cec.png",
@@ -3787,7 +3951,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/650944f0e845.webp",
-  "stamp": "78d318b9c521"
+  "stamp": "78d318b9c521",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/1be08a5b6556": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_carbonara_16032158226a2fdcdc294ce.png",
@@ -3799,7 +3965,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/882fbbb7cddb.webp",
-  "stamp": "54aeadc93ecc"
+  "stamp": "54aeadc93ecc",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/2ba6a4f28f0d": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_margarita_vegan_80039419067813190e93bf.png",
@@ -3811,7 +3979,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/8eda9974ffad.webp",
-  "stamp": "49591bbca81c"
+  "stamp": "49591bbca81c",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/3862e2c74b0d": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_salada_chicken_garden_1211508696a3a3b35c4f82.png",
@@ -3823,7 +3993,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/4e0b26806bc9.webp",
-  "stamp": "6ac796f0a41e"
+  "stamp": "6ac796f0a41e",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/3c534c8a03a9": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_serrana_84041800467813203c87ac.png",
@@ -3835,7 +4007,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/e484c0bb5ad9.webp",
-  "stamp": "7b5c62e4885a"
+  "stamp": "7b5c62e4885a",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/425222a1fb32": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_margarita_15018538916788dd861023f.png",
@@ -3849,7 +4023,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/112f9e805c1b.webp",
-  "stamp": "50d0fda0f5a3"
+  "stamp": "50d0fda0f5a3",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/44bec3fb05e4": {
   "source": "https://static.pizzahut.pt/fotos/produtos/lasanha_2_recorte_171_5894590255a7b4806fefb.jpg",
@@ -3861,7 +4037,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/695b310ef633.webp",
-  "stamp": "e54bbb0e80b7"
+  "stamp": "e54bbb0e80b7",
+  "cutout": "rejected",
+  "cutout_reason": "white plate eaten, ragged edge"
  },
  "pizzahut/450396c612c2": {
   "source": "https://static.pizzahut.pt/fotos/produtos/pa_supremo_38801001460ef04d560f89.png",
@@ -3873,7 +4051,10 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/73bb28bc79af.webp",
-  "stamp": "ac7bb27d83b5"
+  "stamp": "ac7bb27d83b5",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: ragged white nicks along the board edge"
  },
  "pizzahut/59aacc41486b": {
   "source": "https://static.pizzahut.pt/fotos/produtos/burger_lovers_400x400px_7661274467fd22f91d90a.jpg",
@@ -3885,7 +4066,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/5bc56ff87a6d.webp",
-  "stamp": "926158537dc3"
+  "stamp": "926158537dc3",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/627c92df369d": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_pepperoni_lovers_474239786678142713c9fe.png",
@@ -3907,7 +4090,10 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/382326392a80.webp",
-  "stamp": "47aeb17ea69a"
+  "stamp": "47aeb17ea69a",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: ragged white fringe"
  },
  "pizzahut/6856e154b965": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_hot_chicken_fiesta_21249201836a2fdde7517dc.png",
@@ -3919,7 +4105,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/a37bcf0eb7d7.webp",
-  "stamp": "0f302339da4d"
+  "stamp": "0f302339da4d",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/75e0b5dd1274": {
   "source": "https://www.pizzahut.co.za/images/286e1620-f82f-11f0-82d5-41a63e3f28db-Nugz_thumbnail_0-2026-01-14064647.png",
@@ -3955,7 +4143,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/d613e4cc7eeb.webp",
-  "stamp": "2def2af72a9a"
+  "stamp": "2def2af72a9a",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/96abd5f2f3a9": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_aloha_vegan_12776555836a2fdd4cae5ee.png",
@@ -3967,7 +4157,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/707d645ca412.webp",
-  "stamp": "44be4a67f677"
+  "stamp": "44be4a67f677",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/99fe3c164d00": {
   "source": "https://static.pizzahut.pt/fotos/produtos/salada_rustica_corte_1392543791667ad05ca2d60.png",
@@ -3979,7 +4171,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/982d45dd728c.webp",
-  "stamp": "22867967a2e8"
+  "stamp": "22867967a2e8",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/9ff4a3fae72b": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_havaiana_2135426398678142f065e5f.png",
@@ -4012,7 +4206,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/881381c14d0c.webp",
-  "stamp": "44fc5c6cebfe"
+  "stamp": "44fc5c6cebfe",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/b8ac97f8ba15": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_veggie_lovers_21143133916a2fdd84af961.png",
@@ -4024,7 +4220,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/8521ed78a59e.webp",
-  "stamp": "a6fc8d7b506b"
+  "stamp": "a6fc8d7b506b",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/c632de63891b": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_bacon_lovers_1737869157678132b74b1a7.png",
@@ -4036,7 +4234,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/b5a27ec854a4.webp",
-  "stamp": "f10b4bc614a7"
+  "stamp": "f10b4bc614a7",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/caac6e5ac181": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_camponesa_1879330981678132d56e7e9.png",
@@ -4048,7 +4248,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/e21b935d3f1d.webp",
-  "stamp": "0d0e089d3ebf"
+  "stamp": "0d0e089d3ebf",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/cf4e84a49dd8": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_chicken_carbonara_11272621586a2fdcf421f92.png",
@@ -4060,7 +4262,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/18cb2b150d2e.webp",
-  "stamp": "463aad867bdb"
+  "stamp": "463aad867bdb",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/dd5046ff8c8a": {
   "source": "https://static.pizzahut.pt/fotos/produtos/salada_do_campo_corte_943581284667ad08a20f71.png",
@@ -4072,7 +4276,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/58931854735d.webp",
-  "stamp": "b079865c65bc"
+  "stamp": "b079865c65bc",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/df32a5ac0053": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_crispy_chicken_supreme_20770281236781429d1a41a.png",
@@ -4084,7 +4290,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/10457a23c761.webp",
-  "stamp": "cf137155770b"
+  "stamp": "cf137155770b",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/ec87d7dc1f3c": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_portuguesa_2056403739678142444af9d.png",
@@ -4096,7 +4304,9 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/fe8214d52272.webp",
-  "stamp": "6e793542441f"
+  "stamp": "6e793542441f",
+  "cutout": "skipped",
+  "cutout_reason": "busy background"
  },
  "pizzahut/f26b32b7da3a": {
   "source": "https://www.pizzahut.co.za/images/c09334e0-f86a-11f0-82d5-41a63e3f28db-hawweb_kiosk_thumbnail_0-2026-01-14064647.png",
@@ -4132,7 +4342,10 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/2f44597203eb.webp",
-  "stamp": "a931138406e4"
+  "stamp": "a931138406e4",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: grey shadow patches still left"
  },
  "pizzahut/faf4f0231857": {
   "source": "https://static.pizzahut.pt/fotos/produtos/pa_simples_15631508635d9f1f5443fea.jpg",
@@ -4144,7 +4357,10 @@
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/07886624b14e.webp",
-  "stamp": "45343f2943ce"
+  "stamp": "45343f2943ce",
+  "cutout": "rejected",
+  "cutout_pass": 2,
+  "cutout_reason": "v2: grey fragments still left"
  },
  "tacobell/0618da7520bb": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-NA-e7Y2-2/product_P-NA-e7Y2-2_desktop_large.jpg",
@@ -4153,10 +4369,12 @@
   "items": [
    "tacobell:nachos-bell-com-frango-picante"
   ],
-  "status": "fallback",
-  "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
-  "output": "images/tacobell/2ee014a7be2f.webp",
-  "stamp": "59daa838dfd3"
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/c822d04ed81d.webp",
+  "stamp": "53e47220fba7",
+  "cutout": "approved",
+  "edited": "cutout"
  },
  "tacobell/07421889e878": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2026/03/caramel-apple.jpg",
@@ -4510,10 +4728,13 @@
   "items": [
    "tacobell:mas-quesarito-com-carne-picada"
   ],
-  "status": "fallback",
-  "issue": "clean product shot from Taco Bell Spain, but on a white background (not transparent)",
-  "output": "images/tacobell/d665d5be0e9d.webp",
-  "stamp": "929fe63aa6ad"
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/d7a07ab5bad4.webp",
+  "stamp": "f402456cdbde",
+  "cutout": "approved",
+  "cutout_pass": 2,
+  "edited": "cutout"
  },
  "tacobell/384d110e5775": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell-burritos-quesarito2.jpg",

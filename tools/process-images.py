@@ -25,6 +25,7 @@ Manifest entries (tools/image-manifest.json, keyed "<chain>/<id>"; originals in 
   status   "pending" | "approved" | "fallback" | "rejected";  issue: what is wrong with it
            "fallback" = an unsuitable official photo (headline, badge, background…) that is shown
            anyway until a clean one is found; it is served as is and stays on the review list.
+  edited   "cutout" = a reviewed background removal of the chain's own photo, see tools/cutout.py
 Results are cached: an entry is only reprocessed when its original changes.
 
   python tools/process-images.py          (needs: pip install pillow numpy)
@@ -42,6 +43,7 @@ from PIL import Image
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANIFEST = os.path.join(ROOT, 'tools', 'image-manifest.json')
 ORIGINALS = os.path.join(ROOT, 'tools', 'image-originals')
+CUTOUTS = os.path.join(ROOT, 'tools', 'image-cutouts')
 OUT = os.path.join(ROOT, 'images')
 INDEX = os.path.join(ROOT, 'js', 'data', 'images.js')
 REVIEW = os.path.join(ROOT, 'tools', 'image-review.md')
@@ -82,7 +84,7 @@ def main():
     for mid, e in manifest.items():
         if e['status'] not in ('approved', 'fallback') or not e['items']:
             continue
-        with open(os.path.join(ORIGINALS, mid + '.webp'), 'rb') as f:
+        with open(os.path.join(CUTOUTS if e.get('edited') == 'cutout' else ORIGINALS, mid + '.webp'), 'rb') as f:
             raw = f.read()
         stamp = hashlib.sha1(raw + VERSION.encode()).hexdigest()[:12]
         if not (e.get('stamp') == stamp and e.get('output') and os.path.exists(os.path.join(ROOT, e['output']))):
