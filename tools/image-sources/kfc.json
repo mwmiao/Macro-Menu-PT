@@ -44,7 +44,11 @@
   "Aros de Cebola": "2021/06/Aros-de-Cebola-1.webp",
   "Emmental Bites": "2022/04/4-Emmental-Bites.webp",
   "Kentucky Fries BBQ": "2025/01/kentuchy-fries-bbq-1920x1080px.webp",
-  "Kentucky Fries Cheese": "2025/01/kentuchy-fries-cheddar-1920x1080px.webp",
+  "Kentucky Fries Cheese": {
+    "url": "https://media.imagonist.com/products/products/458_thumb_it.png",
+    "region": "it",
+    "match": "equivalent"
+  },
   "Kentucky Fries Coronel": "2025/11/novas-batatas-ktf-kiosk-1920x1080px.webp",
   "Ketchup": "2025/01/ketchup-1920x1080px-1.webp",
   "Maionese": "2019/09/maionese-1920x1080px.webp",
@@ -56,18 +60,40 @@
   "Molho Cheddar DIP": "2019/09/molho-cheddar-kiosk-1920x1080px-.webp",
   "Gelatina": "2020/03/Gelatina_1920x1080px.webp",
   "Profiteroles": "2020/08/profiteroles-1920x1080px.webp",
-  "Sundae Natura": "2022/11/sundae-1920x1080px.jpg",
+  "Sundae Natura": {
+    "url": "https://media.imagonist.com/products/products/384_thumb_it.png",
+    "region": "it",
+    "match": "equivalent"
+  },
   "Sundae Morango": "2022/11/sundae-morango-1920x1080px.jpg",
   "Sundae Chocolate": "2022/11/sundae-chocolate-1920x1080px-1.jpg",
-  "Sundae Caramelo": "2022/11/sundae-caramelo-1920x1080px.jpg",
+  "Sundae Caramelo": {
+    "url": "https://media.imagonist.com/products/products/381_thumb_it.png",
+    "region": "it",
+    "match": "equivalent"
+  },
   "Sundae Nocilla": "2026/06/sundae-nocilla-1920x1080px.jpg",
   "Sundae Lotus Biscoff": "2022/11/sundae-lotus-1920x1080px.jpg",
   "Mini Sundae Natura": "2026/06/minisundae-1920x1080px.jpg",
   "Mini Sundae Morango": "2026/06/minisundae-morango-1920x1080px.jpg",
   "Mini Sundae Chocolate": "2026/06/minisundae-chocolate-1920x1080px.jpg",
-  "Mini Sundae Caramelo": "2026/06/minisundae-caramelo-1920x1080px.jpg",
+  "Mini Sundae Caramelo": {
+    "url": "https://media.imagonist.com/products/products/383_thumb_it.png",
+    "region": "it",
+    "match": "equivalent"
+  },
   "Kream Ball Lotus Biscoff": "2023/05/kream-lotus-1920x1080px.jpg",
   "Shake Morango": "2022/11/shakes_morango-1920x1080-1.png",
   "Shake Caramelo": "2022/11/shakes_caramelo-1920x1080-1.png",
-  "Shake Oreo": "2022/11/Shakes-sueltos-OREO-1920x1080-1.jpg"
+  "Shake Oreo": "2022/11/Shakes-sueltos-OREO-1920x1080-1.jpg",
+  "Doritos Loaded Bag Tex Mex": {
+    "url": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/2026_grafika/Loaded_Doritos/doritos_paczka.png",
+    "region": "pl",
+    "match": "equivalent"
+  },
+  "Sanduíche Coronel Original": {
+    "url": "https://media.imagonist.com/products/products/553_thumb_it.png",
+    "region": "it",
+    "match": "equivalent"
+  }
 }

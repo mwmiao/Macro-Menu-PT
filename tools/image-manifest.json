@@ -1349,9 +1349,7 @@
   "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-caramelo-1920x1080px.jpg",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "kfc:sundae-caramelo"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/72ce106c5d1a.webp",
@@ -1379,6 +1377,18 @@
   "status": "approved",
   "output": "images/kfc/909997a07109.webp",
   "stamp": "e8f766c2dfb9"
+ },
+ "kfc/12251658f8be": {
+  "source": "https://media.imagonist.com/products/products/458_thumb_it.png",
+  "region": "it",
+  "match": "equivalent",
+  "items": [
+   "kfc:kentucky-fries-cheese"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/5769aa1b8bfa.webp",
+  "stamp": "3574fce94266"
  },
  "kfc/1d79943de4c8": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/molho_Honey-Mustard_1920x1080px.webp",
@@ -1500,6 +1510,18 @@
   "output": "images/kfc/512d8e8bc18d.webp",
   "stamp": "26b3786cec6f"
  },
+ "kfc/4c3dea1f9c72": {
+  "source": "https://media.imagonist.com/products/products/553_thumb_it.png",
+  "region": "it",
+  "match": "equivalent",
+  "items": [
+   "kfc:sanduiche-coronel-original"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/a87c15cb890e.webp",
+  "stamp": "94af4a225c90"
+ },
  "kfc/4cc3a6241805": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/TWISTER-Clasico-1920x1080-ALC.webp",
   "region": "pt",
@@ -1540,9 +1562,7 @@
   "source": "https://www.kfc.pt/wp-content/uploads/2026/06/minisundae-caramelo-1920x1080px.jpg",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "kfc:mini-sundae-caramelo"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/59e9bd86b09e.webp",
@@ -1583,6 +1603,18 @@
   "issue": "white background, not transparent",
   "output": "images/kfc/875be97e1942.webp",
   "stamp": "d6957b0d3a58"
+ },
+ "kfc/60ccfbc1dc87": {
+  "source": "https://media.imagonist.com/products/products/383_thumb_it.png",
+  "region": "it",
+  "match": "equivalent",
+  "items": [
+   "kfc:mini-sundae-caramelo"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/99d7bf660ca3.webp",
+  "stamp": "ef1b101cb27e"
  },
  "kfc/631c55af1242": {
   "source": "https://www.kfc.pt/wp-content/uploads/2026/06/krunch-classico-1920x1080px-1.jpg",
@@ -1716,6 +1748,18 @@
   "output": "images/kfc/b74b3a28b5cf.webp",
   "stamp": "25ec8ed9100b"
  },
+ "kfc/90de58f8e1d5": {
+  "source": "https://media.imagonist.com/products/products/384_thumb_it.png",
+  "region": "it",
+  "match": "equivalent",
+  "items": [
+   "kfc:sundae-natura"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/17b59cd06d07.webp",
+  "stamp": "5d714c9c226b"
+ },
  "kfc/9a2a1a0055d7": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/11/wrap-junior-classico-1920x1080px.jpg",
   "region": "pt",
@@ -1750,6 +1794,18 @@
   "issue": "white background, not transparent",
   "output": "images/kfc/4355b10d16f1.webp",
   "stamp": "91a5affa7516"
+ },
+ "kfc/a9a1ce5d5985": {
+  "source": "https://amrestcdn.azureedge.net/kfc-web-ordering/KFC/2026_grafika/Loaded_Doritos/doritos_paczka.png",
+  "region": "pl",
+  "match": "equivalent",
+  "items": [
+   "kfc:doritos-loaded-bag-tex-mex"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/8c33c675ff23.webp",
+  "stamp": "bb454a4a2e12"
  },
  "kfc/ac2fee816668": {
   "source": "https://www.kfc.pt/wp-content/uploads/2022/11/shakes_caramelo-1920x1080-1.png",
@@ -1813,13 +1869,23 @@
   "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-1920x1080px.jpg",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "kfc:sundae-natura"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/42090976cea7.webp",
   "stamp": "e409ccc70b53"
+ },
+ "kfc/bb0e2bad6ece": {
+  "source": "https://media.imagonist.com/products/products/381_thumb_it.png",
+  "region": "it",
+  "match": "equivalent",
+  "items": [
+   "kfc:sundae-caramelo"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/kfc/de48cd11b6e9.webp",
+  "stamp": "a084c6f510cd"
  },
  "kfc/bc5ea4a8c003": {
   "source": "https://www.kfc.pt/wp-content/uploads/2025/02/wrap-kentucky-bbq-1920x1980px.webp",
@@ -1849,9 +1915,7 @@
   "source": "https://www.kfc.pt/wp-content/uploads/2025/01/kentuchy-fries-cheddar-1920x1080px.webp",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "kfc:kentucky-fries-cheese"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "white background, not transparent",
   "output": "images/kfc/61ccfda2a733.webp",
@@ -3664,6 +3728,18 @@
   "output": "images/pans/b78c42eca5cd.webp",
   "stamp": "f8605b2a28d7"
  },
+ "pizzahut/07c6f9584548": {
+  "source": "https://www.pizzahut.co.za/images/613f9e71-f865-11f0-a53a-37b36bc0765e-margweb_kiosk_thumbnail_0-2026-01-14064646.png",
+  "region": "za",
+  "match": "equivalent",
+  "items": [
+   "pizzahut:super-fatia-margarita"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/80633f4b369f.webp",
+  "stamp": "c26f46701039"
+ },
  "pizzahut/0c1e1fdc992f": {
   "source": "https://static.pizzahut.pt/fotos/produtos/asas_de_frango_380x218_11439722176825b2f52c1f5.png",
   "region": "pt",
@@ -3803,9 +3879,7 @@
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_pepperoni_lovers_474239786678142713c9fe.png",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "pizzahut:pepperoni-lovers-media-fatia"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/2b5a826459d5.webp",
@@ -3834,6 +3908,30 @@
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/a37bcf0eb7d7.webp",
   "stamp": "0f302339da4d"
+ },
+ "pizzahut/75e0b5dd1274": {
+  "source": "https://www.pizzahut.co.za/images/286e1620-f82f-11f0-82d5-41a63e3f28db-Nugz_thumbnail_0-2026-01-14064647.png",
+  "region": "za",
+  "match": "equivalent",
+  "items": [
+   "pizzahut:chicken-nuggets-sem-molho"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/b6236fcfafee.webp",
+  "stamp": "9dbaa8fca268"
+ },
+ "pizzahut/88ed4df3d2fc": {
+  "source": "https://www.pizzahut.co.za/images/aaf0d2a0-f865-11f0-82d5-41a63e3f28db-pepeweb_kiosk_thumbnail_0-2026-01-14064647.png",
+  "region": "za",
+  "match": "equivalent",
+  "items": [
+   "pizzahut:pepperoni-lovers-media-fatia"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/53f3537ea8e1.webp",
+  "stamp": "cde54d7eaeca"
  },
  "pizzahut/8fb408346b06": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_tropical_10774663326781338bae688.png",
@@ -3875,9 +3973,7 @@
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_havaiana_2135426398678142f065e5f.png",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "pizzahut:havaiana-media-fatia"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/a40e56f5ddf8.webp",
@@ -3989,6 +4085,18 @@
   "issue": "cropped photo on white, not an isolated transparent product",
   "output": "images/pizzahut/fe8214d52272.webp",
   "stamp": "6e793542441f"
+ },
+ "pizzahut/f26b32b7da3a": {
+  "source": "https://www.pizzahut.co.za/images/c09334e0-f86a-11f0-82d5-41a63e3f28db-hawweb_kiosk_thumbnail_0-2026-01-14064647.png",
+  "region": "za",
+  "match": "equivalent",
+  "items": [
+   "pizzahut:havaiana-media-fatia"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/f4d880992f4d.webp",
+  "stamp": "5a1b45c2af72"
  },
  "pizzahut/f5d1d7bc9eaf": {
   "source": "https://static.pizzahut.pt/fotos/produtos/batatas_country_106048699455afb3c3cba88.png",
