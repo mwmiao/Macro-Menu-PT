@@ -29,6 +29,22 @@ A job in tools/image-gen/jobs.json (written by hand after looking at the origina
     "seeds": [1, 2, 3, 4], "chosen": null } }
 Per-seed outcomes (usable, gen_fraction, reason) go to tools/image-gen/results.json; raw cut-outs to
 tools/image-gen/raw/<chain>/<id>.s<seed>.webp.
+
+Plan 011 (owner decision 2026-11-22: "use AI to remove any background and objects or hands unrelated to the
+food or drink"): run every command with `--set 011` (jobs-011.json / results-011.json, raw cut-outs and
+sheets under downloads/, which is git-ignored). In that set at most 55 % of the product's pixels may be
+generated and the product must be at least 200 px wide. A job may also have
+  "keep": [[[x, y], ...], ...]  polygons (original pixel coordinates, may extend into the pad) around ONLY the
+      product; everything outside them is turned white before generation (neighbouring slices, plates, trays,
+      boards, tables, hands, other dishes) and the cut-out is limited to them. Draw them a little generous (about
+      2 px): the cut-out follows the real edge inside them. In outpaint mode only the part of the pad inside
+      "keep" is generated; "boxes"/"polygons" mark pixels inside the product to rebuild (e.g. under a hand).
+  "trim": optional width in px; within that distance of a keep polygon's edge, grey/white/pink background
+      slivers (low saturation, not yellow) are removed from the cut-out.
+  "erode": optional px; shave that much off the cut-out's edge (removes the old background's fringe).
+  "negative": optional negative prompt (default NEGATIVE).
+`preview <mid>...` draws the keep (green) and rebuild (red) areas on the original, 2x, with a 25 px grid.
+Never invent brand names, logos or label text; never change what the food is.
 """
 import argparse
 import collections
@@ -64,8 +80,23 @@ MODEL = 'diffusers/stable-diffusion-xl-1.0-inpainting-0.1'
 SUFFIX = ', professional food photography, isolated on a plain white background, studio lighting, sharp'
 NEGATIVE = 'text, logo, watermark, hands, fingers, plate, table, tray, extra objects, blurry, deformed'
 MAX_GEN_FRACTION = 0.40
+MIN_WIDTH = 0  # plan 011 sets 200 (see use_set)
 WORK = 1024
 OVERLAP = 12
+
+
+def use_set(name):
+    """Plan 011: separate job/result files, git-ignored raw output, 55 % cap, 200 px minimum width."""
+    global JOBS, RESULTS, RAW, SHEETS, COMPS, MAX_GEN_FRACTION, MIN_WIDTH
+    if name != '011':
+        sys.exit('unknown set: ' + name)
+    JOBS = os.path.join(GEN, 'jobs-011.json')
+    RESULTS = os.environ.get('GEN_RESULTS') or os.path.join(GEN, 'results-011.json')  # GEN_RESULTS: parallel runs write separate files
+    RAW = os.path.join(ROOT, 'downloads', 'gen-raw-011')
+    COMPS = os.path.join(ROOT, 'downloads', 'gen-comp-011')
+    SHEETS = os.path.join(ROOT, 'downloads', 'gen-sheets-011')
+    MAX_GEN_FRACTION = 0.55
+    MIN_WIDTH = 200
 
 
 def read_json(p, default):
@@ -136,8 +167,60 @@ def rgb_on_white(img):
     return bg
 
 
+def keep_bool(job, size, pad=(0, 0)):
+    """Bool array (canvas size) of the "keep" polygons (original coordinates + pad offset)."""
+    k = Image.new('L', size, 0)
+    d = ImageDraw.Draw(k)
+    for poly in job['keep']:
+        d.polygon([(x + pad[0], y + pad[1]) for x, y in poly], fill=255)
+    return np.array(k) > 0
+
+
+def build_canvas_keep(mid, job):
+    """Plan 011: only the product (inside the keep polygons) stays; everything else is white."""
+    from scipy import ndimage
+    img = rgb_on_white(ai_edit.open_original(mid))
+    w, h = img.size
+    l, t, r, b = job.get('pad', [0, 0, 0, 0])
+    W, H = w + l + r, h + t + b
+    kb = keep_bool(job, (W, H), (l, t))
+    arr = np.full((H, W, 3), 255, np.uint8)
+    arr[t:t + h, l:l + w] = np.array(img)
+    arr[~kb] = 255
+    near = ndimage.binary_dilation(kb, iterations=6)
+    mask = np.zeros((H, W), bool)
+    if job['mode'] == 'outpaint':
+        newarea = np.ones((H, W), bool)
+        newarea[t:t + h, l:l + w] = False
+        mask |= newarea & near
+        inner = np.zeros((H, W), bool)
+        inner[t:t + h, l:l + w] = True
+        band = inner & (ndimage.distance_transform_edt(inner) <= OVERLAP)
+        side = np.zeros((H, W), bool)
+        if l:
+            side[:, :l + OVERLAP] = True
+        if t:
+            side[:t + OVERLAP, :] = True
+        if r:
+            side[:, l + w - OVERLAP:] = True
+        if b:
+            side[t + h - OVERLAP:, :] = True
+        mask |= band & side & near
+    if job.get('boxes') or job.get('polygons'):
+        m2 = Image.new('L', (W, H), 0)
+        d2 = ImageDraw.Draw(m2)
+        for x0, y0, x1, y1 in job.get('boxes', []):
+            d2.rectangle([x0 + l, y0 + t, x1 + l, y1 + t], fill=255)
+        for poly in job.get('polygons', []):
+            d2.polygon([(x + l, y + t) for x, y in poly], fill=255)
+        mask |= ndimage.binary_dilation(np.array(m2) > 0, iterations=4) & near
+    return Image.fromarray(arr), mask, (l, t, l + w, t + h)
+
+
 def build_canvas(mid, job):
     """Return (canvas RGB, hard mask bool array, original rect (x0, y0, x1, y1) inside the canvas)."""
+    if job.get('keep'):
+        return build_canvas_keep(mid, job)
     img = rgb_on_white(ai_edit.open_original(mid))
     w, h = img.size
     if job['mode'] == 'outpaint':
@@ -198,7 +281,7 @@ def load_pipe():
     return pipe
 
 
-def generate(pipe, canvas, mask, prompt, seed):
+def generate(pipe, canvas, mask, prompt, seed, negative=None):
     import torch
     w, h = canvas.size
     s = WORK / max(w, h)
@@ -206,7 +289,7 @@ def generate(pipe, canvas, mask, prompt, seed):
     img = canvas.resize((nw, nh), Image.LANCZOS)
     mk = Image.fromarray((mask * 255).astype(np.uint8)).resize((nw, nh), Image.NEAREST)
     g = torch.Generator('cuda').manual_seed(int(seed))
-    out = pipe(prompt=prompt, negative_prompt=NEGATIVE, image=img, mask_image=mk, height=nh, width=nw,
+    out = pipe(prompt=prompt, negative_prompt=negative or NEGATIVE, image=img, mask_image=mk, height=nh, width=nw,
                num_inference_steps=30, guidance_scale=7.0, strength=0.99, generator=g).images[0]
     return out.resize((w, h), Image.LANCZOS)
 
@@ -231,11 +314,31 @@ def run_job(pipe, session, mid, job, results):
     os.makedirs(os.path.join(RAW, mid.split('/')[0]), exist_ok=True)
     os.makedirs(os.path.join(COMPS, mid.split('/')[0]), exist_ok=True)
     res = results.setdefault(mid, {})
-    for seed in job.get('seeds', [1, 2, 3, 4]):
-        gen = generate(pipe, canvas, mask, prompt, seed)
+    for seed in (job.get('seeds', [1, 2, 3, 4]) if mask.any() else [1]):
+        gen = generate(pipe, canvas, mask, prompt, seed, job.get('negative')) if mask.any() else canvas  # nothing to rebuild: pure cut-out
         comp = paste_back(canvas, gen, mask)
         comp.save(os.path.join(COMPS, '%s.s%d.png' % (mid, seed)))
         out = ai_edit.cut(comp.convert('RGBA'), session)
+        if job.get('keep'):  # the cut-out may not leave the product polygons (plus the 3 px edge)
+            from scipy import ndimage
+            lim = ndimage.binary_dilation(keep_bool(job, canvas.size, rect[:2]), iterations=3)
+            out.putalpha(Image.fromarray(np.where(lim, np.array(out.getchannel('A')), 0).astype(np.uint8)))
+            if job.get('trim'):  # drop grey/white/pink background slivers within `trim` px of the polygon edge
+                kbool = keep_bool(job, canvas.size, rect[:2])
+                band = ndimage.distance_transform_edt(kbool) <= job['trim']
+                px = np.array(comp).astype(int)
+                mx, mn = px.max(2), px.min(2)
+                gap = ((mx - mn) < 0.22 * mx) & (mx > 130) & (px[..., 2] >= px[..., 1] - 6)
+                al = np.array(out.getchannel('A'))
+                al = np.where(band & gap, 0, al)
+                al = np.where(ndimage.binary_opening(al > 16, iterations=2), al, 0)
+                out.putalpha(Image.fromarray(al.astype(np.uint8)))
+            if job.get('erode'):  # shave the anti-aliased edge that still holds the old background colour
+                al = np.array(out.getchannel('A')).astype(np.float32)
+                core = ndimage.binary_erosion(al > 16, iterations=int(job['erode']))
+                al = ndimage.gaussian_filter(np.where(core, al, 0), 0.6)
+                out.putalpha(Image.fromarray(np.clip(al + 0.5, 0, 255).astype(np.uint8)))
+            out.putalpha(Image.fromarray(ai_edit.keep_regions(np.array(out.getchannel('A')))))
         a = np.array(out.getchannel('A'))
         solid = a > 128
         tot = int(solid.sum())
@@ -250,6 +353,8 @@ def run_job(pipe, session, mid, job, results):
             r['size'] = [int(xs.max() - xs.min() + 1), int(ys.max() - ys.min() + 1)]
             if r['gen_fraction'] > MAX_GEN_FRACTION:
                 r['reason'] = 'gen_fraction %.2f > %.2f' % (r['gen_fraction'], MAX_GEN_FRACTION)
+            elif r['size'][0] < MIN_WIDTH:
+                r['reason'] = 'product only %d px wide (minimum %d)' % (r['size'][0], MIN_WIDTH)
             else:
                 r['usable'] = True
         if r['usable'] or r['gen_fraction'] is not None:
@@ -318,6 +423,8 @@ def cmd_sheet(m, ids, size=480, per=2):
             show.paste(orig, rect[:2])
             dr = ImageDraw.Draw(show)
             ox, oy = rect[:2]
+            for poly in job.get('keep', []):
+                dr.polygon([(x + ox, y + oy) for x, y in poly], outline=(0, 255, 0))
             for x0, y0b, x1, y1 in job.get('boxes', []):
                 dr.rectangle([x0 + ox, y0b + oy, x1 + ox, y1 + oy], outline=(255, 0, 0), width=2)
             for poly in job.get('polygons', []):
@@ -336,7 +443,7 @@ def cmd_sheet(m, ids, size=480, per=2):
                 box = (0, 0) + canvas.size
             mg = int(0.06 * max(box[2] - box[0], box[3] - box[1]))
             box = (max(0, box[0] - mg), max(0, box[1] - mg), min(canvas.size[0], box[2] + mg), min(canvas.size[1], box[3] + mg))
-            tiles = [panel(show.crop(box), size, 'ORIGINAL (%s, red = rebuilt area)' % job['mode'])]
+            tiles = [panel(show.crop(box), size, 'ORIGINAL (%s, red = rebuilt, green = kept)' % job['mode'])]
             best = None
             for seed in seeds:
                 rr = res.get(str(seed), {})
@@ -361,6 +468,41 @@ def cmd_sheet(m, ids, size=480, per=2):
         print(p, len(chunk))
 
 
+def cmd_preview(ids):
+    """Original at 2x with the job's keep (green) and rebuild (red) areas and a 25 px grid (padding shown)."""
+    jobs = read_json(JOBS, {})
+    out = os.path.join(ROOT, 'downloads', 'gen-preview-011')
+    os.makedirs(out, exist_ok=True)
+    for mid in ids:
+        job = jobs.get(mid, {})
+        img = rgb_on_white(ai_edit.open_original(mid))
+        l, t, r, b = job.get('pad', [0, 0, 0, 0])
+        w, h = img.size
+        z = 2
+        im = Image.new('RGB', ((w + l + r) * z, (h + t + b) * z), (190, 190, 190))
+        im.paste(img.resize((w * z, h * z), Image.LANCZOS), (l * z, t * z))
+        d = ImageDraw.Draw(im)
+        for x in range(-l - l % 25, w + r + 1, 25):
+            if x >= -l:
+                d.line([((x + l) * z, 0), ((x + l) * z, im.height)], fill=(255, 0, 255) if x % 100 == 0 else (0, 190, 255), width=1)
+                if x % 50 == 0:
+                    d.text(((x + l) * z + 2, 2), str(x), fill=(255, 0, 255))
+        for y in range(-t - t % 25, h + b + 1, 25):
+            if y >= -t:
+                d.line([(0, (y + t) * z), (im.width, (y + t) * z)], fill=(255, 0, 255) if y % 100 == 0 else (0, 190, 255), width=1)
+                if y % 50 == 0:
+                    d.text((2, (y + t) * z + 2), str(y), fill=(255, 0, 255))
+        for poly in job.get('keep', []):
+            d.polygon([((x + l) * z, (y + t) * z) for x, y in poly], outline=(0, 255, 0))
+        for poly in job.get('polygons', []):
+            d.polygon([((x + l) * z, (y + t) * z) for x, y in poly], outline=(255, 0, 0))
+        for x0, y0, x1, y1 in job.get('boxes', []):
+            d.rectangle([(x0 + l) * z, (y0 + t) * z, (x1 + l) * z, (y1 + t) * z], outline=(255, 0, 0))
+        p = os.path.join(out, mid.replace('/', '-') + '.png')
+        im.save(p)
+        print(p, im.size)
+
+
 def cmd_finalize(mid, seed):
     jobs = read_json(JOBS, {})
     src = os.path.join(RAW, '%s.s%s.webp' % (mid, seed))
@@ -380,11 +522,14 @@ def main():
     ap.add_argument('ids', nargs='*')
     ap.add_argument('--all', action='store_true')
     ap.add_argument('--sheet', action='store_true')
+    ap.add_argument('--set', dest='set_name', help='"011": plan 011 files and limits (see header)')
     ap.add_argument('--out', help='sheet folder (default downloads/gen-sheets)')
     ap.add_argument('--size', type=int, default=480)
     ap.add_argument('--per', type=int, default=2)
     args = ap.parse_args()
     m = ai_edit.load()
+    if args.set_name:
+        use_set(args.set_name)
     if args.out:
         global SHEETS
         SHEETS = os.path.abspath(args.out)
@@ -394,6 +539,8 @@ def main():
         cmd_select(m)
     elif args.cmd == 'run':
         cmd_run(args)
+    elif args.cmd == 'preview':
+        cmd_preview(args.ids)
     elif args.cmd == 'finalize':
         cmd_finalize(args.ids[0], args.ids[1])
     else:
