@@ -829,7 +829,7 @@
   "ai": "skipped",
   "ai_reason": "text over product",
   "gen": "rejected",
-  "gen_reason": "every seed leaves pale blotches or odd lettuce tufts where the NOVO and SABOR ASSADO badges covered the burger edges"
+  "gen_reason": "plan 011: the area where the NOVO badge was shows a pale smudge on the bun and the bun heel at the lower right is jagged"
  },
  "burgerking/9f590f15f16a": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/aac1dd9068585d5f0dc5607c890e36d63ef43f8e-1333x1333.png?w=600&fm=png",
@@ -1098,7 +1098,7 @@
   "ai": "skipped",
   "ai_reason": "text over product",
   "gen": "rejected",
-  "gen_reason": "every seed invents objects (cheese tub, cheese blob, pasta-like strands) where the badge covered the fries"
+  "gen_reason": "plan 011: a pale milky haze with soft edges is left over the fries where the ranch badge was"
  },
  "burgerking/c8b0591c740c": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/4c34d780bcf68d17b99bda3cc6888a6520592d05-1333x1333.png?w=600&fm=png",
@@ -1267,14 +1267,19 @@
    "burgerking:king-loaded-nuggets-x6",
    "burgerking:king-loaded-nuggets-x9"
   ],
-  "status": "fallback",
-  "issue": "\"NOVO\" badge",
-  "output": "images/burgerking/aa6c6e064f21.webp",
-  "stamp": "3da5d16eb91a",
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/28b12d35dae4.webp",
+  "stamp": "a07549b454b9",
   "ai": "skipped",
   "ai_reason": "text over product",
-  "gen": "rejected",
-  "gen_reason": "every seed leaves a red remnant or invents an extra tall nugget (changes the piece count) where the NOVO badge covered the nuggets"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "crispy fried chicken nuggets covered with melted cheese sauce and crispy fried onions, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.04,
+  "gen_width": 457
  },
  "burgerking/de1f18fdca96": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/436c8fe3aac16498fd6240d3ff00e5c29ce5665c-1333x1333.png?w=600&fm=png",
@@ -3910,8 +3915,8 @@
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame (border not 95 % transparent)",
-  "gen": "skipped",
-  "gen_reason": "sandwich sits in a branded paper box on a yellow table: box and scene are part of the picture"
+  "gen": "rejected",
+  "gen_reason": "plan 011: paper and box fragments stay at the bottom and the invented lower sandwich is blurry and not plausible"
  },
  "pans/14790b7e21cb": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_frango.jpg",
@@ -4142,8 +4147,8 @@
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame (border not 95 % transparent)",
-  "gen": "skipped",
-  "gen_reason": "sandwich sits in a branded paper box on a yellow table: box and scene are part of the picture"
+  "gen": "rejected",
+  "gen_reason": "plan 011: the product is only 189 px wide (minimum 200) and box fragments stay at the bottom"
  },
  "pans/7a45a752992d": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_frango_supreme.jpg",
@@ -4205,7 +4210,7 @@
   "ai": "skipped",
   "ai_reason": "product touches the frame (border not 95 % transparent)",
   "gen": "rejected",
-  "gen_reason": "only usable seed has a doubled bun hump at the right end; the other seeds cut the product on the frame"
+  "gen_reason": "plan 011: the invented right end of the baguette is not plausible (spiky bacon/cheese strips, or a flat cut in one seed)"
  },
  "pans/ae292cf15bb9": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_PRODUCTOS_SINGLE_IBERICO-1.jpg",
@@ -4244,8 +4249,8 @@
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame (border not 95 % transparent)",
-  "gen": "skipped",
-  "gen_reason": "sandwich sits in a branded paper box on a yellow table: box and scene are part of the picture"
+  "gen": "rejected",
+  "gen_reason": "plan 011: box, tissue and yellow table fragments stay at the bottom and the lower part is not a plausible sandwich"
  },
  "pans/d2634904fb39": {
   "source": "https://www.pans.pt/wp-content/uploads/WEB_1200x550px_COMPLEMENTOS_POSTRES_sopa.jpg",
@@ -4339,16 +4344,21 @@
   "items": [
    "pans:torrada-pao-saloio"
   ],
-  "status": "fallback",
-  "issue": "photographed on a table/background, not transparent",
-  "output": "images/pans/0440f8ff67a3.webp",
-  "stamp": "ab19998d8585",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pans/792a5c79b44b.webp",
+  "stamp": "eb1a895ce9fd",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "rejected",
   "ai_reason": "board, knife and jam cup fragments left attached",
-  "gen": "skipped",
-  "gen_reason": "toast on a board with a jam cup and spoon: several objects, not a single product"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "slices of buttered toasted country bread, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.0,
+  "gen_width": 244
  },
  "pans/f8f54dbb469e": {
   "source": "https://www.pans.pt/wp-content/uploads/singles_salmao_abacate_pinsa.webp",
@@ -4431,8 +4441,8 @@
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "result covers over 85 % of the image (nothing was cut away)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "rejected",
+  "gen_reason": "plan 011: the slice outline is wrong: the right edge is ragged with a notch and the crust corner at the lower right is cut off"
  },
  "pizzahut/1be08a5b6556": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_carbonara_16032158226a2fdcdc294ce.png",
@@ -4441,16 +4451,21 @@
   "items": [
    "pizzahut:carbonara-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/882fbbb7cddb.webp",
-  "stamp": "54aeadc93ecc",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/226c61191e8d.webp",
+  "stamp": "4e69bcd05259",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "rejected",
-  "gen_reason": "sample: all four seeds fail (the slice is cropped on three sides among neighbouring slices; the cut-out touches the frame)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "a single slice of pizza with ham, mushrooms, red onion and melted cheese, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.0,
+  "gen_width": 335
  },
  "pizzahut/2ba6a4f28f0d": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_margarita_vegan_80039419067813190e93bf.png",
@@ -4459,16 +4474,21 @@
   "items": [
    "pizzahut:margarita-vegan-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/8eda9974ffad.webp",
-  "stamp": "49591bbca81c",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/2ce2807f1d70.webp",
+  "stamp": "f0a6a84c012f",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 2,
+  "gen_prompt": "a single slice of vegan margherita pizza with melted cheese, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.01,
+  "gen_width": 278
  },
  "pizzahut/3862e2c74b0d": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_salada_chicken_garden_1211508696a3a3b35c4f82.png",
@@ -4485,8 +4505,8 @@
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "salad fills the frame inside a tray, cut off on several sides: more than 40 % would be invented"
+  "gen": "rejected",
+  "gen_reason": "plan 011: all four seeds still touch the frame (unusable): the salad is cut on too many sides"
  },
  "pizzahut/3c534c8a03a9": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_serrana_84041800467813203c87ac.png",
@@ -4495,16 +4515,21 @@
   "items": [
    "pizzahut:serrana-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/e484c0bb5ad9.webp",
-  "stamp": "7b5c62e4885a",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/204b53833353.webp",
+  "stamp": "1a59000d38f7",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 2,
+  "gen_prompt": "a single slice of pizza with pepperoni, black olives, mushrooms and melted cheese, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.0,
+  "gen_width": 278
  },
  "pizzahut/425222a1fb32": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_margarita_15018538916788dd861023f.png",
@@ -4515,16 +4540,21 @@
    "pizzahut:base-margarita-sao-francisco-media-fatia",
    "pizzahut:base-margarita-stuffed-crust-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/112f9e805c1b.webp",
-  "stamp": "50d0fda0f5a3",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/09c88f72bf3b.webp",
+  "stamp": "ed4faeb0b359",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "a single slice of margherita pizza with melted cheese, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.01,
+  "gen_width": 279
  },
  "pizzahut/44bec3fb05e4": {
   "source": "https://static.pizzahut.pt/fotos/produtos/lasanha_2_recorte_171_5894590255a7b4806fefb.jpg",
@@ -4542,7 +4572,7 @@
   "ai": "rejected",
   "ai_reason": "plate removed, product floats as a blob",
   "gen": "skipped",
-  "gen_reason": "the plate is part of the product and the photo is tiny; removing the plate leaves a floating blob"
+  "gen_reason": "plan 011: the product is only about 140 px wide in a 171 px photo: under the 200 px minimum width"
  },
  "pizzahut/450396c612c2": {
   "source": "https://static.pizzahut.pt/fotos/produtos/pa_supremo_38801001460ef04d560f89.png",
@@ -4568,16 +4598,21 @@
   "items": [
    "pizzahut:burger-lovers-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/5bc56ff87a6d.webp",
-  "stamp": "926158537dc3",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/86ad90552bd5.webp",
+  "stamp": "f376ec58f52e",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "a single slice of pizza, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.0,
+  "gen_width": 285
  },
  "pizzahut/627c92df369d": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_pepperoni_lovers_474239786678142713c9fe.png",
@@ -4613,16 +4648,21 @@
   "items": [
    "pizzahut:hot-chicken-fiesta-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/a37bcf0eb7d7.webp",
-  "stamp": "0f302339da4d",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/be72e537d44f.webp",
+  "stamp": "47e180182686",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "a single slice of pizza, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.0,
+  "gen_width": 332
  },
  "pizzahut/75e0b5dd1274": {
   "source": "https://www.pizzahut.co.za/images/286e1620-f82f-11f0-82d5-41a63e3f28db-Nugz_thumbnail_0-2026-01-14064647.png",
@@ -4655,16 +4695,21 @@
   "items": [
    "pizzahut:tropical-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/d613e4cc7eeb.webp",
-  "stamp": "2def2af72a9a",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/b1ed672c3bbd.webp",
+  "stamp": "223067d94ec6",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "a single slice of pizza, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.01,
+  "gen_width": 278
  },
  "pizzahut/96abd5f2f3a9": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_aloha_vegan_12776555836a2fdd4cae5ee.png",
@@ -4673,16 +4718,21 @@
   "items": [
    "pizzahut:aloha-vegan-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/707d645ca412.webp",
-  "stamp": "44be4a67f677",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/89da8201aa04.webp",
+  "stamp": "094c77eb1980",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "a single slice of pizza, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.0,
+  "gen_width": 335
  },
  "pizzahut/99fe3c164d00": {
   "source": "https://static.pizzahut.pt/fotos/produtos/salada_rustica_corte_1392543791667ad05ca2d60.png",
@@ -4699,8 +4749,8 @@
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 2 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "salad fills the frame inside a tray, cut off on several sides: more than 40 % would be invented"
+  "gen": "rejected",
+  "gen_reason": "plan 011: the completed bottom is a shapeless lettuce blob without the tray and the top of the salad is still cut by the frame (3 of 4 seeds unusable)"
  },
  "pizzahut/9ff4a3fae72b": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_havaiana_2135426398678142f065e5f.png",
@@ -4738,8 +4788,8 @@
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "result covers over 85 % of the image (nothing was cut away)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "rejected",
+  "gen_reason": "plan 011: a grey-pink paper sliver stays along the left edge from the tip down and the cut edge is not clean"
  },
  "pizzahut/b8ac97f8ba15": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_veggie_lovers_21143133916a2fdd84af961.png",
@@ -4748,16 +4798,21 @@
   "items": [
    "pizzahut:veggie-lovers-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/8521ed78a59e.webp",
-  "stamp": "a6fc8d7b506b",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/666d443f04ec.webp",
+  "stamp": "c28a09cab466",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "a single slice of pizza, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.0,
+  "gen_width": 335
  },
  "pizzahut/c632de63891b": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_bacon_lovers_1737869157678132b74b1a7.png",
@@ -4766,16 +4821,21 @@
   "items": [
    "pizzahut:bacon-lovers-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/b5a27ec854a4.webp",
-  "stamp": "f10b4bc614a7",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/bd965904130b.webp",
+  "stamp": "4b0d5e5b3dde",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "a single slice of pizza, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.0,
+  "gen_width": 278
  },
  "pizzahut/caac6e5ac181": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_camponesa_1879330981678132d56e7e9.png",
@@ -4784,16 +4844,21 @@
   "items": [
    "pizzahut:camponesa-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/e21b935d3f1d.webp",
-  "stamp": "0d0e089d3ebf",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/162e26028e7f.webp",
+  "stamp": "45ad69d6e007",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "a single slice of pizza, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.01,
+  "gen_width": 278
  },
  "pizzahut/cf4e84a49dd8": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_chicken_carbonara_11272621586a2fdcf421f92.png",
@@ -4802,16 +4867,21 @@
   "items": [
    "pizzahut:chicken-carbonara-media-fatia"
   ],
-  "status": "fallback",
-  "issue": "cropped photo on white, not an isolated transparent product",
-  "output": "images/pizzahut/18cb2b150d2e.webp",
-  "stamp": "463aad867bdb",
+  "status": "approved",
+  "issue": "",
+  "output": "images/pizzahut/e77a0557d667.webp",
+  "stamp": "7ee2f849172e",
   "cutout": "skipped",
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 1,
+  "gen_prompt": "a single slice of pizza, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.0,
+  "gen_width": 335
  },
  "pizzahut/dd5046ff8c8a": {
   "source": "https://static.pizzahut.pt/fotos/produtos/salada_do_campo_corte_943581284667ad08a20f71.png",
@@ -4828,8 +4898,8 @@
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 2 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "salad fills the frame inside a tray, cut off on several sides: more than 40 % would be invented"
+  "gen": "rejected",
+  "gen_reason": "plan 011: the completed bottom is a shapeless lettuce tongue without the tray; 2 of 4 seeds touch the frame"
  },
  "pizzahut/df32a5ac0053": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_crispy_chicken_supreme_20770281236781429d1a41a.png",
@@ -4846,8 +4916,8 @@
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "rejected",
+  "gen_reason": "plan 011: a pale grey wedge and a cut white fragment stay at the tip and along the upper left edge"
  },
  "pizzahut/ec87d7dc1f3c": {
   "source": "https://static.pizzahut.pt/fotos/produtos/miniaturas_site_portuguesa_2056403739678142444af9d.png",
@@ -4864,8 +4934,8 @@
   "cutout_reason": "busy background",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 3 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+  "gen": "rejected",
+  "gen_reason": "plan 011: a fragment of the white paper with the red logo stays under the crust"
  },
  "pizzahut/f26b32b7da3a": {
   "source": "https://www.pizzahut.co.za/images/c09334e0-f86a-11f0-82d5-41a63e3f28db-hawweb_kiosk_thumbnail_0-2026-01-14064647.png",
@@ -5070,7 +5140,7 @@
   "ai": "rejected",
   "ai_reason": "hand removal left bite-shaped holes in the burrito; cup and dip lost",
   "gen": "skipped",
-  "gen_reason": "held in a hand next to a cup, dip and fries, with the cup logo behind: a scene, not a single product"
+  "gen_reason": "plan 011: the hand covers the closed end and the whole upper right of the burrito and chips and a cup overlap its lower left: silhouette cannot be traced from visible pixels"
  },
  "tacobell/16dd4c015270": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/105111/product_105111_mobile_large.png",
@@ -5168,8 +5238,8 @@
   "stamp": "3cd64d1be131",
   "ai": "rejected",
   "ai_reason": "hand removal left bite-shaped holes in the wrap",
-  "gen": "skipped",
-  "gen_reason": "held in two hands that cover the lower half of the wrap: more than 40 % would be invented"
+  "gen": "rejected",
+  "gen_reason": "plan 011: skin-coloured fragments of the thumb and fingers stay in the lower part of the wrap"
  },
  "tacobell/224116a20a84": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-NA-e7Y2-2/product_P-NA-e7Y2-2_mobile_large.png",
@@ -5212,8 +5282,8 @@
   "stamp": "3f888508ad98",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 2 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "photographed in a scene (table, paper, other food or branded surface) and cropped by the frame: more than 40 % would be invented"
+  "gen": "rejected",
+  "gen_reason": "plan 011: the burrito is cut off flat at the right (invented continuation not generated), a cropped tube"
  },
  "tacobell/286dc3993a2c": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/107033/product_107033_mobile_large.png",
@@ -5448,8 +5518,8 @@
   "stamp": "bab4c9175639",
   "ai": "rejected",
   "ai_reason": "hand removal left large bite-shaped holes in the taco",
-  "gen": "rejected",
-  "gen_reason": "every seed invents a different, overfilled taco (extra beef, tomato, sour cream) or exceeds the 40 % cap (0.55-0.58)"
+  "gen": "skipped",
+  "gen_reason": "plan 011: a hand covers most of the front of the shell: far more than half of the taco would be invented, and the earlier attempt invented a different, overfilled taco"
  },
  "tacobell/50066cbb409c": {
   "source": "https://www.pepsi.pt/prod/s3fs-public/2024-03/PEP-REGULAR-SLEEK-CG.png",
@@ -5458,14 +5528,19 @@
   "items": [
    "tacobell:pepsi"
   ],
-  "status": "fallback",
-  "issue": "clean transparent brand shot (pepsi.pt), but the can touches the image edge so process-images' border check cannot pass; kept as fallback rather than loosening the check",
-  "output": "images/tacobell/810ed24960a8.webp",
-  "stamp": "ce07a9aec914",
+  "status": "approved",
+  "issue": "",
+  "output": "images/tacobell/e022ec4297bc.webp",
+  "stamp": "7ff1fd96b709",
   "ai": "skipped",
   "ai_reason": "product touches the frame on 2 sides (cropped by the photo)",
-  "gen": "skipped",
-  "gen_reason": "branded can cropped on the right and bottom: the logo would have to be invented (can/bottle)"
+  "gen": "approved",
+  "edited": "gen",
+  "gen_model": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
+  "gen_seed": 2,
+  "gen_prompt": "a slim aluminium can of Pepsi with condensation droplets, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "gen_fraction": 0.01,
+  "gen_width": 373
  },
  "tacobell/541c909f894c": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2022/12/tacobell-menu-gran-burrito.jpg",
@@ -5483,7 +5558,7 @@
   "ai": "skipped",
   "ai_reason": "product touches the frame (border not 95 % transparent)",
   "gen": "skipped",
-  "gen_reason": "photographed in a scene (table, paper, other food or branded surface) and cropped by the frame: more than 40 % would be invented"
+  "gen_reason": "plan 011: fries cover the lower half of the burrito body on the left and the photo frame cuts the body on the left: most of the burrito would be invented"
  },
  "tacobell/549c5e48559f": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-QU-A8Vd-2/product_P-QU-A8Vd-2_mobile_large.png",
@@ -5594,7 +5669,7 @@
   "ai": "skipped",
   "ai_reason": "product touches the frame on 2 sides (cropped by the photo)",
   "gen": "skipped",
-  "gen_reason": "photographed in a scene (table, paper, other food or branded surface) and cropped by the frame: more than 40 % would be invented"
+  "gen_reason": "plan 011: nachos heaped in a paper-lined basket with a hand holding a chip, cropped at the right and bottom: the heap has no traceable edge and the product would be mostly invented"
  },
  "tacobell/7cefeb7ac173": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/2087/product_2087_mobile_large.png",
@@ -5691,7 +5766,7 @@
   "ai": "skipped",
   "ai_reason": "product touches the frame on 2 sides (cropped by the photo)",
   "gen": "skipped",
-  "gen_reason": "photographed in a scene (table, paper, other food or branded surface) and cropped by the frame: more than 40 % would be invented"
+  "gen_reason": "plan 011: two overlapping halves on a wooden board in front of fries, cup and dip, the left and right halves cut by the frame: two items to isolate and both cropped ends to invent"
  },
  "tacobell/9854ad75c5de": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-SO-6Jc7-2/product_P-SO-6Jc7-2_mobile_large.png",
@@ -5741,7 +5816,7 @@
   "ai": "rejected",
   "ai_reason": "hand removal left bite-shaped holes in the taco shell",
   "gen": "rejected",
-  "gen_reason": "two attempts (8 seeds): the shell hidden behind the fingers is never rebuilt, every seed leaves bite-shaped holes in the shell"
+  "gen_reason": "plan 011: fingertips are still visible on the shell (the model redraws skin instead of shell)"
  },
  "tacobell/ab79baabd4c9": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-BE-3a3B-2/product_P-BE-3a3B-2_mobile_large.png",
@@ -5850,7 +5925,7 @@
   "ai": "skipped",
   "ai_reason": "product touches the frame (border not 95 % transparent)",
   "gen": "skipped",
-  "gen_reason": "several glasses on a counter: a scene, not a single product (drinks)"
+  "gen_reason": "plan 011: photo of four different drinks side by side: one photo for two items (Ice Tea Limao, Pepsi Max) and it is not certain which glass is which"
  },
  "tacobell/bd709be0cdd6": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/P-BU-ka9T-2/product_P-BU-ka9T-2_mobile_large.png",
@@ -6024,7 +6099,7 @@
   "ai": "skipped",
   "ai_reason": "product touches the frame on 2 sides (cropped by the photo)",
   "gen": "skipped",
-  "gen_reason": "branded can with printed text cropped by the frame: the print would have to be invented (can/bottle)"
+  "gen_reason": "plan 011: the can is only 136 px wide in the 350 px source: under the 200 px minimum width, and cropped top and bottom"
  },
  "tacobell/ea3bee945f00": {
   "source": "https://www.tacobell.pt/wp-content/uploads/2020/10/tacobell_taco-soft-supreme.jpg",
@@ -6039,8 +6114,8 @@
   "stamp": "01aeb5c5e4d0",
   "ai": "rejected",
   "ai_reason": "hand removal left bite-shaped holes in the taco",
-  "gen": "rejected",
-  "gen_reason": "no seed completes the tortilla cleanly: bite-shaped holes, invented tomato/filling, or over the 40 % cap"
+  "gen": "skipped",
+  "gen_reason": "plan 011: the tortilla edges are hidden behind the thumb and dark-nailed fingers on two sides: the silhouette of the taco cannot be traced from visible pixels"
  },
  "tacobell/f27b6a769842": {
   "source": "https://storage.googleapis.com/tacobell-loyalty-resources/images/products/107097/product_107097_mobile_large.png",
@@ -6071,6 +6146,6 @@
   "ai": "rejected",
   "ai_reason": "dark specks left, base cropped by the photo",
   "gen": "skipped",
-  "gen_reason": "photographed in a scene (table, paper, other food or branded surface) and cropped by the frame: more than 40 % would be invented"
+  "gen_reason": "plan 011: a stack of four cut quesadilla pieces on paper, one held by a hand and cut by the frame: the number of pieces cannot be kept and the product is a group, not one item"
  }
 }
