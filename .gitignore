@@ -5,3 +5,5 @@ node_modules/
 downloads/
 
 graphify-out/
+tools/.venv-ai/
+tools/.ai-models/
