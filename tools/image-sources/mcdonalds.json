@@ -4,6 +4,7 @@
   "Hamburger": "10839/220509_mcd87193_simples_edit2_500px.png",
   "Cheeseburger": "10840/220509_mcd87188_cheeseburguer.png",
   "Double Cheeseburger": "10663/220509_mcd87154_pressel_double_cheese-copy.png",
+  "Triple Cheeseburger": { "url": "https://macromenu.com.au/images/mcdonalds/triple-cheeseburger.webp", "region": "au-macromenu", "match": "equivalent" },
   "Big Mac®": "10662/220509_mcd87150_pressel_bigmac.png",
   "McRoyal® Bacon": "10692/sok_deluxbacon_02_b_acrescentopao_500px.png",
   "McRoyal® Bacon Double": "11410/produto_royalbacondouble.png",

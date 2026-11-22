@@ -304,6 +304,7 @@ export default {
  "mcdonalds:tarte-de-maca": "images/mcdonalds/061842047d95.webp",
  "mcdonalds:torrada-com-manteiga": "images/mcdonalds/4449c747ba0d.webp",
  "mcdonalds:tosta-mista": "images/mcdonalds/fcf67755f41d.webp",
+ "mcdonalds:triple-cheeseburger": "images/mcdonalds/45a3d3e2b04a.webp",
  "mcdonalds:um-bongo-8-frutos": "images/mcdonalds/4a33b604a88b.webp",
  "mcdonalds:veggie-burger": "images/mcdonalds/99a421b6e29f.webp",
  "mcdonalds:veggie-nuggets-10": "images/mcdonalds/3de097b6eb4b.webp",

@@ -3405,6 +3405,18 @@
   "status": "rejected",
   "issue": "gluten-free badge"
  },
+ "mcdonalds/f7ad5d7f7d42": {
+  "source": "https://macromenu.com.au/images/mcdonalds/triple-cheeseburger.webp",
+  "region": "au-macromenu",
+  "match": "equivalent",
+  "items": [
+   "mcdonalds:triple-cheeseburger"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/mcdonalds/45a3d3e2b04a.webp",
+  "stamp": "04c3519ac527"
+ },
  "mcdonalds/f7b54f917487": {
   "source": "https://www.mcdonalds.pt/media/10461/copos_0000_abatanado_v1_500px.png",
   "region": "pt",
