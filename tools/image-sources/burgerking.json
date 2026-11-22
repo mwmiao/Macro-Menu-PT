@@ -31,8 +31,16 @@
   "Western XXL Triplo": "bf13cedaf6387c577eb98d8ae6b120dd5e1012db-1333x1333.png",
   "Duo Bacon Cheddar": "fb7f07fae733c2a7280db725e564bb489d10cf3a-1333x1333.png",
   "Double Duo Bacon Cheddar": "4cd63b84c5a03bb04ad7fde9dd5ed35224b0fd81-1333x1333.png",
-  "Brutal Bacon (1 carne)": "ed7d5202b6a4f73b49b2f428b20222bed0197afb-1333x1333.png",
-  "Brutal Bacon (2 carnes)": "846d57d47148dd70885137d32cb7fef6bd85bcbf-1333x1333.png",
+  "Brutal Bacon (1 carne)": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/4dc06ec1f8bf1c7ad99c8a62bb61ef88779a97f9-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Brutal Bacon (2 carnes)": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/1d2904a14e8bd85f89689733a1dce63eed2f66a3-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
   "Crispy Chicken®": "fc3c4a839b3335e7bdf85b1971d8befcbd4b5a7e-1333x1333.png",
   "Double Crispy Chicken®": "8bbe0a9326e23830089ec12fed50fd9c88b96d19-1333x1333.png",
   "Long Chicken®": "e480bdeeade10ac73b717859968d522108fe906f-1333x1333.png",
@@ -44,30 +52,54 @@
   "Krispper® Spicy (1 patty)": "85e2afddadc5511f5da467fd0bed94943962d51e-1333x1333.png",
   "Krispper® Spicy (2 patties)": "4b2f4d6315ae5461ff0d2103d3c14985e92b05f9-1333x1333.png",
   "Duo Bacon Cheddar Crispy": "78c85a02f613db677ffcb9336fbdfa7de5fd7322-1333x1333.png",
-  "Brutal Bacon Crispy (1 patty)": "2eb360a14b2f26936eba024eca7f28fbdfea1c84-1333x1333.png",
-  "Brutal Bacon Crispy (2 patties)": "7b73c9a4f487147555b7bf93d2e8b43d96b486a9-1333x1333.png",
+  "Brutal Bacon Crispy (1 patty)": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/45665dc45fb03cb5b2e15ac7cee9206529eec6d9-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Brutal Bacon Crispy (2 patties)": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/f8dfefa9f947a0a37ae6c9c4862fa6852ad639a1-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
   "Asas de Frango x3": "6b4857359a153ceb21c6bb65beeb55e05cdb5c0c-1333x1333.png",
   "Asas de Frango x6": "6b4857359a153ceb21c6bb65beeb55e05cdb5c0c-1333x1333.png",
-  "King Nuggets® x3": "88e82109f220907e074bb44d43d9a53a8d7e2aad-1333x1333.png",
+  "King Nuggets® x3": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_cz/abc2f32788a3d708d8c78183822e35451e858e88-676x450.png?w=600&fm=png",
+    "region": "cz",
+    "match": "equivalent"
+  },
   "King Nuggets® x5": {
     "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/af540b2acc6278c0cfa43fb697cb35c3e362631b-1333x1333.png?w=600&fm=png",
     "region": "es",
     "match": "equivalent"
   },
-  "King Nuggets® x6": "88e82109f220907e074bb44d43d9a53a8d7e2aad-1333x1333.png",
+  "King Nuggets® x6": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/staging_bk_de/3455ce3110044485311237696d79510600ac2253-750x600.png?w=600&fm=png",
+    "region": "st",
+    "match": "equivalent"
+  },
   "King Nuggets® x9": {
     "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/e5afb7e31930e745bf8cb9f6031d0def8d9654c4-1333x1333.png?w=600&fm=png",
     "region": "es",
     "match": "equivalent"
   },
-  "King Nuggets® x20": "88e82109f220907e074bb44d43d9a53a8d7e2aad-1333x1333.png",
+  "King Nuggets® x20": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/staging_bk_de/1415d9597f799e9f77f1ce756cd362cbfcd15801-750x600.png?w=600&fm=png",
+    "region": "st",
+    "match": "equivalent"
+  },
   "Chicken Fries x6": "189ed97a8f046ea6017e45936f554c82b7879236-1333x1333.png",
   "Chicken Fries x9": "189ed97a8f046ea6017e45936f554c82b7879236-1333x1333.png",
   "Chicken Fries x24": "189ed97a8f046ea6017e45936f554c82b7879236-1333x1333.png",
   "King Loaded Nuggets x6": "e45d3a4743476aa81da88fddebed8569143cf704-1333x1333.png",
   "King Loaded Nuggets x9": "e45d3a4743476aa81da88fddebed8569143cf704-1333x1333.png",
   "Chicken Wrap": "3a3aa3f12493c48e13a61444aaa59050f55b9732-1333x1333.png",
-  "Whopper® Vegetal": "70fb9bac3bb6ce40df8272a2c86416790d85a837-1333x1333.png",
+  "Whopper® Vegetal": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_ie/94d81dfeecd356e640d190cd0cb9c3804eba57f4-1200x800.png?w=600&fm=png",
+    "region": "ie",
+    "match": "equivalent"
+  },
   "Whopper® Spicy Vegetal": "48a6d7e85e74898784c057e79931b04e25fc4599-1333x1333.png",
   "Long Vegetal": "e82a64e577ece027f27f0b9156fe2e7fe5973653-1333x1333.png",
   "Long Vegetal Spicy": "c32835f913cbf07bf1c76eb5d8fd6866fecdd2e2-1333x1333.png",
@@ -91,7 +123,11 @@
   "Fuze Tea® Pêssego Médio": "b76987503ec4d2ef5354b11a23192b89002e44c3-1333x1333.png",
   "Sprite® Baixa em Açúcar Média": "0e7e9a48e13c2a3cebca4c6ba44b917f6fc0f6ed-1333x1333.png",
   "Fanta® Laranja Zero Média": "a8117be8eb05a8157c550a2d51f566e96b782b8f-1333x1333.png",
-  "Cerveja Média": "c138ea654b5404b35a7042a5d76316dc3ed27d07-667x667.png",
+  "Cerveja Média": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/a99b2237fa3d916a820cdd5c5f753ea43de22f10-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
   "Maionese": "7f8e28f5c90926c931314f18653f426af9f1a33a-1333x1333.png",
   "Barbecue": "9766b973358b04408264c4e4f21a6932f92430ad-1333x1333.png",
   "Dip Molho Barbecue": "9766b973358b04408264c4e4f21a6932f92430ad-1333x1333.png",
@@ -104,8 +140,162 @@
   "Hamburger": "69bcdc8666ee555b5e8dc3ea8e91c6a048b2b7c5-1333x1333.png",
   "Cheeseburger": "9aad6ff73662ff618843869a90920f300e8a719a-1333x1333.png",
   "Chicken Burger": "767a4cad6221d5a33143c14f7c23f9a924164480-1333x1333.png",
-  "Long Texas": "b7ba7dbcc04b6f42d4dc0dc113a0747b9d655ab3-1333x1333.png",
+  "Long Texas": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/606cbce51471c4a4ac314fdf92827ed1110d6a8c-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
   "Brownie": "98889d6ecdd02b2fcae0f324a0612c271a593e6b-400x400.png",
   "Cone de Baunilha": "5506ce553d1410d1f76e1ba3b1be4b4584ba726d-1333x1333.png",
-  "Burger King Sandy™": "3812be0ec11ebb5e12e410a028f7e00609c9b398-1333x1333.png"
+  "Burger King Sandy™": "3812be0ec11ebb5e12e410a028f7e00609c9b398-1333x1333.png",
+  "Steakhouse Smoky": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/74916eeaaa778e0d397c0324b6ec0b8ecfb8212d-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Stacker": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/6040d8f3cc05aaefd4099ec9500c2cec96f0680b-1333x1333.png?w=600&fm=png",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Double Stacker": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/ab42a8111647d4900a423a5ba1f5a553884586bc-1333x1333.png?w=600&fm=png",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Triple Stacker": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/738547f91138afc7d63aa058e0a9e0e3707227ff-1333x1333.png?w=600&fm=png",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Stacker Crispy": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/a81c9192daed2da8224de536a273935a1c4d030e-1333x1333.png?w=600&fm=png",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Double Stacker Crispy": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/1362e92815db16599f72c0002ce2f00c0dee16cc-1333x1333.png?w=600&fm=png",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Triple Stacker Crispy": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/2ff19bdb44a1a525aac57e4e909ad27dbf13304f-1333x1333.png?w=600&fm=png",
+    "region": "es",
+    "match": "equivalent"
+  },
+  "Mini Stacker": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/4c34d780bcf68d17b99bda3cc6888a6520592d05-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Smoky Ranch Double Cheese": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/5e904654e239f4eda36f3078a9c96243bbc9087e-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Smoky Ranch Crispy Chicken": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e860a7012c9e382f7b2255d501f41c5f5d4ae906-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Big King® Frango": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/1c71bc05dbdf4124b5b9184a3f74e230c758f2e9-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Long Chicken® Guacamole": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/44f843bdf778d290ec3ab96bee188145cf7e9535-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Long Chicken® Abacate": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/1beee532b8263bd8cd116b7c1fc1fe015ea1623b-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Nuggets Vegetais x6": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_cz/4bcd506562788b67faf07bd13023e9566be7fd70-676x450.png?w=600&fm=png",
+    "region": "cz",
+    "match": "equivalent"
+  },
+  "Chicken Wrap Guacamole": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/1803d4bcea9137c7125c738bb50098d5f3301fcf-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Chicken Wrap Abacate": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/57949624eabf4ac549bbf3724e99fb9b96cb2f87-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Baby Whopper®": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_de/2023322b9572d338b088a28dd5c37328dd0ffb00-750x600.png?w=600&fm=png",
+    "region": "de",
+    "match": "equivalent"
+  },
+  "Baby Big King®": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_de/b8d6c27b5d865a19c29c5566b43a92d428da5cb4-750x600.png?w=600&fm=png",
+    "region": "de",
+    "match": "equivalent"
+  },
+  "Baby Steakhouse": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_de/58129373df758344760bd572171b4447283a6795-750x600.png?w=600&fm=png",
+    "region": "de",
+    "match": "equivalent"
+  },
+  "King Fries Queijo + Bacon + Cebola Crocante": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/0490736c530e66202ae7102ad95cb19ccef81cf4-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Creme de Legumes Pequeno": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/f904d00b2186b575714a1c762935e06b5904435f-400x400.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Creme de Legumes Grande": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/f904d00b2186b575714a1c762935e06b5904435f-400x400.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Salada Individual": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/9560a348d284219cf4a931a6543fce378332c0d5-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Topping Oreo®": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/4d74dfc6076769f8b82ecc64da14814360cdee96-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Topping Kit Kat®": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/f5ed3cbb30f12b09afac6f4654721ec0794dda83-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Xarope de Chocolate": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/b9a87308e45103534ed4b0341adcfb4f6207ea62-600x411.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Xarope de Caramelo": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/0b42602a983e5bacace5435fba9ef54c8a031037-600x411.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Ketchup": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/37cce9cd6158f54eb77e5573ca65df50b9c08be1-1407x1452.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Dip Molho Sour Cream": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/22a5d6d5da63825209eedbc401bef3cb438c1c9e-1333x1333.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  },
+  "Dip Molho César": {
+    "url": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/3c3418b9d94334102bc8b099cfca4b51e1b8a9fa-200x200.png?w=600&fm=png",
+    "region": "pt",
+    "match": "exact"
+  }
 }

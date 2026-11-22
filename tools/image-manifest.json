@@ -1,4 +1,16 @@
 {
+ "burgerking/02c7205b3788": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/f5ed3cbb30f12b09afac6f4654721ec0794dda83-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:topping-kit-kat"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/620b6d2d432f.webp",
+  "stamp": "fe6de6c27bdd"
+ },
  "burgerking/02cd02c78202": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e619c1f720a1abed50a1258946b76a6360c5bfbf-1333x1333.png?w=600&fm=png",
   "region": "pt",
@@ -15,9 +27,7 @@
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/2eb360a14b2f26936eba024eca7f28fbdfea1c84-1333x1333.png?w=600&fm=png",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "burgerking:brutal-bacon-crispy-1-patty"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "\"BRUTAL BACON\" headline",
   "output": "images/burgerking/97912736b64b.webp",
@@ -28,7 +38,8 @@
   "region": "pt",
   "match": "exact",
   "items": [
-   "burgerking:king-fries-queijo-bacon"
+   "burgerking:king-fries-queijo-bacon",
+   "burgerking:king-fries-queijo-bacon-cebola-crocante"
   ],
   "status": "approved",
   "output": "images/burgerking/33d504d394b5.webp",
@@ -38,11 +49,7 @@
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/88e82109f220907e074bb44d43d9a53a8d7e2aad-1333x1333.png?w=600&fm=png",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "burgerking:king-nuggets-x20",
-   "burgerking:king-nuggets-x3",
-   "burgerking:king-nuggets-x6"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "\"COM PEITO DE FRANGO\" headline",
   "output": "images/burgerking/01406162999b.webp",
@@ -60,6 +67,30 @@
   "status": "approved",
   "output": "images/burgerking/5126944fe1db.webp",
   "stamp": "b8ae7c768f95"
+ },
+ "burgerking/098db3efe66d": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_ie/94d81dfeecd356e640d190cd0cb9c3804eba57f4-1200x800.png?w=600&fm=png",
+  "region": "ie",
+  "match": "equivalent",
+  "items": [
+   "burgerking:whopper-vegetal"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/f5a4a1227364.webp",
+  "stamp": "b25ba85affdd"
+ },
+ "burgerking/0bab5379b335": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/4dc06ec1f8bf1c7ad99c8a62bb61ef88779a97f9-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:brutal-bacon-1-carne"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/8dba60799224.webp",
+  "stamp": "db11ca1b5078"
  },
  "burgerking/0d2388cadd2a": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e480bdeeade10ac73b717859968d522108fe906f-1333x1333.png?w=600&fm=png",
@@ -130,6 +161,30 @@
   "output": "images/burgerking/da86b06ef936.webp",
   "stamp": "1f8380ba7a64"
  },
+ "burgerking/1397e0664162": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/1803d4bcea9137c7125c738bb50098d5f3301fcf-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:chicken-wrap-guacamole"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/34819e0d1cbd.webp",
+  "stamp": "ed79ef937e94"
+ },
+ "burgerking/13cfbd9b1832": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/a81c9192daed2da8224de536a273935a1c4d030e-1333x1333.png?w=600&fm=png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "burgerking:stacker-crispy"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/a823c74c62cd.webp",
+  "stamp": "cfd6350f5cff"
+ },
  "burgerking/1575e9ddf81c": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/64f87434acaedca64f41d277704ba970a3224340-1333x1333.png?w=600&fm=png",
   "region": "pt",
@@ -140,6 +195,18 @@
   "status": "approved",
   "output": "images/burgerking/1bba36db03d5.webp",
   "stamp": "af636c256824"
+ },
+ "burgerking/16b2c92c36e5": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/44f843bdf778d290ec3ab96bee188145cf7e9535-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:long-chicken-guacamole"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/d475ec722d14.webp",
+  "stamp": "b0ac1932f0f5"
  },
  "burgerking/1ea523b62ffd": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/8efeda577cefb995d82dcdaaec20cd651043e70d-1333x1333.png?w=600&fm=png",
@@ -212,13 +279,35 @@
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/b7ba7dbcc04b6f42d4dc0dc113a0747b9d655ab3-1333x1333.png?w=600&fm=png",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "burgerking:long-texas"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "menu-deal photo (fries, drink, logo, headline)",
   "output": "images/burgerking/56ae209693dd.webp",
   "stamp": "ff657a8d4b0f"
+ },
+ "burgerking/371d70e31212": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/37cce9cd6158f54eb77e5573ca65df50b9c08be1-1407x1452.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:ketchup"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/4ce7316090d0.webp",
+  "stamp": "a50977fd2cdf"
+ },
+ "burgerking/39906c7b5da7": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/1362e92815db16599f72c0002ce2f00c0dee16cc-1333x1333.png?w=600&fm=png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "burgerking:double-stacker-crispy"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/ed4706698f46.webp",
+  "stamp": "958a8dc375e9"
  },
  "burgerking/3b1f71f03e16": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e55db9de3a259c20861832921b40dbdfe3789b4c-1333x1333.png?w=600&fm=png",
@@ -231,6 +320,42 @@
   "issue": "\"APC\" gluten-free badge; every PT/ES alternative has an APC or gluten-free badge too",
   "output": "images/burgerking/369972550440.webp",
   "stamp": "68831ff1213c"
+ },
+ "burgerking/4026e92184df": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_de/58129373df758344760bd572171b4447283a6795-750x600.png?w=600&fm=png",
+  "region": "de",
+  "match": "equivalent",
+  "items": [
+   "burgerking:baby-steakhouse"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/c01c044d0ebf.webp",
+  "stamp": "d6d2d5895505"
+ },
+ "burgerking/4865047f73a7": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_de/b8d6c27b5d865a19c29c5566b43a92d428da5cb4-750x600.png?w=600&fm=png",
+  "region": "de",
+  "match": "equivalent",
+  "items": [
+   "burgerking:baby-big-king"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/5c39bfbebacf.webp",
+  "stamp": "46adc5551b20"
+ },
+ "burgerking/4b0e2d13f002": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/ab42a8111647d4900a423a5ba1f5a553884586bc-1333x1333.png?w=600&fm=png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "burgerking:double-stacker"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/39e74d6b71e1.webp",
+  "stamp": "e10b6e48fdab"
  },
  "burgerking/4caac28f5029": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/0e7e9a48e13c2a3cebca4c6ba44b917f6fc0f6ed-1333x1333.png?w=600&fm=png",
@@ -331,6 +456,30 @@
   "output": "images/burgerking/c07cc064a657.webp",
   "stamp": "b751637caaf7"
  },
+ "burgerking/5f84a56ae97e": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_cz/abc2f32788a3d708d8c78183822e35451e858e88-676x450.png?w=600&fm=png",
+  "region": "cz",
+  "match": "equivalent",
+  "items": [
+   "burgerking:king-nuggets-x3"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/bbc275ee1e6f.webp",
+  "stamp": "465e389b2ecf"
+ },
+ "burgerking/66b780885608": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e860a7012c9e382f7b2255d501f41c5f5d4ae906-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:smoky-ranch-crispy-chicken"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/2419d71fd7bf.webp",
+  "stamp": "5387836de2fa"
+ },
  "burgerking/6916deea7fbe": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/767a4cad6221d5a33143c14f7c23f9a924164480-1333x1333.png?w=600&fm=png",
   "region": "pt",
@@ -346,9 +495,7 @@
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/70fb9bac3bb6ce40df8272a2c86416790d85a837-1333x1333.png?w=600&fm=png",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "burgerking:whopper-vegetal"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "campaign slogan, stripes and leaf badge",
   "output": "images/burgerking/25baccce8853.webp",
@@ -376,6 +523,18 @@
   "output": "images/burgerking/ff4b70776e6a.webp",
   "stamp": "092b67201bd0"
  },
+ "burgerking/711a8272f5da": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/606cbce51471c4a4ac314fdf92827ed1110d6a8c-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:long-texas"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/a346d5c19f4c.webp",
+  "stamp": "aed2eb340c2e"
+ },
  "burgerking/714731968df1": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/8bbe0a9326e23830089ec12fed50fd9c88b96d19-1333x1333.png?w=600&fm=png",
   "region": "pt",
@@ -397,6 +556,43 @@
   "status": "approved",
   "output": "images/burgerking/7d98b6d128c7.webp",
   "stamp": "858259cdfce7"
+ },
+ "burgerking/72687036bba2": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/74916eeaaa778e0d397c0324b6ec0b8ecfb8212d-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:steakhouse-smoky"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/ece371311f60.webp",
+  "stamp": "df527df11a89"
+ },
+ "burgerking/77145c97fc4a": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/f904d00b2186b575714a1c762935e06b5904435f-400x400.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:creme-de-legumes-grande",
+   "burgerking:creme-de-legumes-pequeno"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/3f5117da616c.webp",
+  "stamp": "2710c2fece4d"
+ },
+ "burgerking/778f53cfda7f": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/1c71bc05dbdf4124b5b9184a3f74e230c758f2e9-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:big-king-frango"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/c16f528e3876.webp",
+  "stamp": "81d3dcf4a6bb"
  },
  "burgerking/78091ef3d806": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/1c889b8b98a820ebb43593f706e9be6bc873e224-1333x1333.png?w=600&fm=png",
@@ -435,6 +631,30 @@
   "output": "images/burgerking/cdd7e2e86d95.webp",
   "stamp": "e23c8d7f4047"
  },
+ "burgerking/7e34d713e916": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/22a5d6d5da63825209eedbc401bef3cb438c1c9e-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:dip-molho-sour-cream"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/afc9f0d5afc8.webp",
+  "stamp": "918c36a5948e"
+ },
+ "burgerking/7f2ec8cb4053": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/a99b2237fa3d916a820cdd5c5f753ea43de22f10-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:cerveja-media"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/d992658d1190.webp",
+  "stamp": "4cd55de8d9df"
+ },
  "burgerking/7f463bc2f7b6": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/a6aa1865884ef54c5827abf232b0d97fd07e60e2-1333x1333.png?w=600&fm=png",
   "region": "pt",
@@ -445,6 +665,18 @@
   "status": "approved",
   "output": "images/burgerking/11b7688b0dd3.webp",
   "stamp": "4c6fe8787fa9"
+ },
+ "burgerking/844eacc85eac": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/738547f91138afc7d63aa058e0a9e0e3707227ff-1333x1333.png?w=600&fm=png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "burgerking:triple-stacker"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/ee3c71f92684.webp",
+  "stamp": "018b5a10d46a"
  },
  "burgerking/8a6c8be976e0": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e3036b8d709a2f021dd02da7ee0c24b627767ab1-1333x1333.png?w=600&fm=png",
@@ -491,6 +723,18 @@
   "output": "images/burgerking/f7e34a9b0e11.webp",
   "stamp": "497910bb3846"
  },
+ "burgerking/97dad60af2ad": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/1d2904a14e8bd85f89689733a1dce63eed2f66a3-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:brutal-bacon-2-carnes"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/70621f221fed.webp",
+  "stamp": "392b881e85ae"
+ },
  "burgerking/9c8da776b79c": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/ed3866c0770338d93ea6c66452a84d0c37d22ccf-1333x1333.png?w=600&fm=png",
   "region": "pt",
@@ -502,6 +746,18 @@
   "status": "approved",
   "output": "images/burgerking/c9be5292b8df.webp",
   "stamp": "5abc1bfc4f0f"
+ },
+ "burgerking/9cc5e942ec68": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/5e904654e239f4eda36f3078a9c96243bbc9087e-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:smoky-ranch-double-cheese"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/2484e53175ce.webp",
+  "stamp": "656418dd1035"
  },
  "burgerking/9d24582bdd2e": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/e497c4c874aeaec16ea902d8c6b8af33d29fabe0-1333x1333.png?w=600&fm=png",
@@ -531,13 +787,47 @@
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/c138ea654b5404b35a7042a5d76316dc3ed27d07-667x667.png?w=600&fm=png",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "burgerking:cerveja-media"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "shows two cans and a glass; BK Portugal's menu only says \"Beer\" (with/without alcohol), so the brand cannot be identified and no brand shot can be matched",
   "output": "images/burgerking/af0f52f73ebd.webp",
   "stamp": "a63372ae5a5b"
+ },
+ "burgerking/a7226ff20ad8": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/3c3418b9d94334102bc8b099cfca4b51e1b8a9fa-200x200.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:dip-molho-cesar"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/60f85f919d57.webp",
+  "stamp": "385cfca1735c"
+ },
+ "burgerking/a9a2e3c046c1": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/6040d8f3cc05aaefd4099ec9500c2cec96f0680b-1333x1333.png?w=600&fm=png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "burgerking:stacker"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/827740410aa0.webp",
+  "stamp": "41c2bde95807"
+ },
+ "burgerking/ab60096f98e6": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/0b42602a983e5bacace5435fba9ef54c8a031037-600x411.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:xarope-de-caramelo"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/778da5eda00a.webp",
+  "stamp": "bfb248d5633d"
  },
  "burgerking/b1d5c03f1442": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/3bb1a04e4318654a511babb204aaf475e28c898f-1333x1333.png?w=600&fm=png",
@@ -549,6 +839,18 @@
   "status": "approved",
   "output": "images/burgerking/44abc9b270ab.webp",
   "stamp": "ca617d7ae33b"
+ },
+ "burgerking/b2705a603051": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/1beee532b8263bd8cd116b7c1fc1fe015ea1623b-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:long-chicken-abacate"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/3963585234a2.webp",
+  "stamp": "c54f1ec53ece"
  },
  "burgerking/b27f211c4e7f": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/17e0c707c3c24f93ffe633bb4e500ef9c5811f0b-1333x1333.png?w=600&fm=png",
@@ -587,9 +889,7 @@
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/846d57d47148dd70885137d32cb7fef6bd85bcbf-1333x1333.png?w=600&fm=png",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "burgerking:brutal-bacon-2-carnes"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "\"VOLTOU BRUTAL BACON\" headline",
   "output": "images/burgerking/f05e98df069e.webp",
@@ -606,6 +906,18 @@
   "output": "images/burgerking/1976573bf1f7.webp",
   "stamp": "80ea6bb0435e"
  },
+ "burgerking/b977ee867bd7": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/staging_bk_de/1415d9597f799e9f77f1ce756cd362cbfcd15801-750x600.png?w=600&fm=png",
+  "region": "st",
+  "match": "equivalent",
+  "items": [
+   "burgerking:king-nuggets-x20"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/7b9a1e453adc.webp",
+  "stamp": "9e17501a4f1e"
+ },
  "burgerking/b9941a218438": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/9b9c23325e88a5e31b06a7280ca70f69e0f0462e-1333x1333.png?w=600&fm=png",
   "region": "pt",
@@ -616,6 +928,30 @@
   "status": "approved",
   "output": "images/burgerking/f6398f6e85c0.webp",
   "stamp": "db179f6bbc2b"
+ },
+ "burgerking/b9f6a7ffbffb": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/b9a87308e45103534ed4b0341adcfb4f6207ea62-600x411.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:xarope-de-chocolate"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/f134b0f0ab59.webp",
+  "stamp": "07607b330508"
+ },
+ "burgerking/bbb2ac184459": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/45665dc45fb03cb5b2e15ac7cee9206529eec6d9-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:brutal-bacon-crispy-1-patty"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/a50286b51848.webp",
+  "stamp": "b6434be9f323"
  },
  "burgerking/bd0ae998ba2a": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/6b4857359a153ceb21c6bb65beeb55e05cdb5c0c-1333x1333.png?w=600&fm=png",
@@ -628,6 +964,18 @@
   "status": "approved",
   "output": "images/burgerking/72db9844b463.webp",
   "stamp": "c66c5d9a3f21"
+ },
+ "burgerking/bd2dc708953a": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/staging_bk_de/3455ce3110044485311237696d79510600ac2253-750x600.png?w=600&fm=png",
+  "region": "st",
+  "match": "equivalent",
+  "items": [
+   "burgerking:king-nuggets-x6"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/1694db1e565a.webp",
+  "stamp": "c1b7dca7f0e8"
  },
  "burgerking/be43842a5b5d": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/7b5491786d274ddd0c570a887e59eb340614f2fe-1333x1333.png?w=600&fm=png",
@@ -651,6 +999,18 @@
   "output": "images/burgerking/c2a7cf758a08.webp",
   "stamp": "a26b8436ebf9"
  },
+ "burgerking/c7683b5f87c9": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/f8dfefa9f947a0a37ae6c9c4862fa6852ad639a1-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:brutal-bacon-crispy-2-patties"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/982632f8d8b1.webp",
+  "stamp": "9d5395a51faa"
+ },
  "burgerking/c8642e2b9703": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/894b2a26ee910d12d43f4ae495185688de234bf2-1333x1333.png?w=600&fm=png",
   "region": "pt",
@@ -662,6 +1022,18 @@
   "issue": "\"COM MOLHO RANCH\" badge",
   "output": "images/burgerking/e992f9a09ef9.webp",
   "stamp": "e92ea78b9d9c"
+ },
+ "burgerking/c8b0591c740c": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/4c34d780bcf68d17b99bda3cc6888a6520592d05-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:mini-stacker"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/f7c8f796b133.webp",
+  "stamp": "fc27847f3b9a"
  },
  "burgerking/c8e35e0dad6e": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/c32835f913cbf07bf1c76eb5d8fd6866fecdd2e2-1333x1333.png?w=600&fm=png",
@@ -675,6 +1047,30 @@
   "output": "images/burgerking/2200ad597efc.webp",
   "stamp": "6f98595dfdca"
  },
+ "burgerking/ca3fdef350bb": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_de/2023322b9572d338b088a28dd5c37328dd0ffb00-750x600.png?w=600&fm=png",
+  "region": "de",
+  "match": "equivalent",
+  "items": [
+   "burgerking:baby-whopper"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/c125794af4d4.webp",
+  "stamp": "43f0560ba243"
+ },
+ "burgerking/cb6e1ab63db6": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/9560a348d284219cf4a931a6543fce378332c0d5-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:salada-individual"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/f6903d024d09.webp",
+  "stamp": "9f028e64f194"
+ },
  "burgerking/cce17358ccbb": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/7c0fa4c9fd50400f6e8f0f6d11f028ba6fb1bce6-1333x1333.png?w=600&fm=png",
   "region": "pt",
@@ -682,6 +1078,18 @@
   "items": [],
   "status": "rejected",
   "issue": "campaign slogan and stripes"
+ },
+ "burgerking/cd12da8b548f": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/57949624eabf4ac549bbf3724e99fb9b96cb2f87-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:chicken-wrap-abacate"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/4ce2bf58bedb.webp",
+  "stamp": "53f62a111736"
  },
  "burgerking/cdb6afa2b831": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/a5c0459916f4cbff26c64211279231347a23b00c-1333x1333.png?w=600&fm=png",
@@ -711,9 +1119,7 @@
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/7b73c9a4f487147555b7bf93d2e8b43d96b486a9-1333x1333.png?w=600&fm=png",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "burgerking:brutal-bacon-crispy-2-patties"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "\"BRUTAL BACON\" headline",
   "output": "images/burgerking/6b885cff6216.webp",
@@ -737,6 +1143,18 @@
   "status": "approved",
   "output": "images/burgerking/014bee818f4f.webp",
   "stamp": "6b81d1c3da65"
+ },
+ "burgerking/d67f1ba5f8e2": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/4d74dfc6076769f8b82ecc64da14814360cdee96-1333x1333.png?w=600&fm=png",
+  "region": "pt",
+  "match": "exact",
+  "items": [
+   "burgerking:topping-oreo"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/8ea9254c0bcb.webp",
+  "stamp": "6a584cfe7e58"
  },
  "burgerking/d6da3f14860a": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/b76987503ec4d2ef5354b11a23192b89002e44c3-1333x1333.png?w=600&fm=png",
@@ -769,6 +1187,18 @@
   "items": [],
   "status": "rejected",
   "issue": "campaign slogan and stripes"
+ },
+ "burgerking/e12b64a13c33": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_cz/4bcd506562788b67faf07bd13023e9566be7fd70-676x450.png?w=600&fm=png",
+  "region": "cz",
+  "match": "equivalent",
+  "items": [
+   "burgerking:nuggets-vegetais-x6"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/8b122556ceb2.webp",
+  "stamp": "d59de0381fd5"
  },
  "burgerking/e520c6eeedbb": {
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/9766b973358b04408264c4e4f21a6932f92430ad-1333x1333.png?w=600&fm=png",
@@ -818,9 +1248,7 @@
   "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_pt/ed7d5202b6a4f73b49b2f428b20222bed0197afb-1333x1333.png?w=600&fm=png",
   "region": "pt",
   "match": "exact",
-  "items": [
-   "burgerking:brutal-bacon-1-carne"
-  ],
+  "items": [],
   "status": "fallback",
   "issue": "\"BRUTAL BACON\" headline",
   "output": "images/burgerking/33f855f59c92.webp",
@@ -892,6 +1320,18 @@
   "status": "approved",
   "output": "images/burgerking/e91f4759d04f.webp",
   "stamp": "85a75ee46095"
+ },
+ "burgerking/febf0eec3fe2": {
+  "source": "https://cdn.sanity.io/images/czqk28jt/prod_bk_es/2ff19bdb44a1a525aac57e4e909ad27dbf13304f-1333x1333.png?w=600&fm=png",
+  "region": "es",
+  "match": "equivalent",
+  "items": [
+   "burgerking:triple-stacker-crispy"
+  ],
+  "status": "approved",
+  "issue": "",
+  "output": "images/burgerking/b6be2a2ac9f0.webp",
+  "stamp": "54c245450e3a"
  },
  "kfc/023b7f842537": {
   "source": "https://www.kfc.pt/wp-content/uploads/2022/11/sundae-lotus-1920x1080px.jpg",
