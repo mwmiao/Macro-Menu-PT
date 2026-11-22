@@ -357,7 +357,7 @@ export default {
  "pizzahut:crispy-chicken-supreme-media-fatia": "images/pizzahut/10457a23c761.webp",
  "pizzahut:havaiana-media-fatia": "images/pizzahut/f4d880992f4d.webp",
  "pizzahut:hot-chicken-fiesta-media-fatia": "images/pizzahut/a37bcf0eb7d7.webp",
- "pizzahut:lasanha-de-carne": "images/pizzahut/ee9f1dbb6d88.webp",
+ "pizzahut:lasanha-de-carne": "images/pizzahut/695b310ef633.webp",
  "pizzahut:margarita-vegan-media-fatia": "images/pizzahut/8eda9974ffad.webp",
  "pizzahut:original-hot-honey-media-fatia": "images/pizzahut/881381c14d0c.webp",
  "pizzahut:pao-de-alho-com-bacon-un": "images/pizzahut/17b1e78c89fc.webp",

@@ -4250,14 +4250,14 @@
   "items": [
    "pizzahut:lasanha-de-carne"
   ],
-  "status": "approved",
-  "issue": "",
-  "output": "images/pizzahut/ee9f1dbb6d88.webp",
-  "stamp": "32dfd9023188",
+  "status": "fallback",
+  "issue": "cropped photo on white, not an isolated transparent product",
+  "output": "images/pizzahut/695b310ef633.webp",
+  "stamp": "e54bbb0e80b7",
   "cutout": "rejected",
   "cutout_reason": "white plate eaten, ragged edge",
-  "ai": "approved",
-  "edited": "ai"
+  "ai": "rejected",
+  "ai_reason": "plate removed, product floats as a blob"
  },
  "pizzahut/450396c612c2": {
   "source": "https://static.pizzahut.pt/fotos/produtos/pa_supremo_38801001460ef04d560f89.png",
