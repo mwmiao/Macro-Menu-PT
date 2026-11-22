@@ -1,0 +1,1092 @@
+{
+ "pans/07461db5e5ec": {
+  "mode": "outpaint",
+  "name": "baguette sandwich with tuna spread, sliced boiled egg, tomato and lettuce, whole sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   20
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 4
+ },
+ "pizzahut/1be08a5b6556": {
+  "mode": "outpaint",
+  "name": "single slice of ham, mushroom and red onion pizza seen from above, whole triangular slice with crust",
+  "pad": [
+   60,
+   140,
+   60,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null
+ },
+ "tacobell/ab7827e22c8f": {
+  "mode": "repair",
+  "name": "crunchy taco with a complete golden fried corn tortilla shell, shredded lettuce, cheese and chicken",
+  "prompt": "a whole crunchy taco, complete curved golden fried corn tortilla shell filled with shredded lettuce, cheese and meat, isolated on a plain white background, no hand, no fingers, professional food photography, studio lighting, sharp",
+  "polygons": [
+   [
+    [
+     88,
+     160
+    ],
+    [
+     120,
+     165
+    ],
+    [
+     165,
+     180
+    ],
+    [
+     235,
+     205
+    ],
+    [
+     280,
+     245
+    ],
+    [
+     318,
+     300
+    ],
+    [
+     345,
+     325
+    ],
+    [
+     350,
+     352
+    ],
+    [
+     88,
+     352
+    ]
+   ]
+  ],
+  "seeds": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "chosen": null
+ },
+ "burgerking/5127d6d133f2": {
+  "mode": "repair",
+  "name": "crispy chicken burger with lettuce, cheese and sesame bun",
+  "boxes": [
+   [
+    20,
+    45,
+    455,
+    125
+   ],
+   [
+    78,
+    180,
+    170,
+    268
+   ],
+   [
+    280,
+    165,
+    400,
+    230
+   ]
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 2
+ },
+ "pans/14790b7e21cb": {
+  "mode": "outpaint",
+  "name": "chicken baguette sandwich with tomato, lettuce and sauce, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 2
+ },
+ "pans/18b60a076b03": {
+  "mode": "outpaint",
+  "name": "truffled heura baguette sandwich with grilled vegetable protein and rocket, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 2,
+  "boxes": [
+   [
+    28,
+    118,
+    114,
+    208
+   ]
+  ]
+ },
+ "pans/293f9574fa2e": {
+  "mode": "outpaint",
+  "name": "crab stick spread baguette sandwich with boiled egg, tomato, sweetcorn and lettuce, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 2
+ },
+ "pans/2c0b19d0904a": {
+  "mode": "outpaint",
+  "name": "gluten-free baguette sandwich with grilled pork loin, bacon and cheese, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 2,
+  "boxes": [
+   [
+    12,
+    116,
+    98,
+    192
+   ]
+  ]
+ },
+ "pans/33b03b15b824": {
+  "mode": "outpaint",
+  "name": "pork loin baguette sandwich with raclette cheese, bacon and rocket, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 2
+ },
+ "pans/3fa4fca8479e": {
+  "mode": "outpaint",
+  "name": "english baguette sandwich with bacon and cheese, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 2
+ },
+ "pans/47ce56a01df4": {
+  "mode": "outpaint",
+  "name": "crispy heura baguette sandwich with breaded patties, tomato, lettuce and bbq sauce, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 1,
+  "boxes": [
+   [
+    18,
+    122,
+    104,
+    210
+   ]
+  ]
+ },
+ "pans/4cc07dd69a4f": {
+  "mode": "outpaint",
+  "name": "crispy chicken baguette sandwich with tomato, lettuce and bbq sauce, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 4
+ },
+ "pans/4fd8e0270171": {
+  "mode": "outpaint",
+  "name": "bbq pulled pork baguette sandwich with bacon, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 1
+ },
+ "pans/7a45a752992d": {
+  "mode": "outpaint",
+  "name": "chicken supreme baguette sandwich with peppers and bacon, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 3
+ },
+ "pans/a24e77dbd6f6": {
+  "mode": "outpaint",
+  "name": "truffled chicken and brie baguette sandwich with rocket, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 1
+ },
+ "pans/a9575b424c87": {
+  "mode": "outpaint",
+  "name": "pork loin, cheese and bacon baguette sandwich, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null
+ },
+ "pans/ae292cf15bb9": {
+  "mode": "outpaint",
+  "name": "iberian ham baguette sandwich, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 4
+ },
+ "pans/d4f49cd9ce9e": {
+  "mode": "outpaint",
+  "name": "cured ham and brie baguette sandwich with rocket, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 2
+ },
+ "pans/d73375f079e1": {
+  "mode": "outpaint",
+  "name": "gluten-free english baguette sandwich with bacon and cheese, whole baguette sandwich seen from the side",
+  "pad": [
+   20,
+   20,
+   160,
+   30
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 2,
+  "boxes": [
+   [
+    16,
+    116,
+    104,
+    204
+   ]
+  ]
+ },
+ "pans/d2634904fb39": {
+  "mode": "repair",
+  "name": "a bowl of orange pumpkin soup",
+  "prompt": "a bowl of orange pumpkin soup, professional food photography, isolated on a plain white background, studio lighting, sharp",
+  "polygons": [
+   [
+    [
+     50,
+     135
+    ],
+    [
+     100,
+     135
+    ],
+    [
+     140,
+     155
+    ],
+    [
+     170,
+     175
+    ],
+    [
+     215,
+     195
+    ],
+    [
+     228,
+     215
+    ],
+    [
+     200,
+     232
+    ],
+    [
+     160,
+     215
+    ],
+    [
+     130,
+     190
+    ],
+    [
+     50,
+     168
+    ]
+   ]
+  ],
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null
+ },
+ "pans/12606c1eb6a2": {
+  "skip": true,
+  "reason": "sandwich sits in a branded paper box on a yellow table: box and scene are part of the picture"
+ },
+ "pans/63b89ff7a05b": {
+  "skip": true,
+  "reason": "sandwich sits in a branded paper box on a yellow table: box and scene are part of the picture"
+ },
+ "pans/c7d230b2d12a": {
+  "skip": true,
+  "reason": "sandwich sits in a branded paper box on a yellow table: box and scene are part of the picture"
+ },
+ "pans/f6d8c3bda2a0": {
+  "skip": true,
+  "reason": "toast on a board with a jam cup and spoon: several objects, not a single product"
+ },
+ "burgerking/107998225387": {
+  "mode": "repair",
+  "name": "double crispy chicken burger with lettuce, cheese and sesame bun",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 1,
+  "boxes": [
+   [
+    20,
+    44,
+    455,
+    128
+   ],
+   [
+    84,
+    128,
+    178,
+    220
+   ],
+   [
+    296,
+    126,
+    396,
+    180
+   ]
+  ]
+ },
+ "burgerking/13657696f196": {
+  "mode": "repair",
+  "name": "plant-based whopper burger with tomato, onion, pickles, lettuce and sesame bun",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 1,
+  "boxes": [
+   [
+    95,
+    15,
+    395,
+    205
+   ],
+   [
+    86,
+    202,
+    154,
+    272
+   ]
+  ]
+ },
+ "burgerking/511aaaa6a503": {
+  "mode": "repair",
+  "name": "white tub of creamy bacon dip sauce with a red BACON label",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 2,
+  "boxes": [
+   [
+    50,
+    15,
+    430,
+    232
+   ]
+  ]
+ },
+ "burgerking/7ad84f3a434a": {
+  "mode": "repair",
+  "name": "plant-based crispy chicken long burger with lettuce and sesame bun",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 1,
+  "boxes": [
+   [
+    254,
+    240,
+    314,
+    288
+   ]
+  ]
+ },
+ "burgerking/9d24582bdd2e": {
+  "mode": "repair",
+  "name": "double crispy chicken burger with lettuce, cheese and sesame bun",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null,
+  "boxes": [
+   [
+    20,
+    45,
+    460,
+    125
+   ],
+   [
+    66,
+    212,
+    154,
+    293
+   ],
+   [
+    360,
+    335,
+    445,
+    438
+   ]
+  ]
+ },
+ "burgerking/c8642e2b9703": {
+  "mode": "repair",
+  "name": "portion of french fries with melted cheese sauce and bacon bits",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null,
+  "boxes": [
+   [
+    296,
+    115,
+    458,
+    262
+   ]
+  ]
+ },
+ "burgerking/c8e35e0dad6e": {
+  "mode": "repair",
+  "name": "plant-based crispy chicken long burger with lettuce and sesame bun",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 2,
+  "boxes": [
+   [
+    100,
+    12,
+    380,
+    182
+   ],
+   [
+    138,
+    218,
+    204,
+    282
+   ]
+  ]
+ },
+ "burgerking/dbed7a09c1fc": {
+  "mode": "repair",
+  "name": "crispy chicken nuggets covered with cheese sauce and crispy onions",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null,
+  "boxes": [
+   [
+    146,
+    185,
+    240,
+    284
+   ]
+  ]
+ },
+ "burgerking/fba22e971b55": {
+  "mode": "repair",
+  "name": "white tub of creamy cheddar cheese dip sauce with an orange CHEDDAR label",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 3,
+  "boxes": [
+   [
+    50,
+    10,
+    430,
+    236
+   ]
+  ]
+ },
+ "kfc/0ba4bfea0cfd": {
+  "mode": "repair",
+  "name": "veggie burger with sesame bun, breaded patty, lettuce, tomato and mayonnaise",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 1,
+  "boxes": [
+   [
+    326,
+    32,
+    445,
+    125
+   ]
+  ]
+ },
+ "kfc/b9dc9e9df13d": {
+  "mode": "repair",
+  "name": "veggie wrap with breaded patty, lettuce, tomato and mayonnaise",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null,
+  "boxes": [
+   [
+    304,
+    34,
+    420,
+    124
+   ]
+  ]
+ },
+ "kfc/6ea1ac1d3bd6": {
+  "mode": "outpaint",
+  "name": "clear plastic cup of red and orange jelly cubes",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null,
+  "pad": [
+   20,
+   10,
+   20,
+   20
+  ]
+ },
+ "kfc/d472ded8374f": {
+  "mode": "repair",
+  "name": "fresh green salad with tomato and sweetcorn in a white bowl",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null,
+  "boxes": [
+   [
+    60,
+    150,
+    420,
+    270
+   ]
+  ]
+ },
+ "pizzahut/0c1e1fdc992f": {
+  "mode": "outpaint",
+  "name": "roast chicken wings in a white paper tray with a sauce cup",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 4,
+  "pad": [
+   10,
+   15,
+   10,
+   15
+  ]
+ },
+ "pizzahut/1ae13bfc2e78": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/2ba6a4f28f0d": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/3c534c8a03a9": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/425222a1fb32": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/59aacc41486b": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/6856e154b965": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/8fb408346b06": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/96abd5f2f3a9": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/b4efb121f457": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/b8ac97f8ba15": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/c632de63891b": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/caac6e5ac181": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/cf4e84a49dd8": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/df32a5ac0053": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/ec87d7dc1f3c": {
+  "skip": true,
+  "reason": "photo is a whole pizza seen from above with neighbouring slices: the slice is not an isolated product and most of it lies outside or among other slices (more than 40 % would be invented)"
+ },
+ "pizzahut/3862e2c74b0d": {
+  "skip": true,
+  "reason": "salad fills the frame inside a tray, cut off on several sides: more than 40 % would be invented"
+ },
+ "pizzahut/99fe3c164d00": {
+  "skip": true,
+  "reason": "salad fills the frame inside a tray, cut off on several sides: more than 40 % would be invented"
+ },
+ "pizzahut/dd5046ff8c8a": {
+  "skip": true,
+  "reason": "salad fills the frame inside a tray, cut off on several sides: more than 40 % would be invented"
+ },
+ "pizzahut/44bec3fb05e4": {
+  "skip": true,
+  "reason": "the plate is part of the product and the photo is tiny; removing the plate leaves a floating blob"
+ },
+ "tacobell/4b55d3e42cea": {
+  "mode": "repair",
+  "name": "crunchy taco supreme with a golden fried corn shell, shredded lettuce, cheese, tomato, sour cream and beef",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null,
+  "polygons": [
+   [
+    [
+     45,
+     150
+    ],
+    [
+     90,
+     95
+    ],
+    [
+     150,
+     85
+    ],
+    [
+     215,
+     100
+    ],
+    [
+     255,
+     150
+    ],
+    [
+     265,
+     215
+    ],
+    [
+     300,
+     300
+    ],
+    [
+     330,
+     350
+    ],
+    [
+     45,
+     350
+    ]
+   ]
+  ]
+ },
+ "tacobell/31461333e3a4": {
+  "mode": "repair",
+  "name": "soft taco with a folded white flour tortilla, shredded lettuce, cheese and chicken",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": 3,
+  "polygons": [
+   [
+    [
+     245,
+     150
+    ],
+    [
+     300,
+     105
+    ],
+    [
+     370,
+     130
+    ],
+    [
+     385,
+     200
+    ],
+    [
+     380,
+     350
+    ],
+    [
+     240,
+     350
+    ],
+    [
+     225,
+     250
+    ]
+   ]
+  ]
+ },
+ "tacobell/ea3bee945f00": {
+  "mode": "repair",
+  "name": "soft taco supreme with a folded flour tortilla, lettuce, tomato, sour cream and beef",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null,
+  "polygons": [
+   [
+    [
+     40,
+     190
+    ],
+    [
+     100,
+     170
+    ],
+    [
+     200,
+     205
+    ],
+    [
+     260,
+     250
+    ],
+    [
+     280,
+     330
+    ],
+    [
+     250,
+     350
+    ],
+    [
+     40,
+     350
+    ]
+   ],
+   [
+    [
+     270,
+     160
+    ],
+    [
+     345,
+     165
+    ],
+    [
+     350,
+     310
+    ],
+    [
+     270,
+     320
+    ]
+   ]
+  ]
+ },
+ "tacobell/384d110e5775": {
+  "mode": "outpaint",
+  "name": "quesarito: flour tortilla burrito filled with cheese sauce, rice, beef and sour cream, standing upright",
+  "seeds": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "chosen": null,
+  "pad": [
+   10,
+   10,
+   10,
+   60
+  ],
+  "polygons": [
+   [
+    [
+     335,
+     235
+    ],
+    [
+     385,
+     240
+    ],
+    [
+     420,
+     265
+    ],
+    [
+     425,
+     350
+    ],
+    [
+     330,
+     350
+    ],
+    [
+     335,
+     290
+    ]
+   ]
+  ]
+ },
+ "tacobell/1363a6bc8e11": {
+  "skip": true,
+  "reason": "held in a hand next to a cup, dip and fries, with the cup logo behind: a scene, not a single product"
+ },
+ "tacobell/2140223e4434": {
+  "skip": true,
+  "reason": "held in two hands that cover the lower half of the wrap: more than 40 % would be invented"
+ },
+ "tacobell/252ff28a989c": {
+  "skip": true,
+  "reason": "photographed in a scene (table, paper, other food or branded surface) and cropped by the frame: more than 40 % would be invented"
+ },
+ "tacobell/541c909f894c": {
+  "skip": true,
+  "reason": "photographed in a scene (table, paper, other food or branded surface) and cropped by the frame: more than 40 % would be invented"
+ },
+ "tacobell/7b744db73e37": {
+  "skip": true,
+  "reason": "photographed in a scene (table, paper, other food or branded surface) and cropped by the frame: more than 40 % would be invented"
+ },
+ "tacobell/942eb87f4111": {
+  "skip": true,
+  "reason": "photographed in a scene (table, paper, other food or branded surface) and cropped by the frame: more than 40 % would be invented"
+ },
+ "tacobell/fe00d3a8b2d0": {
+  "skip": true,
+  "reason": "photographed in a scene (table, paper, other food or branded surface) and cropped by the frame: more than 40 % would be invented"
+ },
+ "tacobell/bc9e4fa53569": {
+  "skip": true,
+  "reason": "several glasses on a counter: a scene, not a single product (drinks)"
+ },
+ "tacobell/50066cbb409c": {
+  "skip": true,
+  "reason": "branded can cropped on the right and bottom: the logo would have to be invented (can/bottle)"
+ },
+ "tacobell/e85005b78fa7": {
+  "skip": true,
+  "reason": "branded can with printed text cropped by the frame: the print would have to be invented (can/bottle)"
+ }
+}
